@@ -82,6 +82,61 @@ library(svglite)
 sum(OSQ_daten$DS04=="1") #->Yes = 187
 sum(OSQ_daten$DS04== "2")#->No =  96
 
+# Create subset of question
+dat_DS04_NA <- subset(OSQ_daten, select = DS04)
+table(OSQ_daten$DS04)
+dat_DS04 <- na.omit(dat_DS04_NA)
+
+# Specify variable as factor
+dat_DS04$DS04 <- as.factor(dat_DS04$DS04)
+
+# Specify levels according to response options
+levels(dat_DS04$DS04) <- c("Yes",
+                           "No")
+
+levels(dat_DS04$DS04)
+#[1] "Yes" "No" 
+
+# Data frame with proportion, percentages, and number of responses
+tab_DS04 <- as.data.frame(table(dat_DS04$DS04))
+DS04_prop <- table(dat_DS04$DS04)/length(dat_DS04$DS04)
+dat_DS04_perc <- as.data.frame(round(DS04_prop * 100, digits = 2)) # save as data frame
+dat_DS04_perc$nrresp <- tab_DS04[,2] # add variable for number of responses ("nrresp")
+
+# Add rounded %-Variable for labelling
+dat_DS04_perc$perc_labels <- paste(dat_DS04_perc$Freq, "%", sep = " ", collapse = NULL)
+
+# For pie chart: Compute position of labels
+dat_DS04_perc <- dat_DS04_perc %>% 
+  arrange(desc(Var1)) %>%
+  mutate(prop = Freq / sum(dat_DS04_perc$Freq) *100) %>%
+  mutate(ypos = cumsum(prop)- 0.5*prop)
+
+# Plot pie
+plot_DS04_pie <- ggplot(dat_DS04_perc, aes(x = "", y = Freq, fill = Var1)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  geom_text(aes(y = ypos, label = perc_labels), color = "black", size = 2.5) +
+  #scale_fill_brewer("", palette="BrBG", guide = guide_legend(reverse = TRUE)) +
+  scale_fill_manual("", values = c("#BF812D", "#35978F")) +
+  ggtitle("Have you shared raw neuroimaging data with \r\nresearchers outside your department?") +
+  theme(plot.title = element_text(size = 10, hjust = 0.5),
+        aspect.ratio = 1,
+        plot.margin = margin(1, 1, 1, 1, "cm"),
+        legend.title = element_text(size = 10),
+        legend.text = element_text(size = 8))
+
+plot_DS04_pie
+
+# Save plot
+dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
+ggsave("plot_DS04_pie.svg",width = dev.size()[1],height = dev.size()[2]);dev.off()
+
+dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
+ggsave("plot_DS04_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
+
+
 
 ##DS09 "How likely are you to share primary research data for your next neuroimaging paper in an online repository?"
 
@@ -153,8 +208,8 @@ ggsave(file="DS10.svg", plot=DS10plot)
 
 
 ##DS11 "Why are you not allowed to share your primary neuroimaging research data?"
-
 #-->(Beantwortet von allen, die DS10 nicht mit Strongly Disagree beantwortet haben [210 Leuten].)
+#-> answered by subsample of n = 224, thereof 11 did not choose any item, plot is based on n = # hier noch bitte einfügen
 
 # Create subset for current question
 DS11<- subset(OSQ_daten, select = c(101:106))

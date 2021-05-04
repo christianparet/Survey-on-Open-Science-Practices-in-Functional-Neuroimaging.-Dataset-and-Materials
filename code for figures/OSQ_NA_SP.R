@@ -414,8 +414,64 @@ ggsave("plot_NA03_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 sum(OSQ_daten$NA04=="1") #->Yes = 230
 sum(OSQ_daten$NA04== "2")#->No = 53
 
-##NA05 "On the previous slide you said you are experienced with other software. Which software?"
+# Create subset of question
+dat_NA04_NA <- subset(OSQ_daten, select = NA04)
+table(OSQ_daten$NA04)
+dat_NA04 <- na.omit(dat_NA04_NA)
 
+# Specify variable as factor
+dat_NA04$NA04 <- as.factor(dat_NA04$NA04)
+
+# Specify levels according to response options
+levels(dat_NA04$NA04) <- c("Yes",
+                           "No")
+
+levels(dat_NA04$NA04)
+#[1] "Yes" "No" 
+
+# Data frame with proportion, percentages, and number of responses
+tab_NA04 <- as.data.frame(table(dat_NA04$NA04))
+NA04_prop <- table(dat_NA04$NA04)/length(dat_NA04$NA04)
+dat_NA04_perc <- as.data.frame(round(NA04_prop * 100, digits = 2)) # save as data frame
+dat_NA04_perc$nrresp <- tab_NA04[,2] # add variable for number of responses ("nrresp")
+
+# Add rounded %-Variable for labelling
+dat_NA04_perc$perc_labels <- paste(dat_NA04_perc$Freq, "%", sep = " ", collapse = NULL)
+
+# For pie chart: Compute position of labels
+dat_NA04_perc <- dat_NA04_perc %>% 
+  arrange(desc(Var1)) %>%
+  mutate(prop = Freq / sum(dat_NA04_perc$Freq) *100) %>%
+  mutate(ypos = cumsum(prop)- 0.5*prop)
+
+# Plot pie
+plot_NA04_pie <- ggplot(dat_NA04_perc, aes(x = "", y = Freq, fill = Var1)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  geom_text(aes(y = ypos, label = perc_labels), color = "black", size = 2.5) +
+  #scale_fill_brewer("", palette="BrBG", guide = guide_legend(reverse = TRUE)) +
+  scale_fill_manual("", values = c("#BF812D", "#35978F")) +
+  ggtitle("Do you have practical experience with other \r\nneuroimaging analysis software?") +
+  theme(plot.title = element_text(size = 10, hjust = 0.5),
+        aspect.ratio = 1,
+        plot.margin = margin(1, 1, 1, 1, "cm"),
+        legend.title = element_text(size = 10),
+        legend.text = element_text(size = 8))
+
+plot_NA04_pie
+
+# Save plot
+dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
+ggsave("plot_NA04_pie.svg",width = dev.size()[1],height = dev.size()[2]);dev.off()
+
+dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
+ggsave("plot_NA04_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
+
+
+
+##NA05 "On the previous slide you said you are experienced with other software. Which software?"
+#-> answered by subsample of n = 236, thereof 6 did not choose any item, plot is based on subsample of n = 230
 
 # Create subset for current question
 NA05<- subset(OSQ_daten, select=c(133:138))
@@ -491,14 +547,13 @@ NA05plot
 ggsave(file="NA05.svg", plot=NA05plot)
 
 ##NA06 "What is your knowledge level with this/these software(s)? If you selected more than one option, think about ..."
-# Number of people that answered this question n = 230
+#-> answered by subsample of n = 230 (NA06 == -9 for n = 6)
 
 sum(OSQ_daten$NA06== "1", na.rm=TRUE)#-> Expert user = 20
 sum(OSQ_daten$NA06== "2", na.rm=TRUE)#-> Advanced user = 65 
 sum(OSQ_daten$NA06== "3", na.rm=TRUE)#-> Practically experienced user = 100 
 sum(OSQ_daten$NA06== "4", na.rm=TRUE)#-> Novice = 45
 
-# Based on subsample of n = 230 (those with NA04 == "Yes")
 
 # Create subset of question
 dat_NA06 <- subset(OSQ_daten, NA04 == 1, select = NA06)
