@@ -15,55 +15,22 @@ getwd()
 setwd(getwd())
 
 
-
 #################################################################
-# Installing R packages
+# Loading packages (installs if necessary)
 #################################################################
 
-# Installing packages
 
-# Installing packages
-
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("colorspace")
-install.packages("scales")
-install.packages("likert")
-install.packages("reshape2")
-install.packages("ggthemes")
-install.packages("surveydata")
-install.packages("data.table")
-install.packages("tidyr")
-install.packages("svglite")
-
-
-# Loading required packages
-
-library(ggplot2)
-
-library(RColorBrewer)
-
-library(colorspace)
-
-library(scales)
-
-library(likert)
-
-library(reshape2)
-
-library(ggthemes)
-
-library(dplyr)
-
-library(surveydata)
-
-library(data.table)
-
-library(tidyr)
-
-library(svglite)
-
-
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(ggplot2, 
+               RColorBrewer, 
+               colorspace, 
+               scales, 
+               likert, 
+               ggthemes, 
+               dplyr, 
+               data.table, 
+               tidyr, 
+               psych)
 
 #################################################################
 # Importing the Data Frame:
@@ -124,8 +91,8 @@ GQ02$modality <- factor(GQ02$modality, levels = GQ02$modality [order(GQ02$modali
 
 # Calculate proportion and add percent labels as new variable in dataframe
 GQ02_prop <- (GQ02$NumberofPeople)/283
-GQ02_perc <- as.data.frame(round(GQ02_prop * 100, digits = 2)) # save as data frame
-GQ02$perc_labels <- paste(GQ02_perc$`round(GQ02_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+GQ02_perc <- as.data.frame(round(GQ02_prop * 100, digits = 1)) # save as data frame
+GQ02$perc_labels <- paste(GQ02_perc$`round(GQ02_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
 
 
 #Plot bar plot

@@ -17,50 +17,21 @@ setwd(getwd())
 
 
 #################################################################
-# Installing R packages
+# Loading packages (installs if necessary)
 #################################################################
 
-# Installing packages
 
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("colorspace")
-install.packages("scales")
-install.packages("likert")
-install.packages("reshape2")
-install.packages("ggthemes")
-install.packages("surveydata")
-install.packages("data.table")
-install.packages("tidyr")
-install.packages("svglite")
-
-
-# Loading required packages
-
-library(ggplot2)
-
-library(RColorBrewer)
-
-library(colorspace)
-
-library(scales)
-
-library(likert)
-
-library(reshape2)
-
-library(ggthemes)
-
-library(dplyr)
-
-library(surveydata)
-
-library(data.table)
-
-library(tidyr)
-
-library(svglite)
-
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(ggplot2, 
+               RColorBrewer, 
+               colorspace, 
+               scales, 
+               likert, 
+               ggthemes, 
+               dplyr, 
+               data.table, 
+               tidyr, 
+               psych)
 
 
 #################################################################
@@ -77,8 +48,9 @@ library(svglite)
 
 ##BI01 "Have you heard about the Brain Imaging Data Structure (BIDS) before?"
 
-sum(OSQ_daten$BI01=="1") #->Yes = 203
-sum(OSQ_daten$BI01=="2") #->No = 80
+table(OSQ_daten$BI01)
+#1->Yes = 203
+#2->No = 80
 
 # Create subset of question
 dat_BI01_NA <- subset(OSQ_daten, select = BI01)
@@ -88,18 +60,16 @@ dat_BI01 <- na.omit(dat_BI01_NA)
 # Specify variable as factor
 dat_BI01$BI01 <- as.factor(dat_BI01$BI01)
 
-
 # Specify levels according to response options
 levels(dat_BI01$BI01) <- c("Yes",
                            "No")
-
 levels(dat_BI01$BI01)
 #[1] "Yes" "No"   
 
 # Data frame with proportion, percentages, and number of responses
 tab_BI01 <- as.data.frame(table(dat_BI01$BI01))
 BI01_prop <- table(dat_BI01$BI01)/length(dat_BI01$BI01)
-dat_BI01_perc <- as.data.frame(round(BI01_prop * 100, digits = 2)) # save as data frame
+dat_BI01_perc <- as.data.frame(round(BI01_prop * 100, digits = 1)) # save as data frame
 dat_BI01_perc$nrresp <- tab_BI01[,2] # add variable for number of responses ("nrresp")
 
 # Add rounded %-Variable for labelling
@@ -136,11 +106,11 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_BI01_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-
 ##BI02 "Do you use BIDS to structure your neuroimaging data sets?"
 
-sum(OSQ_daten$BI02=="1") #->Yes, I used it at least in one of my projects = 100
-sum(OSQ_daten$BI02=="2") #->No = 183
+table(OSQ_daten$BI02)
+#1->Yes, I used it at least in one of my projects = 100
+#2->No = 183
 
 # Create subset of question
 dat_BI02_NA <- subset(OSQ_daten, select = BI02)
@@ -160,7 +130,7 @@ levels(dat_BI02$BI02)
 # Data frame with proportion, percentages, and number of responses
 tab_BI02 <- as.data.frame(table(dat_BI02$BI02))
 BI02_prop <- table(dat_BI02$BI02)/length(dat_BI02$BI02)
-dat_BI02_perc <- as.data.frame(round(BI02_prop * 100, digits = 2)) # save as data frame
+dat_BI02_perc <- as.data.frame(round(BI02_prop * 100, digits = 1)) # save as data frame
 dat_BI02_perc$nrresp <- tab_BI02[,2] # add variable for number of responses ("nrresp")
 
 # Add rounded %-Variable for labelling
@@ -197,12 +167,11 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_BI02_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-
 ##BI04 "How many subjects have you converted to BIDS format? Please enter a rough estimate:"
 #-> answered by subsample of n = 102
 
-describe(OSQ_daten$BI04_01)#-> n=102, mean=208 subjects, SD= 351 subjects
-##Nicht wirklich sinnvoll mean zu berechenn: median?= 97, n= 102, range= 2500
+hist(OSQ_daten$BI04_01)
+describe(OSQ_daten$BI04_01)#-> median= 97, n= 102, range= 2500
 
 
 ##BI05 "What BIDS converter, if any, did you use to convert neuroimaging data to BIDS format?"
@@ -283,14 +252,13 @@ BI05$BIDSconvert <- factor(BI05$BIDSconvert,
                                       "Other",
                                       "I have not used any converter yet"))
 
-
 # Order factors in decreasing order 
 BI05$BIDSconvert <- factor(BI05$BIDSconvert, levels = BI05$BIDSconvert [order(BI05$BIDSconvert, decreasing = TRUE)])
 
 # Calculate proportion and add percent labels as new variable in dataframe
 BI05_prop <- (BI05$NumberofPeople)/100
-BI05_perc <- as.data.frame(round(BI05_prop*100, digits = 2)) # save as data frame
-BI05$perc_labels <- paste(BI05_perc$`round(BI05_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+BI05_perc <- as.data.frame(round(BI05_prop*100, digits = 1)) # save as data frame
+BI05$perc_labels <- paste(BI05_perc$`round(BI05_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
 
 # Extend colour scheme of BrBG 
 nb.cols <- 27
@@ -415,14 +383,17 @@ BI08$BIDScompatible <- factor(BI08$BIDScompatible,
                                       "Other",
                                       "I have not used any of the above tools"))
 
-
 # Order factors in decreasing order
 BI08$BIDScompatible <- factor(BI08$BIDScompatible, levels = BI08$BIDScompatible [order(BI08$BIDScompatible, decreasing = TRUE)])
 
 # Calculate proportion and add percent labels as new variable in dataframe
 BI08_prop <- (BI08$NumberofPeople)/100
-BI08_perc <- as.data.frame(round(BI08_prop * 100, digits = 2)) # save as data frame
-BI08$perc_labels <- paste(BI08_perc$`round(BI08_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+BI08_perc <- as.data.frame(round(BI08_prop * 100, digits = 1)) # save as data frame
+BI08$perc_labels <- paste(BI08_perc$`round(BI08_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
+
+# Extend colour scheme of BrBG 
+nb.cols <- 27
+mycolors <- colorRampPalette(brewer.pal(8, "BrBG"))(nb.cols)
 
 # Plot bar plot
 BI08plot<-ggplot(BI08, aes(x= BIDScompatible, y=NumberofPeople, fill=BIDScompatible)) + 
@@ -503,8 +474,8 @@ BI09$NoBIDS <- factor(BI09$NoBIDS, levels = BI09$NoBIDS [order(BI09$NoBIDS, decr
 
 # Calculate proportion and add percent labels as new variable in dataframe
 BI09_prop <- (BI09$NumberofPeople)/183
-BI09_perc <- as.data.frame(round(BI09_prop * 100, digits = 2)) # save as data frame
-BI09$perc_labels <- paste(BI09_perc$`round(BI09_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+BI09_perc <- as.data.frame(round(BI09_prop * 100, digits = 1)) # save as data frame
+BI09$perc_labels <- paste(BI09_perc$`round(BI09_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
 
 # Plot bar plot
 BI09plot<-ggplot(BI09, aes(x= NoBIDS , y=NumberofPeople, fill=NoBIDS)) + 
@@ -571,14 +542,14 @@ BI10plot
 # Save plot
 ggsave(file="BI10.svg", plot=BI10plot)
 
-
-
 ##BI11 "Why would you not be interested?"
 #-> subsample of n = 28 answered this question, thereof 7 that did not give a response, plot is based on n = 21
 
-sum(OSQ_daten$BI11== "1", na.rm = TRUE)#-> I am not interested in using BIDS at all = 9
-sum(OSQ_daten$BI11== "2", na.rm=TRUE)#-> The existing BIDS tools work good enough for me = 4
-sum(OSQ_daten$BI11== "3", na.rm=TRUE)#-> Other reason = 8  
+table(OSQ_daten$BI11)
+#1-> I am not interested in using BIDS at all = 9
+#2-> The existing BIDS tools work good enough for me = 4
+#3-> Other reason = 8  
+#-9->not answered = 7 
 
 # Create subset of question
 dat_BI11_NA <- subset(OSQ_daten, select = BI11)
@@ -591,12 +562,10 @@ dat_BI11 <- subset(dat_BI11_NA, BI11 != -9)
 # Specify variable as factor
 dat_BI11$BI11 <- as.factor(dat_BI11$BI11)
 
-
 # Specify levels according to response options
 levels(dat_BI11$BI11) <- c("I am not interested in using BIDS at all.",
                            "The existing BIDS tools work good enough for me.", # w?re "well" besser? --> auch überlegt, dann gegoogelt, Internet meint, beides ginge
                            "Other reason")
-
 # Reorder levels
 table(dat_BI11$BI11)
 dat_BI11$BI11 <- factor(dat_BI11$BI11, levels = c("Other reason",
@@ -607,17 +576,14 @@ levels(dat_BI11$BI11)
 #[1] "Other reason"                                     "The existing BIDS tools work good enough for me."
 #[3] "I am not interested in using BIDS at all." 
 
-
 # Data frame with proportion, percentages, and number of responses
 tab_BI11 <- as.data.frame(table(dat_BI11$BI11))
 BI11_prop <- table(dat_BI11$BI11)/length(dat_BI11$BI11)
-dat_BI11_perc <- as.data.frame(round(BI11_prop * 100, digits = 2)) # save as data frame
+dat_BI11_perc <- as.data.frame(round(BI11_prop * 100, digits = 1)) # save as data frame
 dat_BI11_perc$nrresp <- tab_BI11[,2] # add variable for number of responses ("nrresp")
-
 
 # Add rounded %-Variable for labelling
 dat_BI11_perc$perc_labels <- paste(dat_BI11_perc$Freq, "%", sep = " ", collapse = NULL)
-
 
 # Plot bar plot
 plot_BI11_bar <- ggplot(dat_BI11_perc, aes(x = Var1, y = nrresp, fill = Var1)) +
@@ -642,10 +608,8 @@ plot_BI11_bar <- ggplot(dat_BI11_perc, aes(x = Var1, y = nrresp, fill = Var1)) +
     # Add axis line
     axis.line = element_line(colour = "grey")) +   scale_x_discrete(labels = wrap_format(25))
 
-
 # Print plot
 plot_BI11_bar
-
 
 # Save plot
 dev.new(width = 4.72, height = 2.04, unit="in", noRStudioGD = T);last_plot() # change manually
@@ -653,6 +617,4 @@ ggsave("plot_BI11_bar.svg",width = dev.size()[1],height = dev.size()[2]);dev.off
 
 dev.new(width = 4.72, height = 2.04, unit="in", noRStudioGD = T);last_plot() # change manually
 ggsave("plot_BI11_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
-
-
 

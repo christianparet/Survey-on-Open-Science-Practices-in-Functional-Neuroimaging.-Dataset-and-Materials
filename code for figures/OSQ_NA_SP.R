@@ -17,52 +17,21 @@ setwd(getwd())
 
 
 #################################################################
-# Installing R packages
+# Loading packages (installs if necessary)
 #################################################################
 
-# Installing packages
 
-# Installing packages
-
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("colorspace")
-install.packages("scales")
-install.packages("likert")
-install.packages("reshape2")
-install.packages("ggthemes")
-install.packages("surveydata")
-install.packages("data.table")
-install.packages("tidyr")
-install.packages("svglite")
-
-
-# Loading required packages
-
-library(ggplot2)
-
-library(RColorBrewer)
-
-library(colorspace)
-
-library(scales)
-
-library(likert)
-
-library(reshape2)
-
-library(ggthemes)
-
-library(dplyr)
-
-library(surveydata)
-
-library(data.table)
-
-library(tidyr)
-
-library(svglite)
-
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(ggplot2, 
+               RColorBrewer, 
+               colorspace, 
+               scales, 
+               likert, 
+               ggthemes, 
+               dplyr, 
+               data.table, 
+               tidyr, 
+               psych)
 
 
 #################################################################
@@ -109,7 +78,7 @@ tab_NA01 <- as.data.frame(table(dat_NA01$NA01))
 
 NA01_prop <- table(dat_NA01$NA01)/length(dat_NA01$NA01)
 
-dat_NA01_perc <- as.data.frame(round(NA01_prop * 100, digits = 2)) # save as data frame
+dat_NA01_perc <- as.data.frame(round(NA01_prop * 100, digits = 1)) # save as data frame
 
 dat_NA01_perc$nrresp <- tab_NA01[,2] # add variable for number of responses ("nrresp")
 
@@ -239,7 +208,7 @@ tab_NA02 <- as.data.frame(table(dat_NA02$NA02))
 
 NA02_prop <- table(dat_NA02$NA02)/length(dat_NA02$NA02)
 
-dat_NA02_perc <- as.data.frame(round(NA02_prop * 100, digits = 2)) # save as data frame
+dat_NA02_perc <- as.data.frame(round(NA02_prop * 100, digits = 1)) # save as data frame
 
 dat_NA02_perc$nrresp <- tab_NA02[,2] # add variable for number of responses ("nrresp")
 
@@ -360,7 +329,7 @@ tab_NA03 <- as.data.frame(table(dat_NA03$NA03))
 
 NA03_prop <- table(dat_NA03$NA03)/length(dat_NA03$NA03)
 
-dat_NA03_perc <- as.data.frame(round(NA03_prop * 100, digits = 2)) # save as data frame
+dat_NA03_perc <- as.data.frame(round(NA03_prop * 100, digits = 1)) # save as data frame
 
 dat_NA03_perc$nrresp <- tab_NA03[,2] # add variable for number of responses ("nrresp")
 
@@ -432,7 +401,7 @@ levels(dat_NA04$NA04)
 # Data frame with proportion, percentages, and number of responses
 tab_NA04 <- as.data.frame(table(dat_NA04$NA04))
 NA04_prop <- table(dat_NA04$NA04)/length(dat_NA04$NA04)
-dat_NA04_perc <- as.data.frame(round(NA04_prop * 100, digits = 2)) # save as data frame
+dat_NA04_perc <- as.data.frame(round(NA04_prop * 100, digits = 1)) # save as data frame
 dat_NA04_perc$nrresp <- tab_NA04[,2] # add variable for number of responses ("nrresp")
 
 # Add rounded %-Variable for labelling
@@ -511,8 +480,8 @@ NA05$Othersoftware <- factor(NA05$Othersoftware, levels = NA05$Othersoftware [or
 
 # Calculate proportion and add percent labels as new variable in dataframe
 NA05_prop <- (NA05$NumberofPeople)/230
-NA05_perc <- as.data.frame(round(NA05_prop * 100, digits = 2)) # save as data frame
-NA05$perc_labels <- paste(NA05_perc$`round(NA05_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+NA05_perc <- as.data.frame(round(NA05_prop * 100, digits = 1)) # save as data frame
+NA05$perc_labels <- paste(NA05_perc$`round(NA05_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
 
 # Plot bar plot
 NA05plot<-ggplot(NA05, aes(x= Othersoftware , y=NumberofPeople, fill=Othersoftware)) + 
@@ -585,7 +554,7 @@ tab_NA06 <- as.data.frame(table(dat_NA06$NA06))
 
 NA06_prop <- table(dat_NA06$NA06)/length(dat_NA06$NA06)
 
-dat_NA06_perc <- as.data.frame(round(NA06_prop * 100, digits = 2)) # save as data frame
+dat_NA06_perc <- as.data.frame(round(NA06_prop * 100, digits = 1)) # save as data frame
 
 dat_NA06_perc$nrresp <- tab_NA06[,2] # add variable for number of responses ("nrresp")
 
@@ -658,7 +627,7 @@ tab_NA07 <- as.data.frame(table(dat_NA07$NA07))
 
 NA07_prop <- table(dat_NA07$NA07)/length(dat_NA07$NA07)
 
-dat_NA07_perc <- as.data.frame(round(NA07_prop * 100, digits = 2)) # save as data frame
+dat_NA07_perc <- as.data.frame(round(NA07_prop * 100, digits = 1)) # save as data frame
 
 dat_NA07_perc$nrresp <- tab_NA07[,2] # add variable for number of responses ("nrresp")
 
@@ -753,8 +722,8 @@ SP01$Stimulipresent <- factor(SP01$Stimulipresent, levels = SP01$Stimulipresent 
 
 # Calculate proportion and add percent labels as new variable in dataframe
 SP01_prop <- (SP01$NumberofPeople)/230
-SP01_perc <- as.data.frame(round(SP01_prop * 100, digits = 2)) # save as data frame
-SP01$perc_labels <- paste(SP01_perc$`round(SP01_prop * 100, digits = 2)`, "%", sep = " ", collapse = NULL)
+SP01_perc <- as.data.frame(round(SP01_prop * 100, digits = 1)) # save as data frame
+SP01$perc_labels <- paste(SP01_perc$`round(SP01_prop * 100, digits = 1)`, "%", sep = " ", collapse = NULL)
 
 
 

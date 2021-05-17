@@ -15,55 +15,21 @@ getwd()
 setwd(getwd())
 
 
-
 #################################################################
-# Installing R packages
+# # Loading packages (installs if necessary)
 #################################################################
 
-# Installing packages
-
-# Installing packages
-
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("colorspace")
-install.packages("scales")
-install.packages("likert")
-install.packages("reshape2")
-install.packages("ggthemes")
-install.packages("surveydata")
-install.packages("data.table")
-install.packages("tidyr")
-install.packages("svglite")
-
-
-# Loading required packages
-
-library(ggplot2)
-
-library(RColorBrewer)
-
-library(colorspace)
-
-library(scales)
-
-library(likert)
-
-library(reshape2)
-
-library(ggthemes)
-
-library(dplyr)
-
-library(surveydata)
-
-library(data.table)
-
-library(tidyr)
-
-library(svglite)
-
-
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(ggplot2, 
+               RColorBrewer, 
+               colorspace, 
+               scales, 
+               likert, 
+               ggthemes, 
+               dplyr, 
+               data.table, 
+               tidyr, 
+               psych)
 
 #################################################################
 # Importing the Data Frame:
@@ -100,7 +66,7 @@ levels(dat_DS04$DS04)
 # Data frame with proportion, percentages, and number of responses
 tab_DS04 <- as.data.frame(table(dat_DS04$DS04))
 DS04_prop <- table(dat_DS04$DS04)/length(dat_DS04$DS04)
-dat_DS04_perc <- as.data.frame(round(DS04_prop * 100, digits = 2)) # save as data frame
+dat_DS04_perc <- as.data.frame(round(DS04_prop * 100, digits = 1)) # save as data frame
 dat_DS04_perc$nrresp <- tab_DS04[,2] # add variable for number of responses ("nrresp")
 
 # Add rounded %-Variable for labelling
@@ -175,7 +141,7 @@ sum(OSQ_daten$DS10== "2", na.rm = TRUE)#-> 51
 sum(OSQ_daten$DS10== "3", na.rm = TRUE)#-> 58
 sum(OSQ_daten$DS10== "4", na.rm = TRUE)#-> 76
 sum(OSQ_daten$DS10== "5", na.rm = TRUE)#-> 25
-sum(OSQ_daten$DS10== "6", na.rm = TRUE)#-> 
+sum(OSQ_daten$DS10== "6", na.rm = TRUE)#-> 0
 
 # Create subset for current question
 DS10<- subset(OSQ_daten, select = c(99))
@@ -368,7 +334,7 @@ plotDS02 <- plot(likert(DS02), wrap=50,legend = "", legend.position = "bottom" )
   scale_x_discrete(labels = wrap_format(20))
 
 # Print plot  
-ggsave(file="DS02.svg", plot=plotDS02)
+plotDS02 
 
 # Save plot
-plotDS02 
+ggsave(file="DS02.svg", plot=plotDS02)
