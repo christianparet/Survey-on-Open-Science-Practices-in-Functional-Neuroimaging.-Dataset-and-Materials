@@ -1,14 +1,15 @@
 # Project: Open Science Practices in Neuroimaging
 
-## General project information
-*Description:* Functional Magnetic Resonance Imaging (fMRI) is widely used in the generation and testing of biological models of mental disorder, but reluctance in the field to adopt open science practices may threaten scientific progress. For reproducible science, it is pivotal to differentiate confirmatory and exploratory hypotheses via preregistration of studies, and to provide data for re-use by peer researchers. Addressing the neuroimaging community directly with an online survey, this study aims to give an overview of how much researchers commit to current open science practices.
-This github project provides the code for data analysis.
+## Welcome
 
-*Authors:* Nike Unverhau, Madita Stirner, Christian Paret
+Thank you for visiting our project page! Great, that you are interested to learn more about it.
+This github project is authored by Nike Unverhau, Madita Stirner & Christian Paret from the Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
 
-*Contact:* christian.paret@zi-mannheim.de
+## Project description
 
-______________________________________________________________________________________________________________________________________________
+Functional Magnetic Resonance Imaging (fMRI) is widely used in the generation and testing of biological models of mental disorder, but reluctance in the field to adopt open science practices may threaten scientific progress. For reproducible science, it is pivotal to differentiate confirmatory and exploratory hypotheses via preregistration of studies, and to provide data for re-use by peer researchers. Addressing the neuroimaging community directly with an online survey, this project aims to give an overview of how much researchers commit to current open science practices.
+This github project provides materials, code and data acquired for and developed for this project.
+_____________________________________________________________________________________________________________________________________________
 
 ## Content
  
@@ -34,8 +35,9 @@ This directory contains:
 	7. Open the R Script that you want to use to produce plots or analyze the data.
 
 
-## Figures and data analysis:
-	Scripts for producing plots are named the following way:
+## Figures and data analysis
+
+	Code for producing plots is named the following way:
 	- "OSQ_AB", where "AB" is the abbreviation of the respective question category
 	- Abbreviations of question categories:
 		--> GQ = General Questions
