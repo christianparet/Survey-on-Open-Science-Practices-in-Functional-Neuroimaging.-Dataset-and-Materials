@@ -3,7 +3,7 @@
 ## Welcome
 
 Thank you for visiting our project page! Great, that you are interested to learn more about it.
-This github project is authored by Nike Unverhau, Madita Stirner & Christian Paret from the Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
+This github project is authored by Nike Unverhau, Maurizio Sicorello, Madita Stirner & Christian Paret from the Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
 
 ## Project description
 
