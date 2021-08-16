@@ -12,9 +12,11 @@ pacman::p_load(tidyverse,
                ggmosaic,
                psych,
                factorextra,
-               clValid)
+               clValid,
+               profileR,
+               effects)
                
-     
+
 #################################################################
 #Specifying demograhpic variables for comparison              
 #################################################################
@@ -189,12 +191,12 @@ Follow_up$prev_prereg<- prev_prereg$prev_prereg
 
 
 clusteranalysis<- as.data.frame(cbind(Training_preregTotal=Follow_up$Training_preregTotal, 
-                        Training_dsTotal=Follow_up$Training_dsTotal,
-                        FearTotal=Follow_up$FearTotal,
-                        ComplexityTotal=Follow_up$ComplexityTotal,
-                        ControlTotal=Follow_up$ControlTotal,
-                        BossTotal=Follow_up$BossTotal,
-                        NoResources_DS=Follow_up$NoResources_DS))
+                                      Training_dsTotal=Follow_up$Training_dsTotal,
+                                      FearTotal=Follow_up$FearTotal,
+                                      ComplexityTotal=Follow_up$ComplexityTotal,
+                                      ControlTotal=Follow_up$ControlTotal,
+                                      BossTotal=Follow_up$BossTotal,
+                                      NoResources_DS=Follow_up$NoResources_DS))
                          
 
 #determine number of cluster
@@ -209,37 +211,36 @@ summary(seeds_df_sc)
 dist_mat <- dist(seeds_df_sc, method = 'euclidean')
 hclust_avg <- hclust(dist_mat, method = 'ward.D2')
 
+#create dendogram that shows the two clusters in different colours
 plot(hclust_avg)
-
 cut_avg <- cutree(hclust_avg, k = 2)
-
 plot(hclust_avg)
 rect.hclust(hclust_avg , k = 2 , border = 2:6)
 abline(h = 20 , col = 'red')
-
 suppressPackageStartupMessages(library(dendextend))
 avg_dend_obj <- as.dendrogram(hclust_avg)
 avg_col_dend <- color_branches(avg_dend_obj, h = 20)
 plot(avg_col_dend)
 
-#suppressPackageStartupMessages(library(dplyr)) [NEEDED?]
+#shows how many people are in each cluster
 seeds_df_cl <- mutate(clusteranalysis, cluster = cut_avg)
 count(seeds_df_cl,cluster)
 
 
-library(clValid)
+#Calculate dunn index
 dunn(dist_mat, cut_avg)
 #->dunn index= 0,155
 
 
-###
 
+#################################################################
+#Follow-up analyses: Cluster charactersitics
+#################################################################
 
-#Follow up analyses: Cluster charactersitics 
-clusteranalysis$cluster<- as.factor(cut_avg)
+clusteranalysis$cluster<- as.factor(cut_avg)                               # add cluster variable to dataframe "clusteranalysis"
 levels(clusteranalysis$cluster)
 
-Follow_up$cluster<- as.factor(cut_avg)
+Follow_up$cluster<- as.factor(cut_avg)                                     # add cluster variable to dataframe "Follow_up"
 levels(Follow_up$cluster)
 #descriptive statistics of factors per cluster 
 desc.stats<-describeBy(clusteranalysis, group = Follow_up$cluster)
@@ -249,10 +250,12 @@ describeBy(Follow_up$BI07, group = Follow_up$cluster)
 describeBy(Follow_up$DS09, group = Follow_up$cluster)
 describeBy(Follow_up$BI02, group = Follow_up$cluster)
 
-########################
+################################################################
 #Profile plots of clusters based on factors from factoranalysis
-library(profileR)
-profileplot<-data.frame(TR_reg = c(3.70, 5.03), 
+################################################################
+
+
+profileplot<-data.frame(TR_reg = c(3.70, 5.03),                          # create dataframe with scores of the clusters on each factor (taken from descriptive statistics)
                         TR_ds = c(3.97, 5.93),
                         Fear = c(3.95, 2.55),
                         Compl= c( 4.04, 3.00),
@@ -263,44 +266,49 @@ profileplot<-data.frame(TR_reg = c(3.70, 5.03),
 profileplot <- melt(profileplot, id.vars = "cluster")
 
 
-profileplot(profileplot, person.id= cluster, standardize = FALSE, interval = 7,
-            by.pattern = TRUE, original.names = TRUE)
+
+profileplot$SD<-c(1.09, 1.20, 1.14, 1.06, 1.13, 1.13, 1.26, 1.30, 1.03, 1.48, 1.45, 0.91, 1.05, 1.53)  #add variable SD to profileplot dataframe
+profileplot$min<- profileplot$value-profileplot$SD                                                     #calculate mininmum for profileplot by subtracting SD from mean
+profileplot$max<- profileplot$value+profileplot$SD                                                     #calculate maximum for profileplot by sadding SD to mean
 
 
-ggplot(profileplot) +
+profileplot$SE<-c(0.09,0.11,0.09,0.10, 0.09,0.10,0.10,0.12,0.08,0.13,0.11,0.08, 0.08, 0.14)            #add SE to profileplotdataframe
+profileplot$ci_max<- profileplot$value+(1.96*profileplot$SE)                                           #calculate 95 % confidence interval by adding SE to mean
+profileplot$ci_min<- profileplot$value- (1.96*profileplot$SE)                                          #calculate 95 % confidence interval by subtracting SE from mean
+
+#profile plot with SD
+ggplot(profileplot, aes(x = variable, y = value, group = cluster)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = min, ymax = max, fill = cluster), alpha = 0.3, color = NA) +
+  scale_fill_manual(values = c("skyblue", "coral"), aesthetics = c("color", "fill"))
+
+#profiel plot with confidence interval
+ggplot(profileplot, aes(x = variable, y = value, group = cluster)) +
   scale_y_continuous(limits=c(1,7), breaks=1:7)+
-  geom_line(aes(variable, value, group = cluster,
-                color = cluster))+
-  ##geom_ribbon(data = profileplot, aes(y = mean, ymin = lo, ymax = hi),
-              alpha = .25)
+  geom_line() +
+  geom_ribbon(aes(ymin = ci_min, ymax = ci_max, fill = cluster), alpha = 0.3, color = NA) +
+  scale_fill_manual(values = c("skyblue", "coral"), aesthetics = c("color", "fill"))
+ggsave("profileplot_ci.svg")
 
-
-#radarchart of clusters based on factors from factoranalysis
-library(fmsb)
-radarchart<-data.frame(TR_reg = c(7, 0, 3.70, 5.03), 
-                       TR_ds = c(7, 0, 3.97, 5.93),
-                       Fear = c(7, 0, 3.95, 2.55),
-                       Complexity= c(7, 0, 4.04, 3.00),
-                       Control= c(7, 0, 4.41, 3.83),
-                       Boss = c(7, 0, 3.20, 1.64),
-                       NoRes_DS = c(7, 0, 5.34, 3.67),
-                       row.names = c("max", "min", "Cluster1", "Cluster2"))
-radarchart(radarchart, seg= 7)
-
+################################################################
+#Logistic regression 
+#Trying to predict cluster belongingness by demographic variables
+################################################################
 
 ##logistic regression
 
+Follow_up<-subset(Follow_up, select = c(1:13,15:17))
+Follow_up<- na.omit(Follow_up)             
 model0<- glm(cluster~1, data=Follow_up, family=binomial())
-
-model1 <- glm(cluster ~ Follow_up$researchexp+ Follow_up$Professor+Follow_up$EU+ Follow_up$University,family=binomial(),data=Follow_up)
-summary(model1)
 
 model1 <- glm(cluster ~ researchexp+ Professor+ EU+ University,family=binomial(),data=Follow_up)
 summary(model1)
 #-> no significance, Trend for Professor and University
 
-model2 <- glm(cluster ~ Follow_up$researchexp+ Follow_up$Professor+Follow_up$EU+Follow_up$University+ Follow_up$DS10+ Follow_up$DS09+ Follow_up$prev_prereg,family=binomial(link='logit'),data=Follow_up)
-summary(model2)
+
+#plot of effects
+plot(allEffects(model1))
+ggsave("log_reg.svg")
 
 #Omnibus test
 modelchi<-model1$null.deviance - model1$deviance
@@ -320,30 +328,10 @@ n<-length(model1$residuals)
 R2cs<-1-exp((model1$deviance-model1$null.deviance)/n)
 R2n<- R2cs/(1-exp(-(model1$null.deviance/n)))
 
-#################################################
-
-
-
-
-
-
-
-
-
-#########################################################
-install.packages("effects") # only need to do once. 
-library(effects)
-plot(allEffects(model1))
-
-
-
-
-
-test<-Follow_up
-levels(test$Professor)<- c("Prof", "noProf")
-levels(test$University)<- c("Medical", "noMedical")
-levels(test$cluster)<- c("Cluster1", "Cluster2")
-table(test$Professor, test$cluster)
-
-model1 <- glm(cluster ~ researchexp+ Professor+EU+ University,family=binomial(),data=test)
-summary(model1)
+#accuracy
+logmodel1 <- train(cluster ~ researchexp+ Professor+EU+ University,
+                   data = Follow_up,
+                   trControl = trainControl(method = "cv", number = 10),
+                   method = "glm",
+                   family=binomial())
+confusionMatrix(logmodel1)
