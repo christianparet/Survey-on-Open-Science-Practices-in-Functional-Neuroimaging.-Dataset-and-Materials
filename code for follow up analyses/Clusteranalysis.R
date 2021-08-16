@@ -1,15 +1,28 @@
-library(tidyverse)
-library(naniar)
-library(ggplot2)
-library(ggmosaic)
-#Constructing binary variables from Personal Data questions to compare items on 
-BI07<- as.data.frame(OSQ_daten$BI07)
-BI07<-replace_with_na(BI07, replace = list('OSQ_daten$BI07' = -9))
+
+
+#################################################################
+# Loading packages (installs if necessary)
+#################################################################
+
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse,
+               naniar,
+               ggplot2,
+               ggmosaic,
+               psych,
+               factorextra,
+               clValid)
+               
+     
+#################################################################
+#Specifying demograhpic variables for comparison              
+#################################################################
 
 
 #Research experience 
-researchexp<- cut(OSQ_daten$PD05_01, c(0,16, 55), labels=c(1:2)) #-> (cut off median= 16 years)
-#researchexp<-as.data.frame(researchexp)                         #-> zum kontrollieren
+researchexp<- cut(OSQ_daten$PD05_01, c(0,16, 55), labels=c(1:2))                #-> (cut off median= 16 years)
+#researchexp<-as.data.frame(researchexp)                                        #-> zum kontrollieren
 #researchexp<- cbind(OSQ_daten$PD05_01, researchexp)
 #table(researchexp$researchexp)
 
@@ -17,41 +30,46 @@ researchexp<- cut(OSQ_daten$PD05_01, c(0,16, 55), labels=c(1:2)) #-> (cut off me
 PD08<-OSQ_daten$PD08
 PD08<-as.data.frame(PD08)
 
-University <- PD08 %>%                                           #-> collapse 6 factors in to 2 (University hospital/medical faculty vs University psychology/other faculty)
+University <- PD08 %>%                                                         #-> collapse 6 factors in to 2 (University hospital/medical faculty vs University psychology/other faculty)
   mutate(type = as.factor(case_when(
-    PD08 %in% c(1) ~ 1,                                          # 1 = With university hospital/medical faculty
-    PD08 %in% c(2, 3) ~ 2,                                       # 2 = With university/psychology faculty or similar 3 = With university/other faculty 
-    PD08 %in% c(4, 5, 6) ~ 3                                     # 4 = With industry 5 = Other 6 = With governmental institution
+    PD08 %in% c(1) ~ 1,                                                        # 1 = With university hospital/medical faculty
+    PD08 %in% c(2, 3) ~ 2,                                                     # 2 = With university/psychology faculty or similar 3 = With university/other faculty 
+    PD08 %in% c(4, 5, 6) ~ 3                                                   # 4 = With industry 5 = Other 6 = With governmental institution
   )))
 
-University<-University%>%                                        # replace level 3 with missing values 
+University<-University%>%                                                      # replace level 3 with missing values 
   replace_with_na(replace = list(type = c(3)))
-University<-droplevels(University$type)                          # drop unused level 
-#table(University)                                               # zum kontrollieren
+University<-droplevels(University$type)                                        # drop unused level 
+#table(University)                                                             # zum kontrollieren
 
 #EU residency
-EU<-OSQ_daten$PD10                                               # 1 = in the EU. 2 = outside of the EU.
-EU<-as.factor(EU)                                                # create factor of question regarding country of origin
-#table(EU)                                                       # zum kontrollieren
+EU<-OSQ_daten$PD10                                                             # 1 = in the EU. 2 = outside of the EU.
+EU<-as.factor(EU)                                                              # create factor of question regarding country of origin
+#table(EU)                                                                     # zum kontrollieren
 
 #Current position professor/associate professor or not 
 PD07<-OSQ_daten$PD07
 PD07<-as.data.frame(PD07)
 
-Professor <- PD07 %>%                                            # collapse 10 levels into 2 
+Professor <- PD07 %>%                                                          # collapse 10 levels into 2 
   mutate(type = as.factor(case_when(                           
-    PD07 %in% c(5, 10) ~ 1,                                      # 5 = Full Professor 10 = Associate Professor/Reader/Lecturer 
-    PD07 %in% c(1, 2, 7, 8, 3, 6, 9) ~ 2,                        # 1 = Research Assistant 2 = PhD Student 7 = Technical Assistant 8 = Lab Manager 3 = Post-Doc (1-3 years) 9 = Asisstant Professor/Post-Doc (4 years or longer) PD07_06 Other
+    PD07 %in% c(5, 10) ~ 1,                                                    # 5 = Full Professor 10 = Associate Professor/Reader/Lecturer 
+    PD07 %in% c(1, 2, 7, 8, 3, 6, 9) ~ 2,                                      # 1 = Research Assistant 2 = PhD Student 7 = Technical Assistant 8 = Lab Manager 3 = Post-Doc (1-3 years) 9 = Asisstant Professor/Post-Doc (4 years or longer) PD07_06 Other
     PD07 %in% c(-9) ~ 3
   )))
 
+Professor<- as.factor(Professor$type)                                          # create factor 
+#table(Professor)                                                              # zum kontrollieren
+ 
 
-Professor<- as.factor(Professor$type)                            # create factor 
-#table(Professor)                                                # zum kontrollieren
+prev_prereg<- subset(OSQ_daten, select = c(79:83, 85))
+prev_prereg<-mutate(prev_prereg, prev_prereg = ifelse(PR01_01 | PR01_02 | PR01_03 | PR01_04 | PR01_05 == 'TRUE', "1", "0"))
+prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 
-
-##Construction of Factors                                        
-
+#################################################################
+#Construction of factors            
+#################################################################
+                               
 #Factor1 Training experience preregistration (DS13_05, DS13_06, DS13_07, DS13_08, !PR07_02!, PR07_04, !PR07_05!, PR07_06, PR07_07, PR07_10)
 
 Training_prereg<-as.data.frame(cbind(OSQ_daten$PR07_02,
@@ -75,7 +93,7 @@ Fear<- as.data.frame(cbind(OSQ_daten$DS13_10,
                            OSQ_daten$PR07_08,
                            OSQ_daten$PR07_09))
 
-Fear$FearTotal <- rowSums(subset(Fear, select = c(1:4)))        # summing variables to get Total Score for this factor
+Fear$FearTotal <- rowSums(subset(Fear, select = c(1:4)))                         # summing variables to get Total Score for this factor
 Fear$FearTotal <- (Fear$FearTotal/4)
 #Factor3 [complexity/burden of making data accessible] (DS13_01, DS13_02, DS13_03, DS13_04, PR07_03)
 
@@ -98,22 +116,22 @@ Control<- as.data.frame(cbind(OSQ_daten$DS02_01,
 Control_recoded <- Control %>%
   mutate_at(vars(1), 
             ~ifelse(. == 1, 7, 
-                    ifelse(. == 2, 6, 
-                           ifelse(. == 3, 5, 
-                                  ifelse(. == 4, 4, 
-                                         ifelse(. == 5, 3, 
-                                                ifelse(. == 6, 2, 
-                                                       ifelse(. == 7, 1, .))))))))                             # recode reversely coded item 
+             ifelse(. == 2, 6, 
+             ifelse(. == 3, 5, 
+             ifelse(. == 4, 4, 
+             ifelse(. == 5, 3, 
+             ifelse(. == 6, 2, 
+             ifelse(. == 7, 1, .))))))))                                             # recode reversely coded item 
 
 
-Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))   # summing variables to get Total Score for this factor
+Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))    # summing variables to get Total Score for this factor
 Control_recoded$ControlTotal <- (Control_recoded$ControlTotal/4)
 
 #Factor 5 Restrictive environment
 Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
                           OSQ_daten$PR07_10))
 
-Boss$BossTotal <- rowSums(subset(Boss, select = c(1:2)))              # summing variables to get Total Score for this factor                       
+Boss$BossTotal <- rowSums(subset(Boss, select = c(1:2)))                             # summing variables to get Total Score for this factor                       
 Boss$BossTotal <- (Boss$BossTotal/2)           
 
 #Faktor 6 Training experience Datasharing
@@ -125,7 +143,7 @@ Training_ds<-as.data.frame(cbind(OSQ_daten$DS13_05,
 cols = c("V1", "V2", "V3")
 Training_ds[ ,cols] = 8 - Training_ds[ ,cols]
 
-Training_ds$Training_dsTotal <- rowSums(subset(Training_ds, select = c(1:3)))              # summing variables to get Total Score for this factor                       
+Training_ds$Training_dsTotal <- rowSums(subset(Training_ds, select = c(1:3)))       # summing variables to get Total Score for this factor                       
 Training_ds$Training_dsTotal <- (Training_ds$Training_dsTotal/3)
 
 #Lack of resources for Datasharing
@@ -136,7 +154,11 @@ NoResources_DS<- as.data.frame(cbind(OSQ_daten$DS13_01,
 NoResources_DS$NoResources_DS_Total <- rowSums((subset(NoResources_DS, select= c(1:2))))
 NoResources_DS$NoResources_DS_Total <- (NoResources_DS$NoResources_DS_Total/2)
 
-#Create dataframe for analysis
+
+#################################################################
+#Create dataframe for analysis       
+#################################################################
+
 Follow_up<- as.data.frame(cbind(researchexp,                         
                                 University,
                                 EU,
@@ -156,23 +178,15 @@ Follow_up$researchexp<-as.factor(Follow_up$researchexp)
 Follow_up$University<- as.factor(Follow_up$University)
 Follow_up$Professor<- as.factor(Follow_up$Professor)
 Follow_up$EU<- as.factor(Follow_up$EU)
-Follow_up$BI07<- OSQ_daten$BI07
 Follow_up$DS09<- OSQ_daten$DS09
-Follow_up$BI02<- OSQ_daten$BI02
-
-prev_prereg<- subset(OSQ_daten, select = c(79:83, 85))
-prev_prereg<-mutate(prev_prereg, prev_prereg = ifelse(PR01_01 | PR01_02 | PR01_03 | PR01_04 | PR01_05 == 'TRUE', "1", "0"))
-prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
 
 
-###################
-# CLUSTERANALYSIS #
-###################
-library(psych)
-library(factoextra)
-library(psych)
-library(clValid)
+#################################################################
+#Clusteranalysis    
+#################################################################
+
+
 
 clusteranalysis<- as.data.frame(cbind(Training_preregTotal=Follow_up$Training_preregTotal, 
                         Training_dsTotal=Follow_up$Training_dsTotal,
@@ -301,7 +315,7 @@ chisqp <- 1-pchisq(modelchi, chidf)
 #Odds Ratio
 exp(cbind(OR= coef(model1),confint(model1)))
 
-#Gütemaße
+#GÃ¼temaÃŸe
 n<-length(model1$residuals)
 R2cs<-1-exp((model1$deviance-model1$null.deviance)/n)
 R2n<- R2cs/(1-exp(-(model1$null.deviance/n)))
