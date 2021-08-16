@@ -177,6 +177,7 @@ Follow_up$Professor<- as.factor(Follow_up$Professor)
 Follow_up$EU<- as.factor(Follow_up$EU)
 Follow_up$DS09<- OSQ_daten$DS09
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
+Follow_up$PD05_01<- OSQ_daten$PD05_01
 
 
 #################################################################
@@ -277,7 +278,7 @@ ggplot(profileplot, aes(x = variable, y = value, group = cluster)) +
   geom_ribbon(aes(ymin = min, ymax = max, fill = cluster), alpha = 0.3, color = NA) +
   scale_fill_manual(values = c("skyblue", "coral"), aesthetics = c("color", "fill"))
 
-#profiel plot with confidence interval
+#profile plot with confidence interval
 ggplot(profileplot, aes(x = variable, y = value, group = cluster)) +
   scale_y_continuous(limits=c(1,7), breaks=1:7)+
   geom_line() +
@@ -300,6 +301,9 @@ model1 <- glm(cluster ~ researchexp+ Professor+ EU+ University,family=binomial()
 summary(model1)
 #-> no significance, Trend for Professor and University
 
+model2 <- glm(cluster ~ PD05_01+ Professor+ EU+ University,family=binomial(),data=Follow_up)       #adding research experience as scale
+summary(model2)
+#-->University is significant 
 
 #plot of effects
 plot(allEffects(model1))
