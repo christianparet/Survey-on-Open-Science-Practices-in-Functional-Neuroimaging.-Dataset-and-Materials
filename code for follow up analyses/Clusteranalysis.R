@@ -134,7 +134,7 @@ Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
 Boss$BossTotal <- rowSums(subset(Boss, select = c(1:2)))                             # summing variables to get Total Score for this factor                       
 Boss$BossTotal <- (Boss$BossTotal/2)           
 
-#Faktor 6 Lack o training Datasharing
+#Faktor 6 Lack of training Datasharing
 
 Training_ds<-as.data.frame(cbind(OSQ_daten$DS13_05,
                                  OSQ_daten$DS13_06,
