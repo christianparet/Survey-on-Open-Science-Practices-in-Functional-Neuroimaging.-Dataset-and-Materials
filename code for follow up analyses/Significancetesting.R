@@ -186,6 +186,7 @@ t.test(Follow_up$ComplexityTotal ~ researchexp)
 t.test(Follow_up$ControlTotal ~ researchexp)
 t.test(Follow_up$Training_dsTotal ~ researchexp)
 t.test(Follow_up$BossTotal ~ researchexp)
+t.test(Follow_up$NoResources_DS_Total ~ researchexp)
 
 # Comparing the effect of research experience (continuous) on each factor
 fit <- lm(Training_preregTotal ~ researchexp_scale, data=Follow_up)              # regression model with Factor Total as predicted variable and research experience in years as predictor
@@ -200,7 +201,9 @@ fit <- lm(ControlTotal ~ researchexp_scale, data=Follow_up)
 summary(fit)
 fit <- lm(BossTotal ~ researchexp_scale, data=Follow_up)
 summary(fit)
-fit <- lm(Faktor7Total ~ researchexp_scale, data=Follow_up) 
+fit <- lm(NoResources_DS_Total ~ researchexp_scale, data=Follow_up) 
+summary(fit)
+
 
 # Comparing the effect of EU residency on each factor
 t.test(Follow_up$Training_preregTotal ~ EU)
@@ -209,6 +212,7 @@ t.test(Follow_up$ComplexityTotal ~ EU)
 t.test(Follow_up$ControlTotal ~ EU)
 t.test(Follow_up$Training_dsTotal ~ EU)
 t.test(Follow_up$BossTotal ~ EU)
+t.test(Follow_up$NoResources_DS_Total ~ EU)
 
 # Comparing the effect of affiliation with medical faculty on each factor        
 t.test(Follow_up$Training_preregTotal ~ University)
@@ -217,6 +221,7 @@ t.test(Follow_up$ComplexityTotal ~ University)
 t.test(Follow_up$ControlTotal ~ University)
 t.test(Follow_up$Training_dsTotal ~ University)
 t.test(Follow_up$BossTotal ~ University)
+t.test(Follow_up$NoResources_DS_Total ~ University)
 
 # Comparing the effect of career level on each factor
 t.test(Follow_up$Training_preregTotal ~ Professor)
@@ -225,6 +230,7 @@ t.test(Follow_up$ComplexityTotal ~ Professor)
 t.test(Follow_up$ControlTotal ~ Professor)
 t.test(Follow_up$Training_dsTotal ~ Professor)
 t.test(Follow_up$BossTotal ~ Professor)
+t.test(Follow_up$NoResources_DS_Total ~ Professor)
 
 # Differences in datasharing for people living inside or outside of the EU 
 #(1 = in the EU. 2 = outside of the EU.)
