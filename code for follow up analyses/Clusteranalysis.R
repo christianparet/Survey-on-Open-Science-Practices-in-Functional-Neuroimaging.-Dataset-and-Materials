@@ -72,16 +72,14 @@ prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 #Construction of factors            
 #################################################################
                                
-#Factor1 Training experience preregistration (DS13_05, DS13_06, DS13_07, DS13_08, !PR07_02!, PR07_04, !PR07_05!, PR07_06, PR07_07, PR07_10)
+#Factor1 Lack of experience preregistration (DS13_05, DS13_06, DS13_07, DS13_08, !PR07_02!, PR07_04, !PR07_05!, PR07_06, PR07_07, PR07_10)
 
 Training_prereg<-as.data.frame(cbind(OSQ_daten$PR07_02,
                                      OSQ_daten$PR07_04, 
                                      OSQ_daten$PR07_05,
                                      OSQ_daten$PR07_06,
                                      OSQ_daten$PR07_07))
-#recode factor training 
-cols = c("V1", "V2", "V3", "V4", "V5")
-Training_prereg[ ,cols] = 8 - Training_prereg[ ,cols]
+
 #calculate factor total score
 Training_prereg$Training_preregTotal <- rowSums(subset(Training_prereg, select = c(1:5)))              # summing variables to get Total Score for this factor                       
 Training_prereg$Training_preregTotal <- (Training_prereg$Training_preregTotal/5)  
@@ -136,14 +134,11 @@ Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
 Boss$BossTotal <- rowSums(subset(Boss, select = c(1:2)))                             # summing variables to get Total Score for this factor                       
 Boss$BossTotal <- (Boss$BossTotal/2)           
 
-#Faktor 6 Training experience Datasharing
+#Faktor 6 Lack o training Datasharing
 
 Training_ds<-as.data.frame(cbind(OSQ_daten$DS13_05,
                                  OSQ_daten$DS13_06,
                                  OSQ_daten$DS13_07))
-#recode factor 
-cols = c("V1", "V2", "V3")
-Training_ds[ ,cols] = 8 - Training_ds[ ,cols]
 
 Training_ds$Training_dsTotal <- rowSums(subset(Training_ds, select = c(1:3)))       # summing variables to get Total Score for this factor                       
 Training_ds$Training_dsTotal <- (Training_ds$Training_dsTotal/3)
@@ -255,8 +250,8 @@ describeBy(Follow_up$BI02, group = Follow_up$cluster)
 ################################################################
 
 
-profileplot<-data.frame(TR_reg = c(3.70, 5.03),                          # create dataframe with scores of the clusters on each factor (taken from descriptive statistics)
-                        TR_ds = c(3.97, 5.93),
+profileplot<-data.frame(TR_reg = c(4.30, 2.92),                                 # create dataframe with scores of the clusters on each factor (taken from descriptive statistics)
+                        TR_ds = c(4.03, 2.07),
                         Fear = c(3.95, 2.55),
                         Compl= c( 4.04, 3.00),
                         Contr= c( 4.41, 3.83),
