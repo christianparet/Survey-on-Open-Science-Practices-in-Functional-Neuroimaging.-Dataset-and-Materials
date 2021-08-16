@@ -63,23 +63,21 @@ prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 #Construction of factors            
 #################################################################
                                
-#Factor1 Training experience preregistration (DS13_05, DS13_06, DS13_07, DS13_08, !PR07_02!, PR07_04, !PR07_05!, PR07_06, PR07_07, PR07_10)
+#Factor1 Lack of Training experience (PR07_02, PR07_04, PR07_05, PR07_06, PR07_07)
 
 Training_prereg<-as.data.frame(cbind(OSQ_daten$PR07_02,
                                      OSQ_daten$PR07_04, 
                                      OSQ_daten$PR07_05,
                                      OSQ_daten$PR07_06,
                                      OSQ_daten$PR07_07))
-#recode factor training 
-cols = c("V1", "V2", "V3", "V4", "V5")
-Training_prereg[ ,cols] = 8 - Training_prereg[ ,cols]
+
 #calculate factor total score
 Training_prereg$Training_preregTotal <- rowSums(subset(Training_prereg, select = c(1:5)))              # summing variables to get Total Score for this factor                       
 Training_prereg$Training_preregTotal <- (Training_prereg$Training_preregTotal/5)  
 
 
 
-#Factor2 [fear of being transparent](DS13_09, DS13_10, DS13_11, DS13_12, PR07_08, PR07_09)
+#Factor2 [fear of being transparent](DS13_10, DS13_11, PR07_08, PR07_09)
 
 Fear<- as.data.frame(cbind(OSQ_daten$DS13_10,
                            OSQ_daten$DS13_11,                   
@@ -88,7 +86,7 @@ Fear<- as.data.frame(cbind(OSQ_daten$DS13_10,
 
 Fear$FearTotal <- rowSums(subset(Fear, select = c(1:4)))                         # summing variables to get Total Score for this factor
 Fear$FearTotal <- (Fear$FearTotal/4)
-#Factor3 [complexity/burden of making data accessible] (DS13_01, DS13_02, DS13_03, DS13_04, PR07_03)
+#Factor3 [complexity/burden of making data accessible] (DS13_03, DS13_04, PR07_03)
 
 Complexity<- as.data.frame(cbind(OSQ_daten$DS13_03,            
                                  OSQ_daten$DS13_04,
@@ -127,19 +125,16 @@ Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
 Boss$BossTotal <- rowSums(subset(Boss, select = c(1:2)))                             # summing variables to get Total Score for this factor                       
 Boss$BossTotal <- (Boss$BossTotal/2)           
 
-#Faktor 6 Training experience Datasharing
+#Faktor 6 Lack of Training Datasharing (DS13_05, DS13_06, DS13_07)
 
 Training_ds<-as.data.frame(cbind(OSQ_daten$DS13_05,
                                  OSQ_daten$DS13_06,
                                  OSQ_daten$DS13_07))
-#recode factor 
-cols = c("V1", "V2", "V3")
-Training_ds[ ,cols] = 8 - Training_ds[ ,cols]
 
 Training_ds$Training_dsTotal <- rowSums(subset(Training_ds, select = c(1:3)))       # summing variables to get Total Score for this factor                       
 Training_ds$Training_dsTotal <- (Training_ds$Training_dsTotal/3)
 
-#Lack of resources for Datasharing
+#Lack of resources for Datasharing (DS13_01, DS13_02) 
 
 NoResources_DS<- as.data.frame(cbind(OSQ_daten$DS13_01,
                                OSQ_daten$DS13_02))
