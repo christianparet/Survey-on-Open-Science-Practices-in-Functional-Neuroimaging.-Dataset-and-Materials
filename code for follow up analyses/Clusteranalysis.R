@@ -297,10 +297,12 @@ Follow_up<-subset(Follow_up, select = c(1:13,15:17))
 Follow_up<- na.omit(Follow_up)             
 model0<- glm(cluster~1, data=Follow_up, family=binomial())
 
+#Model with research exp as dichotomous variable
 model1 <- glm(cluster ~ researchexp+ Professor+ EU+ University,family=binomial(),data=Follow_up)
 summary(model1)
 #-> no significance, Trend for Professor and University
 
+#Model with research exp as continious variable 
 model2 <- glm(cluster ~ PD05_01+ Professor+ EU+ University,family=binomial(),data=Follow_up)       #adding research experience as scale
 summary(model2)
 #-->University is significant 
@@ -313,19 +315,25 @@ ggsave("log_reg.svg")
 modelchi<-model1$null.deviance - model1$deviance
 chidf<- model1$df.null-model1$df.residual
 chisqp <- 1-pchisq(modelchi, chidf)
-#->p=0,003
-
+#->p=0.003
 modelchi<-model2$null.deviance - model2$deviance
 chidf<- model2$df.null-model2$df.residual
 chisqp <- 1-pchisq(modelchi, chidf)
-
+#-> p=0.013
 #Odds Ratio
 exp(cbind(OR= coef(model1),confint(model1)))
+exp(cbind(OR= coef(model2),confint(model2)))
 
 #Gütemaße
 n<-length(model1$residuals)
 R2cs<-1-exp((model1$deviance-model1$null.deviance)/n)
 R2n<- R2cs/(1-exp(-(model1$null.deviance/n)))
+#->0.0536 
+
+n<-length(model2$residuals)
+R2cs<-1-exp((model2$deviance-model2$null.deviance)/n)
+R2n<- R2cs/(1-exp(-(model2$null.deviance/n)))
+#->0.0667
 
 #accuracy
 logmodel1 <- train(cluster ~ researchexp+ Professor+EU+ University,
@@ -334,3 +342,11 @@ logmodel1 <- train(cluster ~ researchexp+ Professor+EU+ University,
                    method = "glm",
                    family=binomial())
 confusionMatrix(logmodel1)
+#->0.5992
+logmodel2 <- train(cluster ~ PD05_01+ Professor+EU+ University,
+                   data = Follow_up,
+                   trControl = trainControl(method = "cv", number = 10),
+                   method = "glm",
+                   family=binomial())
+confusionMatrix(logmodel2)
+#->0.5789
