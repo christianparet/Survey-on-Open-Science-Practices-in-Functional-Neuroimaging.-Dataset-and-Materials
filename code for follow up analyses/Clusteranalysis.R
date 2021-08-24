@@ -11,10 +11,11 @@ pacman::p_load(tidyverse,
                ggplot2,
                ggmosaic,
                psych,
-               factorextra,
+               factoextra,
                clValid,
                profileR,
-               effects)
+               effects,
+               caret)
                
 
 #################################################################
@@ -178,7 +179,8 @@ Follow_up$EU<- as.factor(Follow_up$EU)
 Follow_up$DS09<- OSQ_daten$DS09
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
 Follow_up$PD05_01<- OSQ_daten$PD05_01
-
+Follow_up$BI02<- OSQ_daten$BI02
+Follow_up$BI07<- OSQ_daten$BI07
 
 #################################################################
 #Clusteranalysis    
