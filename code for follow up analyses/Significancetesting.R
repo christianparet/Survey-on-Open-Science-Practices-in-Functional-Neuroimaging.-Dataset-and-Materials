@@ -253,7 +253,9 @@ NA02<- as.factor(NA02$type)
 Follow_up$NA02<- NA02
 
 #Differences in BIDS usage based on preference of neuroimaging data analysis software
-t.test(Follow_up$BI02 ~ NA02)  
+BI02_NA02<-table(Follow_up$NA02, Follow_up$BI02)
+
+chisq.test(BI02_NA02)
 
 #NA07 "I prefer to operate neuroimaging analysis software..."
  #1 = ...via graphical user interface
@@ -271,7 +273,9 @@ NA07<- as.factor(NA07$NA07)
 Follow_up$NA07<- NA07
 
 # Differences in BIDS usage based on preference to work with graphical user or commmand/batch interface
-t.test(Follow_up$BI02 ~ NA07)
+BI02_NA07<-table(Follow_up$NA07, Follow_up$BI02)
+
+chisq.test(BI02_NA07)
 
 
 
