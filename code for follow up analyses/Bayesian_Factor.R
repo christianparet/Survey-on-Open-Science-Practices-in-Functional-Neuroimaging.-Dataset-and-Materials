@@ -160,7 +160,7 @@ Follow_up$FearTotal<- Fear$FearTotal
 Follow_up$ComplexityTotal<-Complexity$ComplexityTotal
 Follow_up$ControlTotal<-Control_recoded$ControlTotal
 Follow_up$BossTotal<-Boss$BossTotal
-Follow_up$NoResources_DS<-NoResources_DS$NoResources_DS_Total
+Follow_up$NoResources_DS_Total<-NoResources_DS$NoResources_DS_Total
 Follow_up$researchexp<-as.factor(Follow_up$researchexp)
 Follow_up$University<- as.factor(Follow_up$University)
 Follow_up$Professor<- as.factor(Follow_up$Professor)
@@ -319,10 +319,9 @@ BF_noresources_university<- ttestBF(x=BF_university$NoResources_DS_Total[BF_univ
                                     y=BF_university$NoResources_DS_Total[BF_university$University==2])
 BF_noresources_university
 #EU
-BF_noresources_EU<- ttestBF(x=Follow_up$BossTotal[NoResources_DS_Total$EU==1],
+BF_noresources_EU<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$EU==1],
                             y=Follow_up$NoResources_DS_Total[Follow_up$EU==2])
 BF_noresources_EU
-
 #################################################################
 #BF DS09
 #################################################################
