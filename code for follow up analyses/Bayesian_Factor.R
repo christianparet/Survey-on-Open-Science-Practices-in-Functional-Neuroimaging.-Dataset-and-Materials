@@ -323,41 +323,17 @@ BF_noresources_EU<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$EU==1],
                             y=Follow_up$NoResources_DS_Total[Follow_up$EU==2])
 BF_noresources_EU
 #################################################################
-#BF DS09
+#BF DS09 EU
 #################################################################
 
-BF_DS09_researchexp<- ttestBF(x=Follow_up$DS09[Follow_up$researchexp==1],
-                              y=Follow_up$DS09[Follow_up$researchexp==2])
-BF_DS09_researchexp
-
-#Uni
-BF_DS09_university<- ttestBF(x=BF_university$DS09[BF_university$University==1],
-                             y=BF_university$DS09[BF_university$University==2])
-BF_DS09_university
-#
-BF_DS09_Professor<- ttestBF(x=Follow_up$DS09[Follow_up$Professor==1],
-                            y=Follow_up$DS09[Follow_up$Professor==2])
-BF_DS09_Professor
-#
 BF_DS09_EU<- ttestBF(x=Follow_up$DS09[Follow_up$EU==1],
                      y=Follow_up$DS09[Follow_up$EU==2])
 BF_DS09_EU
 
 #################################################################
-#BF DS10
+#BF DS10 EU
 #################################################################
-BF_DS10_researchexp<- ttestBF(x=Follow_up$DS10[Follow_up$researchexp==1],
-                              y=Follow_up$DS10[Follow_up$researchexp==2])
-BF_DS10_researchexp
-#
-BF_DS10_university<- ttestBF(x=BF_university$DS10[BF_university$University==1],
-                             y=BF_university$DS10[BF_university$University==2])
-BF_DS10_university
-#
-BF_DS10_Professor<- ttestBF(x=Follow_up$DS10[Follow_up$Professor==1],
-                            y=Follow_up$DS10[Follow_up$Professor==2])
-BF_DS10_Professor
-#
+
 BF_DS10_EU<- ttestBF(x=Follow_up$DS10[Follow_up$EU==1],
                      y=Follow_up$DS10[Follow_up$EU==2])
 BF_DS10_EU
