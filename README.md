@@ -17,9 +17,10 @@ This directory contains:
 
 	- four folders with R scripts
 		1. code for figures (one for each question category)*
-		2. code for follow up analyses (Bayesian Factor, Factoranalysis and Significance Testing) 
+		2. code for follow up analyses (Bayesian Factor, Factoranalysis, Clusteranalysis and Significance Testing) 
 		3. code to analyze demographic data (Country of Residence, sample descriptives) 
 		4. code to import data 
+	- a folder with the figures from the "code for figures" script, finalized with inkscape, exported as png 
 	- this README file with instructions
 	- the datafile "rdata_open-science-practices_2021-01-25_18-48" comprising the surveydata gathered via socisurvey
 	- a pdf of the administered questionnaire 
@@ -47,4 +48,5 @@ This directory contains:
 		--> NA = Neuroimaging Data Analysis Software
 		--> SP = Stimulus Presentation Software
 		--> PD = Participant Demographics/ Sociodemographic Information
+
 	
