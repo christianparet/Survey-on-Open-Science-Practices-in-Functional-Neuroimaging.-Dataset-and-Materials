@@ -11,7 +11,6 @@
 # Getting and setting working directory
 
 getwd()
-
 setwd(getwd())
 
 
@@ -43,7 +42,9 @@ pacman::p_load(ggplot2,
 ######## Data Sharing ########
 
 
-##DS04 "Have you shared raw neuroimaging data with researchers outside your department?"
+########################################################################################
+#DS04 "Have you shared raw neuroimaging data with researchers outside your department?" #
+########################################################################################
 
 sum(OSQ_daten$DS04=="1") #->Yes = 187
 sum(OSQ_daten$DS04== "2")#->No =  96
@@ -104,7 +105,9 @@ ggsave("plot_DS04_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 
 
-##DS09 "How likely are you to share primary research data for your next neuroimaging paper in an online repository?"
+####################################################################################################################
+#DS09 "How likely are you to share primary research data for your next neuroimaging paper in an online repository?" #
+####################################################################################################################
 
 # Create subset for current question
 DS09 <- subset(OSQ_daten, select = c(98))
@@ -133,7 +136,9 @@ DS09plot
 # Save plot
 ggsave(file="DS09.svg", plot=DS09plot)
 
-##DS10 "This question relates to legal constraints connected to data sharing."
+##############################################################################
+#DS10 "This question relates to legal constraints connected to data sharing." #
+##############################################################################
 
 
 sum(OSQ_daten$DS10== "1", na.rm = TRUE)#-> 73
@@ -173,8 +178,10 @@ DS10plot
 ggsave(file="DS10.svg", plot=DS10plot)
 
 
-##DS11 "Why are you not allowed to share your primary neuroimaging research data?"
-#-->(Beantwortet von allen, die DS10 nicht mit Strongly Disagree beantwortet haben [210 Leuten].)
+###################################################################################
+#DS11 "Why are you not allowed to share your primary neuroimaging research data?" #
+###################################################################################
+
 #-> answered by subsample of n = 224, thereof 11 did not choose any item, plot is based on n = # hier noch bitte einfügen
 
 # Create subset for current question
@@ -250,7 +257,9 @@ DS11plot
 # Save plot
 ggsave(file="DS11.svg", plot=DS11plot)
 
-##DS13 "These statements relate to possible barriers for and fears of data sharing."
+#####################################################################################
+#DS13 "These statements relate to possible barriers for and fears of data sharing." #
+#####################################################################################
  
 # Create subset for current question 
 DS13 <- subset(OSQ_daten, select = c(108:119))
@@ -298,7 +307,9 @@ plotDS13
 ggsave(file="DS13.svg", plot=plotDS13)
 
 
-##DS02 "Think of a typical neuroimaging experiment of yours: How much do you agree on statements regarding possible ..."
+########################################################################################################################
+#DS02 "Think of a typical neuroimaging experiment of yours: How much do you agree on statements regarding possible ..." #
+########################################################################################################################
 
 # Create subset for current question 
 DS02 <- subset(OSQ_daten, select = c(120:125))
