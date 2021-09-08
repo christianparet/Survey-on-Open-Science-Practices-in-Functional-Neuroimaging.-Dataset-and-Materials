@@ -44,7 +44,9 @@ pacman::p_load(ggplot2,
 #---------------------------------------------------------------
   ######## General Questions########
 
-##GQ2 "What modalities do you collect?"
+#######################################
+#GQ2 "What modalities do you collect?" #
+#######################################
 
 # Create subset for current question
 GQ02 <- subset(OSQ_daten, select = c(7:15))
