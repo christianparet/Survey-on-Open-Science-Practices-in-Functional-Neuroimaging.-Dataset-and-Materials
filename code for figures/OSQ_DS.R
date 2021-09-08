@@ -307,9 +307,10 @@ plotDS13
 ggsave(file="DS13.svg", plot=plotDS13)
 
 
-########################################################################################################################
-#DS02 "Think of a typical neuroimaging experiment of yours: How much do you agree on statements regarding possible ..." #
-########################################################################################################################
+##############################################################################################################################
+#DS02 "Think of a typical neuroimaging experiment of yours: How much do you agree on statements regarding possible options   #
+#of sharing primary research data?\"                                                                                         #
+##############################################################################################################################
 
 # Create subset for current question 
 DS02 <- subset(OSQ_daten, select = c(120:125))
