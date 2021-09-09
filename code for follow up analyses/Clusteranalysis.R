@@ -350,4 +350,4 @@ logmodel2 <- train(cluster ~ PD05_01+ Professor+EU+ University,
                    method = "glm",
                    family=binomial())
 confusionMatrix(logmodel2)
-#->0.5789
+#->0.587
