@@ -180,7 +180,7 @@ Follow_up$DS09<- OSQ_daten$DS09
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
 Follow_up$PD05_01<- OSQ_daten$PD05_01
 Follow_up$BI02<- OSQ_daten$BI02
-Follow_up$BI07<- OSQ_daten$BI07
+
 
 #################################################################
 #Clusteranalysis    
@@ -295,7 +295,6 @@ ggsave("profileplot_ci.svg")
 
 ##logistic regression
 
-Follow_up<-subset(Follow_up, select = c(1:13,15:17))
 Follow_up<- na.omit(Follow_up)             
 model0<- glm(cluster~1, data=Follow_up, family=binomial())
 
