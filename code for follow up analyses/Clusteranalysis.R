@@ -19,7 +19,7 @@ pacman::p_load(tidyverse,
                
 
 #################################################################
-#Specifying demograhpic variables for comparison              
+#Specifying demographic variables for comparison              
 #################################################################
 
 
