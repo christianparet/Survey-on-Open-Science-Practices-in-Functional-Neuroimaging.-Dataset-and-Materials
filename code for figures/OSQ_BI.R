@@ -11,10 +11,7 @@
 # Getting and setting working directory
 
 getwd()
-
 setwd(getwd())
-
-
 
 #################################################################
 # Loading packages (installs if necessary)
@@ -46,7 +43,9 @@ pacman::p_load(ggplot2,
 #---------------------------------------------------------------
   ######## #Brain Imaging Data Structure (BIDS) ########
 
-##BI01 "Have you heard about the Brain Imaging Data Structure (BIDS) before?"
+##############################################################################
+#BI01 "Have you heard about the Brain Imaging Data Structure (BIDS) before?" #
+##############################################################################
 
 table(OSQ_daten$BI01)
 #1->Yes = 203
@@ -106,7 +105,9 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_BI01_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##BI02 "Do you use BIDS to structure your neuroimaging data sets?"
+###################################################################
+#BI02 "Do you use BIDS to structure your neuroimaging data sets?" #  
+###################################################################
 
 table(OSQ_daten$BI02)
 #1->Yes, I used it at least in one of my projects = 100
@@ -167,7 +168,9 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_BI02_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##BI04 "How many subjects have you converted to BIDS format? Please enter a rough estimate:"
+############################################################################################
+#BI04 "How many subjects have you converted to BIDS format? Please enter a rough estimate:" #
+############################################################################################
 #-> answered by subsample of n = 102
 
 hist(OSQ_daten$BI04_01)
@@ -295,16 +298,24 @@ plotBI05
 # Save plot 
 ggsave(file="BI05.svg", plot=plotBI05)
 
-##BI06 "How long have you been using BIDS?"
+############################################
+#BI06 "How long have you been using BIDS?" #
+############################################
+
 #-> answered by subsample of n = 101
 
 describe(OSQ_daten$BI06_01)#-> n= 101, mean= 2,26 years, SD= 1,78 years
 
-##BI07 "Are you going to use BIDS in the future?"
+##################################################
+#BI07 "Are you going to use BIDS in the future?" #
+##################################################
+
 #-> answered by subsample of n = 104, thereof 3 that did not choose any item
 
 # Create subset for current question
-BI07<- subset(OSQ_daten, select = c(50))
+
+BI07<- subset(OSQ_daten, select = c(50)) 
+
 
 # Rename Variable into Question 
 BI07<- BI07%>%
@@ -331,11 +342,10 @@ plotBI07
 # Save plot
 ggsave(file="BI07.svg", plot=plotBI07)
 
-######################
-#--->in likelihooditem#
-###################### 
+######################################################################
+#BI08 "What BIDS-compatible software, if any, have you used before?" #
+###################################################################### 
 
-##BI08 "What BIDS-compatible software, if any, have you used before?"
 #-> answered by subsample of n = 104, thereof 3 that did not choose any item
 
 # Create subset for current question
@@ -428,7 +438,10 @@ BI08plot
 # Save plot
 ggsave(file="BI08.svg", plot=BI08plot)
 
-##BI09 "Why did you not use BIDS?"
+###################################
+#BI09 "Why did you not use BIDS?" #
+###################################
+
 #-> answered by subsample of n = 184, thereof 1 that did not choose any item
 
 # Create subset for current question
@@ -511,7 +524,10 @@ BI09plot
 # Save plot
 ggsave(file="BI09.svg", plot=BI09plot)
 
-##BI10 "Let's say that a new tool for conversion of neuroimaging data into BIDS would become available that is direc..."
+############################################################################################################################
+#BI10 "Let's say that a new tool for conversion of neuroimaging data into BIDS would become available that is directly     #
+#operated through your preferred neuroimagin data analysis: Would this increase your interest to use BIDS in the future?"  #
+############################################################################################################################
 
 # Create subset for current question
 BI10<- subset(OSQ_daten, select = c(76))
@@ -542,7 +558,10 @@ BI10plot
 # Save plot
 ggsave(file="BI10.svg", plot=BI10plot)
 
-##BI11 "Why would you not be interested?"
+#########################################
+#BI11 "Why would you not be interested?" #
+#########################################
+
 #-> subsample of n = 28 answered this question, thereof 7 that did not give a response, plot is based on n = 21
 
 table(OSQ_daten$BI11)

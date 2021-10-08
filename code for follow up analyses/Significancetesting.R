@@ -1,11 +1,12 @@
+
 #################################################################
 # Loading packages (installs if necessary)
 #################################################################
 
+
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse,
-               naniar,
-               BayesFactor) 
+               naniar) 
 
 #################################################################
 #Specifying demograhpic variables for comparison              
@@ -52,7 +53,7 @@ Professor <- PD07 %>%                                                          #
 
 Professor<- as.factor(Professor$type)                                          # create factor 
 #table(Professor)                                                              # zum kontrollieren
-
+ 
 
 prev_prereg<- subset(OSQ_daten, select = c(79:83, 85))
 prev_prereg<-mutate(prev_prereg, prev_prereg = ifelse(PR01_01 | PR01_02 | PR01_03 | PR01_04 | PR01_05 == 'TRUE', "1", "0"))
@@ -61,7 +62,7 @@ prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 #################################################################
 #Construction of factors            
 #################################################################
-
+                               
 #Factor1 Lack of Training experience (PR07_02, PR07_04, PR07_05, PR07_06, PR07_07)
 
 Training_prereg<-as.data.frame(cbind(OSQ_daten$PR07_02,
@@ -106,12 +107,12 @@ Control<- as.data.frame(cbind(OSQ_daten$DS02_01,
 Control_recoded <- Control %>%
   mutate_at(vars(1), 
             ~ifelse(. == 1, 7, 
-                    ifelse(. == 2, 6, 
-                           ifelse(. == 3, 5, 
-                                  ifelse(. == 4, 4, 
-                                         ifelse(. == 5, 3, 
-                                                ifelse(. == 6, 2, 
-                                                       ifelse(. == 7, 1, .))))))))                                             # recode reversely coded item 
+             ifelse(. == 2, 6, 
+             ifelse(. == 3, 5, 
+             ifelse(. == 4, 4, 
+             ifelse(. == 5, 3, 
+             ifelse(. == 6, 2, 
+             ifelse(. == 7, 1, .))))))))                                             # recode reversely coded item 
 
 
 Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))    # summing variables to get Total Score for this factor
@@ -136,7 +137,7 @@ Training_ds$Training_dsTotal <- (Training_ds$Training_dsTotal/3)
 #Lack of resources for Datasharing (DS13_01, DS13_02) 
 
 NoResources_DS<- as.data.frame(cbind(OSQ_daten$DS13_01,
-                                     OSQ_daten$DS13_02))
+                               OSQ_daten$DS13_02))
 
 NoResources_DS$NoResources_DS_Total <- rowSums((subset(NoResources_DS, select= c(1:2))))
 NoResources_DS$NoResources_DS_Total <- (NoResources_DS$NoResources_DS_Total/2)
@@ -160,7 +161,7 @@ Follow_up$FearTotal<- Fear$FearTotal
 Follow_up$ComplexityTotal<-Complexity$ComplexityTotal
 Follow_up$ControlTotal<-Control_recoded$ControlTotal
 Follow_up$BossTotal<-Boss$BossTotal
-Follow_up$NoResources_DS_Total<-NoResources_DS$NoResources_DS_Total
+Follow_up$NoResources_DS<-NoResources_DS$NoResources_DS_Total
 Follow_up$researchexp<-as.factor(Follow_up$researchexp)
 Follow_up$University<- as.factor(Follow_up$University)
 Follow_up$Professor<- as.factor(Follow_up$Professor)
@@ -168,174 +169,122 @@ Follow_up$EU<- as.factor(Follow_up$EU)
 Follow_up$DS09<- OSQ_daten$DS09
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
 
-#Create dataframe for University by excluding missing values
-BF_university<- na.omit(Follow_up)                  # exlude missing observations 
-
-
 
 #################################################################
-#BF Factor training preregistration 
-#################################################################
-BF_Trainingprereg_researchexp<- ttestBF(x=Follow_up$Training_preregTotal[Follow_up$researchexp==1],
-                                        y=Follow_up$Training_preregTotal[Follow_up$researchexp==2])
-BF_Trainingprereg_researchexp
-
-#
-BF_Trainingprereg_professor<- ttestBF(x=Follow_up$Training_preregTotal[Follow_up$Professor==1],
-                                      y=Follow_up$Training_preregTotal[Follow_up$Professor==2])
-BF_Trainingprereg_professor
-#
-BF_Trainingprereg_university<- ttestBF(x=BF_university$Training_preregTotal[BF_university$University==1],
-                                       y=BF_university$Training_preregTotal[BF_university$University==2])
-BF_Trainingprereg_university
-#EU
-BF_Trainingprereg_EU<- ttestBF(x=Follow_up$Training_preregTotal[Follow_up$EU==1],
-                               y=Follow_up$Training_preregTotal[Follow_up$EU==2])
-BF_Trainingprereg_EU
-
-#################################################################
-#BF Factor training datasharing 
+#Significance testing           
 #################################################################
 
-BF_Training_dsTotal_researchexp<- ttestBF(x=Follow_up$Training_dsTotal[Follow_up$researchexp==1],
-                                          y=Follow_up$Training_dsTotal[Follow_up$researchexp==2])
-BF_Training_dsTotal_researchexp
+# Comparing the effect of research experience (dichotomous) on each factor
+t.test(Follow_up$Training_preregTotal ~ researchexp)
+t.test(Follow_up$FearTotal ~ researchexp)
+t.test(Follow_up$ComplexityTotal ~ researchexp)
+t.test(Follow_up$ControlTotal ~ researchexp)
+t.test(Follow_up$Training_dsTotal ~ researchexp)
+t.test(Follow_up$BossTotal ~ researchexp)
+t.test(Follow_up$NoResources_DS_Total ~ researchexp)
 
-#
-BF_Training_dsTotal_professor<- ttestBF(x=Follow_up$Training_dsTotal[Follow_up$Professor==1],
-                                        y=Follow_up$Training_dsTotal[Follow_up$Professor==2])
-BF_Training_dsTotal_professor
-#
-BF_Training_dsTotal_university<- ttestBF(x=BF_university$Training_dsTotal[BF_university$University==1],
-                                         y=BF_university$Training_dsTotal[BF_university$University==2])
-BF_Training_dsTotal_university
-#EU
-BF_Training_dsTotal_EU<- ttestBF(x=Follow_up$Training_dsTotal[Follow_up$EU==1],
-                                 y=Follow_up$Training_dsTotal[Follow_up$EU==2])
-BF_Training_dsTotal_EU
-
-
-#################################################################
-#BF Factor fear
-#################################################################
-
-BF_Fear_researchexp<- ttestBF(x=Follow_up$FearTotal[Follow_up$researchexp==1],
-                              y=Follow_up$FearTotal[Follow_up$researchexp==2])
-BF_Fear_researchexp
-#
-BF_Fear_professor<- ttestBF(x=Follow_up$FearTotal[Follow_up$Professor==1],
-                            y=Follow_up$FearTotal[Follow_up$Professor==2])
-BF_Fear_professor
-#University
-BF_Fear_university<- ttestBF(x=BF_university$FearTotal[BF_university$University==1],
-                             y=BF_university$FearTotal[BF_university$University==2])
-BF_Fear_university
-#EU
-BF_Fear_EU<- ttestBF(x=Follow_up$FearTotal[Follow_up$EU==1],
-                     y=Follow_up$FearTotal[Follow_up$EU==2])
-BF_Fear_EU
-
-#################################################################
-#BF Factor complexity
-#################################################################
-
-BF_Complexity_researchexp<- ttestBF(x=Follow_up$ComplexityTotal[Follow_up$researchexp==1],
-                                    y=Follow_up$ComplexityTotal[Follow_up$researchexp==2])
-BF_Complexity_researchexp
-#
-BF_Complexity_professor<- ttestBF(x=Follow_up$ComplexityTotal[Follow_up$Professor==1],
-                                  y=Follow_up$ComplexityTotal[Follow_up$Professor==2])
-BF_Complexity_professor
-
-#University
-BF_Complexity_university<- ttestBF(x=BF_university$ComplexityTotal[BF_university$University==1],
-                                   y=BF_university$ComplexityTotal[BF_university$University==2])
-BF_Complexity_university
-#EU
-BF_Complexity_EU<- ttestBF(x=Follow_up$ComplexityTotal[Follow_up$EU==1],
-                           y=Follow_up$ComplexityTotal[Follow_up$EU==2])
-BF_Complexity_EU
-
-#################################################################
-#BF Factor Control
-#################################################################
-
-BF_Control_researchexp<- ttestBF(x=Follow_up$ControlTotal[Follow_up$researchexp==1],
-                                 y=Follow_up$ControlTotal[Follow_up$researchexp==2])
-BF_Control_researchexp
-
-#Professor
-BF_Control_professor<- ttestBF(x=Follow_up$ControlTotal[Follow_up$Professor==1],
-                               y=Follow_up$ControlTotal[Follow_up$Professor==2])
-BF_Control_professor
-#University
-BF_Control_university<- ttestBF(x=BF_university$ControlTotal[BF_university$University==1],
-                                y=BF_university$ControlTotal[BF_university$University==2])
-BF_Control_university
-#EU
-BF_Control_EU<- ttestBF(x=Follow_up$ControlTotal[Follow_up$EU==1],
-                        y=Follow_up$ControlTotal[Follow_up$EU==2])
-BF_Control_EU
+# Comparing the effect of research experience (continuous) on each factor
+fit <- lm(Training_preregTotal ~ researchexp_scale, data=Follow_up)              # regression model with Factor Total as predicted variable and research experience in years as predictor
+summary(fit)
+fit <- lm(Training_dsTotal ~ researchexp_scale, data=Follow_up)              
+summary(fit)
+fit <- lm(FearTotal ~ researchexp_scale, data=Follow_up)
+summary(fit)
+fit <- lm(ComplexityTotal ~ researchexp_scale, data=Follow_up)
+summary(fit)
+fit <- lm(ControlTotal ~ researchexp_scale, data=Follow_up)
+summary(fit)
+fit <- lm(BossTotal ~ researchexp_scale, data=Follow_up)
+summary(fit)
+fit <- lm(NoResources_DS_Total ~ researchexp_scale, data=Follow_up) 
+summary(fit)
 
 
-#################################################################
-#BF Factor Boss
-#################################################################
+# Comparing the effect of EU residency on each factor
+t.test(Follow_up$Training_preregTotal ~ EU)
+t.test(Follow_up$FearTotal ~ EU)
+t.test(Follow_up$ComplexityTotal ~ EU)
+t.test(Follow_up$ControlTotal ~ EU)
+t.test(Follow_up$Training_dsTotal ~ EU)
+t.test(Follow_up$BossTotal ~ EU)
+t.test(Follow_up$NoResources_DS_Total ~ EU)
 
-BF_Boss_researchexp<- ttestBF(x=Follow_up$BossTotal[Follow_up$researchexp==1],
-                              y=Follow_up$BossTotal[Follow_up$researchexp==2])
-BF_Boss_researchexp
+# Comparing the effect of affiliation with medical faculty on each factor        
+t.test(Follow_up$Training_preregTotal ~ University)
+t.test(Follow_up$FearTotal ~ University)
+t.test(Follow_up$ComplexityTotal ~ University)
+t.test(Follow_up$ControlTotal ~ University)
+t.test(Follow_up$Training_dsTotal ~ University)
+t.test(Follow_up$BossTotal ~ University)
+t.test(Follow_up$NoResources_DS_Total ~ University)
 
-#Professor
-BF_Boss_professor<- ttestBF(x=Follow_up$BossTotal[Follow_up$Professor==1],
-                            y=Follow_up$BossTotal[Follow_up$Professor==2])
-BF_Boss_professor
+# Comparing the effect of career level on each factor
+t.test(Follow_up$Training_preregTotal ~ Professor)
+t.test(Follow_up$FearTotal ~ Professor)
+t.test(Follow_up$ComplexityTotal ~ Professor)
+t.test(Follow_up$ControlTotal ~ Professor)
+t.test(Follow_up$Training_dsTotal ~ Professor)
+t.test(Follow_up$BossTotal ~ Professor)
+t.test(Follow_up$NoResources_DS_Total ~ Professor)
 
-#University
-BF_Boss_university<- ttestBF(x=BF_university$BossTotal[BF_university$University==1],
-                             y=BF_university$BossTotal[BF_university$University==2])
-BF_Boss_university
-#EU
-BF_Boss_EU<- ttestBF(x=Follow_up$BossTotal[Follow_up$EU==1],
-                     y=Follow_up$BossTotal[Follow_up$EU==2])
-BF_Boss_EU
+# Differences in datasharing for people living inside or outside of the EU 
+#(1 = in the EU. 2 = outside of the EU.)
+t.test(Follow_up$DS09 ~ EU)
+t.test(Follow_up$DS10 ~ EU)
 
 
-#################################################################
-#BF Factor No resources datasharing
-#################################################################
+#Copmaring current BIDS usage based on data analysis software preferences
 
-BF_noresources_researchexp<- ttestBF(x=Follow_up$NoResources_DS_TotalFollow_up$researchexp==1],
-y=Follow_up$NoResources_DS_Total[Follow_up$researchexp==2])
-BF_noresources_researchexp
+#BI02 Do you use BIDS to structure your neuroimaging datasets?
+Follow_up$BI02<- OSQ_daten$BI02
 
-#Professor
-BF_noresources_professor<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$Professor==1],
-                                   y=Follow_up$NoResources_DS_Total[Follow_up$Professor==2])
-BF_noresources_professor
+#NA02 "What is your preferred neuroimaging data analysis software?"
+table(OSQ_daten$NA02)                                                           #1=160, 2=42, 3=24, 4=14, 5=2, 6=41
 
-#University
-BF_noresources_university<- ttestBF(x=BF_university$NoResources_DS_Total[BF_university$University==1],
-                                    y=BF_university$NoResources_DS_Total[BF_university$University==2])
-BF_noresources_university
-#EU
-BF_noresources_EU<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$EU==1],
-                            y=Follow_up$NoResources_DS_Total[Follow_up$EU==2])
-BF_noresources_EU
-#################################################################
-#BF DS09 EU
-#################################################################
+NA02<-OSQ_daten$NA02
+NA02<- as.data.frame(NA02)
 
-BF_DS09_EU<- ttestBF(x=Follow_up$DS09[Follow_up$EU==1],
-                     y=Follow_up$DS09[Follow_up$EU==2])
-BF_DS09_EU
+NA02 <- NA02 %>%                                                                #-> collapse 6 factors in to 2 (SPM and other preferred neuroimaging data analysis software)
+  mutate(type = as.factor(case_when(
+    NA02 %in% c(1) ~ 1,                                                         # 1 = SPM
+    NA02 %in% c(2, 3, 4, 5, 6) ~ 2)))                                           # 2 = FSL, AFNI, BrainVoyager, ANTS, Other
 
-#################################################################
-#BF DS10 EU
-#################################################################
+NA02<- as.factor(NA02$type)
+Follow_up$NA02<- NA02
+Follow_up$NA02<-recode(Follow_up$NA02, '1' = "SPM", '2' = "Other")
 
-BF_DS10_EU<- ttestBF(x=Follow_up$DS10[Follow_up$EU==1],
-                     y=Follow_up$DS10[Follow_up$EU==2])
-BF_DS10_EU
+#Differences in BIDS usage based on preference of neuroimaging data analysis software
+BI02_NA02<-table(Follow_up$NA02, Follow_up$BI02)
 
+BIO2_NA02_chisq<-chisq.test(BI02_NA02)
+BIO2_NA02_chisq$expected
+BIO2_NA02_chisq$observed
+BIO2_NA02_chisq$p.value
+#NA07 "I prefer to operate neuroimaging analysis software..."
+ #1 = ...via graphical user interface
+ #2 = ...via command/batch interface
+ #3 = I don't operate such software myself.
+table(OSQ_daten$NA07)                                                           #1=87, 2=168, 3=28
+
+NA07<- OSQ_daten$NA07
+NA07<- as.data.frame(NA07)
+
+NA07<-NA07%>%                                                                   # replace level 3 with missing values 
+  replace_with_na(replace = list(NA07 = c(3)))
+
+NA07<- as.factor(NA07$NA07)
+Follow_up$NA07<- NA07
+Follow_up$NA07<-recode(Follow_up$NA07, '1' = "GUI", '2' = "command")
+
+
+# Differences in BIDS usage based on preference to work with graphical user or commmand/batch interface
+BI02_NA07<-table(Follow_up$NA07, Follow_up$BI02)
+
+chisq.test(BI02_NA07)
+
+BI02_NA07_chisq<-chisq.test(BI02_NA07)
+
+BI02_NA07_chisq$observed
+BI02_NA07_chisq$expected
+BI02_NA07_chisq$p.value
 

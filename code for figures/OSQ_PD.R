@@ -44,20 +44,28 @@ pacman::p_load(ggplot2,
   ######## Personal Data ########
 
 
-##PD01 "What is your age?"
+########################### 
+#PD01 "What is your age?" #
+###########################
+
 hist(OSQ_daten$PD01_01)                                                          #unlikely value of 99 years of age
 OSQ_daten$PD01_01<-replace(OSQ_daten$PD01_01, 261,'43.68')                       #replace value with mean age calculated without outlier 
 OSQ_daten$PD01_01<-as.numeric(OSQ_daten$PD01_01)
 describe(OSQ_daten$PD01_01)#-> mean=43,69 years, SD= 9,16 years
 
 
-##PD02 "Gender:"
+#################
+#PD02 "Gender:" #
+#################
+
 table(OSQ_daten$PD02)
 #1->Male=186
 #2->Female=96
 #3-> Divers=1 
 
-##PD04 "I have been trained as"
+################################
+#PD04 "I have been trained as" #
+################################
 
 table(OSQ_daten$PD04)
 #1-> Biologist = 27
@@ -153,7 +161,9 @@ ggsave("plot_PD04_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 describe(OSQ_daten$PD05)#-> mean= 17,58 years, SD= 8,49 years
 
-##PD06 "What is your field of study? Please select the best match."
+####################################################################
+#PD06 "What is your field of study? Please select the best match." #
+####################################################################
 
 table(OSQ_daten$PD06)
 #1-> Psychiatry = 39
@@ -235,7 +245,9 @@ dev.new(width = 4.72, height = 4.08, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_PD06_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##PD07 "What is your current position?"
+########################################
+#PD07 "What is your current position?" #
+########################################
 
 table(OSQ_daten$PD07)
 #1-> Research Assistant = 2
@@ -314,7 +326,9 @@ dev.new(width = 4.72, height = 4.59, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_PD07_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##PD08 "What is your primary affiliation?"
+##########################################
+#PD08 "What is your primary affiliation?" #
+##########################################
 
 table(OSQ_daten$PD08)
 #1-> With university hospital/medical faculty = 10
@@ -396,7 +410,9 @@ dev.new(width = 4.72, height = 3.06, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_PD08_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##PD09 "My current research involves"
+#####################################
+#PD09 "My current research involves" #
+#####################################
 
 # Create subset of question
 dat_PD09 <- subset(OSQ_daten, select = PD09)
@@ -470,7 +486,9 @@ ggsave("plot_PD09_010203_bar.svg",width = dev.size()[1],height = dev.size()[2]);
 dev.new(width = 4.72, height = 1.53, unit="in", noRStudioGD = T);last_plot() # change manually
 ggsave("plot_PD09_010203_bar.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
-##PD10 "My country of residence is"
+####################################
+#PD10 "My country of residence is"  #
+####################################
 
 table(OSQ_daten$PD10)
 #1-> in the EU = 161
@@ -527,11 +545,13 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_PD10_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##PD12 "If you want to, you may indicate your country of residence here:"
+#########################################################################
+#PD12 "If you want to, you may indicate your country of residence here:" #
+#########################################################################
 
-################
-#->open question#
-################
+
+#->open question
+
 #---------------------------------------------------------------
   ######## Feedback ########
 
