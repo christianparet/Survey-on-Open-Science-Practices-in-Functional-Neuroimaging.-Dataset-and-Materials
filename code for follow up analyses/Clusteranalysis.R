@@ -218,7 +218,10 @@ abline(h = 20 , col = 'red')
 suppressPackageStartupMessages(library(dendextend))
 avg_dend_obj <- as.dendrogram(hclust_avg)
 avg_col_dend <- color_branches(avg_dend_obj, h = 20)
-plot(avg_col_dend)
+plot(avg_col_dend,  xlab= "Respondents", ylab= "Euclidean Distance", leaflab="none")
+
+svg("dendogram_final.svg")
+dev.off()
 
 #shows how many people are in each cluster
 seeds_df_cl <- mutate(clusteranalysis, cluster = cut_avg)
@@ -253,7 +256,7 @@ describeBy(Follow_up$BI02, group = Follow_up$cluster)
 ################################################################
 
 
-profileplot<-data.frame(TR_reg = c(4.30, 2.92),                                 # create dataframe with scores of the clusters on each factor (taken from descriptive statistics)
+profileplot<-data.frame(TR_reg = c(4.30, 2.97),                                 # create dataframe with scores of the clusters on each factor (taken from descriptive statistics)
                         TR_ds = c(4.03, 2.07),
                         Fear = c(3.95, 2.55),
                         Compl= c( 4.04, 3.00),
@@ -325,7 +328,7 @@ chisqp <- 1-pchisq(modelchi, chidf)
 exp(cbind(OR= coef(model1),confint(model1)))
 exp(cbind(OR= coef(model2),confint(model2)))
 
-#Gütemaße
+#coefficient of determination
 n<-length(model1$residuals)
 R2cs<-1-exp((model1$deviance-model1$null.deviance)/n)
 R2n<- R2cs/(1-exp(-(model1$null.deviance/n)))
