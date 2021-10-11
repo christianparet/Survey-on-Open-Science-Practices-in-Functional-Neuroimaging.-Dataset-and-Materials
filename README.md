@@ -20,10 +20,10 @@ ________________________________________________________________________________
 This directory contains:
 
 - Four folders with R scripts
- 1. Code for figures*
- 2. Code for follow up analyses (Bayesian Factor, Factoranalysis and Significance Testing) 
- 3. Code to analyze demographic data (country of residence, sample descriptives) 
- 4. Code to import data 
+	1. Code for figures*
+	2. Code for follow up analyses (Bayesian Factor, Factoranalysis and Significance Testing) 
+	3. Code to analyze demographic data (country of residence, sample descriptives) 
+	4. Code to import data 
 - The datafile "rdata_open-science-practices_2021-01-25_18-48" comprising the surveydata gathered via socisurvey
 - A pdf of the questionnaire (OSQ.pdf)
 - This README file with instructions	
@@ -46,10 +46,10 @@ This directory contains:
 	
 	
 ## *Abbreviations of question categories
---> GQ = General Questions
---> BI = BIDS
---> PR = Preregistration
---> DS = Data Sharing
---> NA = Neuroimaging Data Analysis Software
---> SP = Stimulus Presentation Software
---> PD = Participant Demographics/ Sociodemographic Information
+	--> GQ = General Questions
+	--> BI = BIDS
+	--> PR = Preregistration
+	--> DS = Data Sharing
+	--> NA = Neuroimaging Data Analysis Software
+	--> SP = Stimulus Presentation Software
+	--> PD = Participant Demographics/ Sociodemographic Information
