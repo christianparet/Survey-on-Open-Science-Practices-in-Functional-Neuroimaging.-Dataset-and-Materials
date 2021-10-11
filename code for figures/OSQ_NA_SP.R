@@ -45,7 +45,9 @@ pacman::p_load(ggplot2,
 
 ######## Neuroimaging Analysis Software and OS ########
 
-##NA01 "What operating system do you primarily use to work with neuroimaging data?"
+###################################################################################
+#NA01 "What operating system do you primarily use to work with neuroimaging data?" #
+###################################################################################
 
 sum(OSQ_daten$NA01== "1", na.rm = TRUE)#-> Windows = 98
 sum(OSQ_daten$NA01== "2", na.rm=TRUE)#-> Linux = 120
@@ -160,7 +162,9 @@ ggsave("plot_NA01_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 
 
-##NA02 "What is your preferred neuroimaging data analysis software?"
+#####################################################################
+#NA02 "What is your preferred neuroimaging data analysis software?" #
+#####################################################################
 
 sum(OSQ_daten$NA02== "1", na.rm = TRUE)#-> SPM = 160
 sum(OSQ_daten$NA02== "2", na.rm=TRUE)#-> FSL = 42
@@ -293,7 +297,9 @@ ggsave("plot_NA02_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 
 
-##NA03 "How would you describe your knowledge level in working with your preferred neuroimaging data analysis software?"
+#########################################################################################################################
+#NA03 "How would you describe your knowledge level in working with your preferred neuroimaging data analysis software?" #
+#########################################################################################################################
 
 sum(OSQ_daten$NA03== "1", na.rm = TRUE)#-> Expert User = 97
 sum(OSQ_daten$NA03== "2", na.rm=TRUE)#-> Advanced User = 106
@@ -439,7 +445,10 @@ ggsave("plot_NA04_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 
 
-##NA05 "On the previous slide you said you are experienced with other software. Which software?"
+#################################################################################################
+#NA05 "On the previous slide you said you are experienced with other software. Which software?" #
+#################################################################################################
+
 #-> answered by subsample of n = 236, thereof 6 did not choose any item, plot is based on subsample of n = 230
 
 # Create subset for current question
@@ -515,7 +524,10 @@ NA05plot
 # Save plot
 ggsave(file="NA05.svg", plot=NA05plot)
 
-##NA06 "What is your knowledge level with this/these software(s)? If you selected more than one option, think about ..."
+########################################################################################################################
+NA06 "What is your knowledge level with this/these software(s)? If you selected more than one option, think about ..." #
+########################################################################################################################
+
 #-> answered by subsample of n = 230 (NA06 == -9 for n = 6)
 
 sum(OSQ_daten$NA06== "1", na.rm=TRUE)#-> Expert user = 20
@@ -599,7 +611,9 @@ dev.new(width = 4.72, height = 4.72, unit="in", noRStudioGD = T);last_plot()
 ggsave("plot_NA06_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.off()
 
 
-##NA07 "I prefer to operate neuroimaging analysis software..."
+##############################################################
+NA07 "I prefer to operate neuroimaging analysis software..." #
+##############################################################
 
 sum(OSQ_daten$NA07== "1")#-> ...via graphical user interface = 87
 sum(OSQ_daten$NA07== "2")#-> ...via command/batch interface = 168
@@ -681,7 +695,9 @@ ggsave("plot_NA07_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
   ########Stimulus Presentation Software ########
 
 
-##SP01 "What software do you use to present stimuli to study participants during functional neuroimaging?"
+###########################################################################################################
+#SP01 "What software do you use to present stimuli to study participants during functional neuroimaging?" #
+###########################################################################################################
 
 # Create subset for current question
 SP01<- subset(OSQ_daten, select=c(143:148, 150))

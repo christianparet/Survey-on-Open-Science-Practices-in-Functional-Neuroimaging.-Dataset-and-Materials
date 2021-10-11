@@ -44,7 +44,9 @@ pacman::p_load(ggplot2,
 #---------------------------------------------------------------
   ######## Preregistration ########
 
-##PR01 "What preregistration formats, if any, have you used?"
+#############################################################
+#PR01 "What preregistration formats, if any, have you used?" #
+#############################################################
 
 # Create subset for current question
 PR01 <- subset(OSQ_daten, select = c(79:83,85))
@@ -121,7 +123,9 @@ PR01plot
 # Save plot 
 ggsave(file="PR01.svg", plot=PR01plot)
 
-##PR03 "How likely are you to preregister your next study in an online repository?"
+####################################################################################
+#PR03 "How likely are you to preregister your next study in an online repository?" #
+####################################################################################
 
 # Create subset for current question
 PR03<- subset(OSQ_daten, select = c(86))
