@@ -1,4 +1,3 @@
-
 #################################################################
 # Loading packages (installs if necessary)
 #################################################################
@@ -53,7 +52,7 @@ Professor <- PD07 %>%                                                          #
 
 Professor<- as.factor(Professor$type)                                          # create factor 
 #table(Professor)                                                              # zum kontrollieren
- 
+
 
 prev_prereg<- subset(OSQ_daten, select = c(79:83, 85))
 prev_prereg<-mutate(prev_prereg, prev_prereg = ifelse(PR01_01 | PR01_02 | PR01_03 | PR01_04 | PR01_05 == 'TRUE', "1", "0"))
@@ -62,7 +61,7 @@ prev_prereg$prev_prereg<- as.factor(prev_prereg$prev_prereg)
 #################################################################
 #Construction of factors            
 #################################################################
-                               
+
 #Factor1 Lack of Training experience (PR07_02, PR07_04, PR07_05, PR07_06, PR07_07)
 
 Training_prereg<-as.data.frame(cbind(OSQ_daten$PR07_02,
@@ -107,12 +106,12 @@ Control<- as.data.frame(cbind(OSQ_daten$DS02_01,
 Control_recoded <- Control %>%
   mutate_at(vars(1), 
             ~ifelse(. == 1, 7, 
-             ifelse(. == 2, 6, 
-             ifelse(. == 3, 5, 
-             ifelse(. == 4, 4, 
-             ifelse(. == 5, 3, 
-             ifelse(. == 6, 2, 
-             ifelse(. == 7, 1, .))))))))                                             # recode reversely coded item 
+                    ifelse(. == 2, 6, 
+                           ifelse(. == 3, 5, 
+                                  ifelse(. == 4, 4, 
+                                         ifelse(. == 5, 3, 
+                                                ifelse(. == 6, 2, 
+                                                       ifelse(. == 7, 1, .))))))))                                             # recode reversely coded item 
 
 
 Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))    # summing variables to get Total Score for this factor
@@ -137,7 +136,7 @@ Training_ds$Training_dsTotal <- (Training_ds$Training_dsTotal/3)
 #Lack of resources for Datasharing (DS13_01, DS13_02) 
 
 NoResources_DS<- as.data.frame(cbind(OSQ_daten$DS13_01,
-                               OSQ_daten$DS13_02))
+                                     OSQ_daten$DS13_02))
 
 NoResources_DS$NoResources_DS_Total <- rowSums((subset(NoResources_DS, select= c(1:2))))
 NoResources_DS$NoResources_DS_Total <- (NoResources_DS$NoResources_DS_Total/2)
@@ -181,7 +180,7 @@ t.test(Follow_up$ComplexityTotal ~ researchexp)
 t.test(Follow_up$ControlTotal ~ researchexp)
 t.test(Follow_up$Training_dsTotal ~ researchexp)
 t.test(Follow_up$BossTotal ~ researchexp)
-t.test(Follow_up$NoResources_DS_Total ~ researchexp)
+t.test(Follow_up$NoResources_DS ~ researchexp)
 
 # Comparing the effect of research experience (continuous) on each factor
 fit <- lm(Training_preregTotal ~ researchexp_scale, data=Follow_up)              # regression model with Factor Total as predicted variable and research experience in years as predictor
@@ -196,7 +195,7 @@ fit <- lm(ControlTotal ~ researchexp_scale, data=Follow_up)
 summary(fit)
 fit <- lm(BossTotal ~ researchexp_scale, data=Follow_up)
 summary(fit)
-fit <- lm(NoResources_DS_Total ~ researchexp_scale, data=Follow_up) 
+fit <- lm(NoResources_DS ~ researchexp_scale, data=Follow_up) 
 summary(fit)
 
 
@@ -207,7 +206,7 @@ t.test(Follow_up$ComplexityTotal ~ EU)
 t.test(Follow_up$ControlTotal ~ EU)
 t.test(Follow_up$Training_dsTotal ~ EU)
 t.test(Follow_up$BossTotal ~ EU)
-t.test(Follow_up$NoResources_DS_Total ~ EU)
+t.test(Follow_up$NoResources_DS ~ EU)
 
 # Comparing the effect of affiliation with medical faculty on each factor        
 t.test(Follow_up$Training_preregTotal ~ University)
@@ -216,7 +215,7 @@ t.test(Follow_up$ComplexityTotal ~ University)
 t.test(Follow_up$ControlTotal ~ University)
 t.test(Follow_up$Training_dsTotal ~ University)
 t.test(Follow_up$BossTotal ~ University)
-t.test(Follow_up$NoResources_DS_Total ~ University)
+t.test(Follow_up$NoResources_DS ~ University)
 
 # Comparing the effect of career level on each factor
 t.test(Follow_up$Training_preregTotal ~ Professor)
@@ -225,7 +224,7 @@ t.test(Follow_up$ComplexityTotal ~ Professor)
 t.test(Follow_up$ControlTotal ~ Professor)
 t.test(Follow_up$Training_dsTotal ~ Professor)
 t.test(Follow_up$BossTotal ~ Professor)
-t.test(Follow_up$NoResources_DS_Total ~ Professor)
+t.test(Follow_up$NoResources_DS ~ Professor)
 
 # Differences in datasharing for people living inside or outside of the EU 
 #(1 = in the EU. 2 = outside of the EU.)
@@ -233,10 +232,11 @@ t.test(Follow_up$DS09 ~ EU)
 t.test(Follow_up$DS10 ~ EU)
 
 
-#Copmaring current BIDS usage based on data analysis software preferences
+#Comparing current BIDS usage based on data analysis software preferences
 
 #BI02 Do you use BIDS to structure your neuroimaging datasets?
 Follow_up$BI02<- OSQ_daten$BI02
+Follow_up$BI02<-recode(Follow_up$BI02, "1" = "Yes", "2" = "No")
 
 #NA02 "What is your preferred neuroimaging data analysis software?"
 table(OSQ_daten$NA02)                                                           #1=160, 2=42, 3=24, 4=14, 5=2, 6=41
@@ -256,14 +256,31 @@ Follow_up$NA02<-recode(Follow_up$NA02, '1' = "SPM", '2' = "Other")
 #Differences in BIDS usage based on preference of neuroimaging data analysis software
 BI02_NA02<-table(Follow_up$NA02, Follow_up$BI02)
 
-BIO2_NA02_chisq<-chisq.test(BI02_NA02)
-BIO2_NA02_chisq$expected
-BIO2_NA02_chisq$observed
-BIO2_NA02_chisq$p.value
+BI02_NA02_chisq<-chisq.test(BI02_NA02)
+BI02_NA02_chisq$expected
+BI02_NA02_chisq$observed
+BI02_NA02_chisq$p.value
+
+#plot BI02_
+
+dt<- as.data.frame(cbind(NA02 = OSQ_daten$NA02, BI02 = OSQ_daten$BI02))
+dt$NA02<-recode(dt$NA02, "1" = "SPM", "2" = "FSL", "3" = "AFNI", "4" = "BrainVoyager", "5" = "ANTs", "6" = "Other")
+dt$NA02 <- as.factor(dt$NA02)
+dt$BI02<-recode(dt$BI02, "1" = "Yes", "2" = "No")
+dt$BI02 <- as.factor(dt$BI02)
+
+x<-table(dt)
+library(RColorBrewer)
+coul<- brewer.pal(5, "Set1") 
+
+svg("BIDSuse.svg")
+plot(x, xlab= "Preferred Imaging Software", ylab="Using BIDS", main="", col=coul)
+dev.off()
+
 #NA07 "I prefer to operate neuroimaging analysis software..."
- #1 = ...via graphical user interface
- #2 = ...via command/batch interface
- #3 = I don't operate such software myself.
+#1 = ...via graphical user interface
+#2 = ...via command/batch interface
+#3 = I don't operate such software myself.
 table(OSQ_daten$NA07)                                                           #1=87, 2=168, 3=28
 
 NA07<- OSQ_daten$NA07

@@ -33,16 +33,13 @@ This directory contains:
 
 1. Download repository by clicking "Download ZIP" under "Code". 
 2. Open ZIP folder on your Computer. 
-3. Open "Code to import data".
-4. Open R-Script "import_open-science-practices_2021_02_26_12-20.r" and execute the whole script.
-5. A dialogue window opens. Choose the data frame to import by clicking on file "rdata_open-science-practices_2021_02_26_12-20.csv".
-6. The data frame called "OSQ_daten" should be in R's global environment.
-7. Open the R Script that you want to use to produce plots or analyze the data.
+3. Open R / RStudio. Load the file "OSQ_data.RData" and add it to the global environment.
+4. Open the R Script that you want to use to produce plots or analyze the data.
 
 ## Further information
 
 - Code for producing plots is named the following way: "OSQ_XX", where "XX" is the abbreviation of the respective question category*
-- Gender information has been removed from the published dataset to protect the privacy of the survey participants.
+- We feel commited to publish as much data as necessary to reproduce our findings, and for future research to re-use it. To minimize the risk for re-identification of study participants, we removed gender information from the data.
 	
 	
 ## *Abbreviations of question categories

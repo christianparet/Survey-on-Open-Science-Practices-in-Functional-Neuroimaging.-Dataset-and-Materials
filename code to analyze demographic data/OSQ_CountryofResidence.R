@@ -353,6 +353,6 @@ sum(PD12dataframe$Turkey == 1, na.rm = TRUE)#-->1
 sum(PD12dataframe$Denmark == 1, na.rm = TRUE)#-->1
 sum(PD12dataframe$SouthKorea == 1, na.rm = TRUE)#-->1
 sum(PD12dataframe$NewZealand == 1, na.rm = TRUE)#-->1
--->174
+# -->174
 
-sum(is.na(OSQ_daten$PD12_01))-->109 not answered
+sum(is.na(OSQ_daten$PD12_01)) # -->109 not answered

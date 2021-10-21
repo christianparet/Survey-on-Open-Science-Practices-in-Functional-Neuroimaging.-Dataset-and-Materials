@@ -36,6 +36,7 @@ sd((OSQ_daten$TIME_SUM)/60) # in minutes
 describe(OSQ_daten$PD01_01)#-> mean=43,89 years, SD= 9,74 years
 
 ##PD02 "Gender:"
+# PD02 was removed from the dataset before publication due to data protection considerations.
 sum(OSQ_daten$PD02=="1") #-> Male=186
 sum(OSQ_daten$PD02== "2")#-> Female=96
 sum(OSQ_daten$PD02== "3")#-> Divers=1 

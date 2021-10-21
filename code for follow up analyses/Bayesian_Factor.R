@@ -305,7 +305,7 @@ BF_Boss_EU
 #BF Factor No resources datasharing
 #################################################################
 
-BF_noresources_researchexp<- ttestBF(x=Follow_up$NoResources_DS_TotalFollow_up$researchexp==1],
+BF_noresources_researchexp<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$researchexp==1],
 y=Follow_up$NoResources_DS_Total[Follow_up$researchexp==2])
 BF_noresources_researchexp
 
