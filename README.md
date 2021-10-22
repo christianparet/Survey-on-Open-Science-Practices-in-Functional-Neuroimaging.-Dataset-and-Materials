@@ -1,20 +1,22 @@
 # Welcome
+
 Thank you for visiting this project page. Great, that you are interested to learn more about this research.
 This github project is authored by Christian Paret, Nike Unverhau, Madita Stirner and Maurizio Sicorello, Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
 
 # Project description
-Functional Magnetic Resonance Imaging (fMRI) is widely used in the generation and testing of biological models of mental disorder, but reluctance in the field to adopt open science practices may threaten scientific progress. For reproducible science, it is pivotal to differentiate confirmatory and exploratory hypotheses via preregistration of studies, and to provide data for re-use by peer researchers. Addressing the neuroimaging community directly with an online survey, this project aims to give an overview of how much researchers commit to current open science practices.
-This github project provides materials, code and data acquired for and developed for this project.
+
+Replicability and reproducibility of scientific findings is paramount for sustainable progress in neuroscience. Preregistration of the hypotheses and methods of an empirical study before analysis, the sharing of primary research data,  and compliance with data standards such as the Brain Imaging Data Structure (BIDS),  are effective practices to secure progress and to substantiate quality of research. We investigated the current level of adoption of open science practices in neuroimaging and the difficulties that prevent researchers from using them.
 _____________________________________________________________________________________________________________________________________________
 
 # Content of this repository 
+
 This directory contains:
 
 - This README file with an overview of the project and the files in this repository
 - Four folders with R scripts
 	1. Code for figures*
-	2. Code for follow up analyses (Bayesian Factor, Factoranalysis and Significance Testing) 
-	3. Code to analyze demographic data (country of residence, sample descriptives) 
+	2. Code for follow up analyses
+	3. Code to analyze demographic data 
 - The datafile OSQ_data.Rdata
 - A pdf of the questionnaire (OSQ.pdf)
 _____________________________________________________________________________________________________________________________________________
@@ -35,6 +37,7 @@ To investigate the current level of ADOPTION OF OPEN SCIENCE PRACTICES IN HUMAN 
 >>   • Experienced researchers at lower career level had higher “fear of being transparent”.
 >>   • Researchers with residence in the EU had a higher “need for data governance”.
 >>   • Researchers at medical faculties as compared to other university faculties reported a higher “need for data governance” and a more “unsupportive environment”.
+ _____________________________________________________________________________________________________________________________________________
 
 # How to reproduce the results
 1. Download repository by clicking "Download ZIP" under "Code". 
@@ -58,10 +61,11 @@ DS = Data Sharing
 NA = Neuroimaging Data Analysis Software
 SP = Stimulus Presentation Software
 PD = Participant Demographics/ Sociodemographic Information
+_____________________________________________________________________________________________________________________________________________
 	
-## Whom to contact for support
+# Whom to contact for support
 Issues related to the code can be submitted via Github's Issues function. Please address your project-related questions to christian.paret[at]zi-mannheim.de. We are all busy people, but we will do our best to respond quickly. 
 
-## Further reading
+# Further reading
 Paret C., Unverhau N., Feingold F., Poldrack R.A., Stirner M., Schmahl C., Sicorello M. (2021). Survey on Open Science Practices in Functional Neuroimaging. BioRxiv. 
 Watch out for original article coming out soon.
