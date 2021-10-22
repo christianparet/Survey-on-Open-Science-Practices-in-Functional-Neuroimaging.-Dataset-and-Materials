@@ -35,11 +35,11 @@ The analysis was programmed with R version 4.0.5.
 Library dependencies...
 ## Further information
 - Code for producing plots is named the following way: "OSQ_XX", where "XX" is the abbreviation of the respective question category*
-- We feel commited to publish as much data as necessary to reproduce our findings, and for future research to re-use it. To minimize the risk for re-identification of study participants, we removed gender information from the data.	<br />
-*Abbreviations of question categories<br />
+- We feel commited to publish as much data as necessary to reproduce our findings, and for future research to re-use it. To minimize the risk for re-identification of study participants, we removed gender information from the data.
+### *Abbreviations of question categories
 GQ = General Questions; BI = BIDS; PR = Preregistration; DS = Data Sharing; NA = Neuroimaging Data Analysis Software; SP = Stimulus Presentation Software; PD = Participant Demographics/ Sociodemographic Information
 # Whom to contact for support
 Issues related to the code can be submitted via Github's Issues function. Please address your project-related questions to christian.paret[at]zi-mannheim.de. We are all busy people, but we will do our best to respond quickly. 
 # Further reading
-Paret C., Unverhau N., Feingold F., Poldrack R.A., Stirner M., Schmahl C., Sicorello M. (2021). Survey on Open Science Practices in Functional Neuroimaging. BioRxiv. 
+Paret C., Unverhau N., Feingold F., Poldrack R.A., Stirner M., Schmahl C., Sicorello M. (2021). Survey on Open Science Practices in Functional Neuroimaging. BioRxiv.<br />
 Watch out for original article coming out soon.
