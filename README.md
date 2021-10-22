@@ -1,6 +1,6 @@
 # Welcome
 Thank you for visiting this project page. Great, that you are interested to learn more about this research.
-This github project is authored by Christian Paret, Nike Unverhau, Madita Stirner and Maurizio Sicorello, Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
+This github repository is authored by Christian Paret, Nike Unverhau, Madita Stirner and Maurizio Sicorello, Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
 # Project description
 Replicability and reproducibility of scientific findings is paramount for sustainable progress in neuroscience. Preregistration of the hypotheses and methods of an empirical study before analysis, the sharing of primary research data,  and compliance with data standards such as the Brain Imaging Data Structure (BIDS),  are effective practices to secure progress and to substantiate quality of research. We investigated the current level of adoption of open science practices in neuroimaging and the difficulties that prevent researchers from using them.
 # Content of this repository 
