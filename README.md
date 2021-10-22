@@ -28,7 +28,7 @@ ________________________________________________________________________________
 To investigate the current level of ADOPTION OF OPEN SCIENCE PRACTICES IN HUMAN NEUROIMAGING RESEARCH. Improve understanding of difficulties that prevent researchers from implementing these practices. The focus was on three aspects: preregistration, data sharing, and data structure.
 
 ## Materials, Methods
-[283 persons](./plots/Flowchart.png), aged 44 y. on average and with 17 y. average research experience, completed the questionnaire. Half of the international sample held a full or associate professorship or a comparable position. Most indicated primary affiliation with a university (77%) and indicated cognitive neuroscience their field of study (60%).
+[283 persons](./plots/Flowchart.png), aged 44 y. on average and with 17 y. average research experience, completed the questionnaire. Half of the [international sample](./plots/CountryofResidence.png) was trained in psychology and held a full or associate professorship or comparable position. Most indicated primary affiliation with a university (77%) and indicated cognitive neuroscience their field of study (60%).
 
 ## Highlights
 Although half of the participants were experienced with PREREGISTRATION, [the willingness to preregister studies in the future was modest.](./plots/PR/PR03.png)
