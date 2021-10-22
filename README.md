@@ -5,12 +5,11 @@ This github project is authored by Christian Paret, Nike Unverhau, Madita Stirne
 Replicability and reproducibility of scientific findings is paramount for sustainable progress in neuroscience. Preregistration of the hypotheses and methods of an empirical study before analysis, the sharing of primary research data,  and compliance with data standards such as the Brain Imaging Data Structure (BIDS),  are effective practices to secure progress and to substantiate quality of research. We investigated the current level of adoption of open science practices in neuroimaging and the difficulties that prevent researchers from using them.
 # Content of this repository 
 This directory contains:
-
 - This README file with an overview of the project and the files in this repository
 - Four folders with R scripts
-	1. Code for figures*
-	2. Code for follow up analyses
-	3. Code to analyze demographic data 
+  1. Code for figures*
+  2. Code for follow up analyses
+  3. Code to analyze demographic data 
 - The datafile OSQ_data.Rdata
 - A pdf of the questionnaire (OSQ.pdf)
 # Purpose and highlights of the project
@@ -23,9 +22,9 @@ Although half of the participants were experienced with PREREGISTRATION, [the wi
 The majority of participants (66%) had experience with the SHARING OF PRIMARY RESEARCH DATA. [About half of the participants were positive about sharing data of the next paper online.](./plots/DS/DS09)
 [Most of the participants were interested in implementing a standardized data structure such as BIDS (Brain Imaging Data Structure) in their labs.](./plots/BI/BI07.png)
 Based on demographic variables, we compared participants on seven subscales, which had been generated through [factor analysis](./plots/Factoranalysis_Table.pdf).
-   • Experienced researchers at lower career level had higher “fear of being transparent”.
-   • Researchers with residence in the EU had a higher “need for data governance”.
-   • Researchers at medical faculties as compared to other university faculties reported a higher “need for data governance” and a more “unsupportive environment”.
+- Experienced researchers at lower career level had higher “fear of being transparent”.
+- Researchers with residence in the EU had a higher “need for data governance”.
+- Researchers at medical faculties as compared to other university faculties reported a higher “need for data governance” and a more “unsupportive environment”.
 # How to reproduce the results
 1. Download repository by clicking "Download ZIP" under "Code". 
 2. Unzip folder on your computer. 
