@@ -15,7 +15,8 @@ pacman::p_load(tidyverse,
                clValid,
                profileR,
                effects,
-               caret)
+               caret,
+               svglite)
 
 
 #################################################################
@@ -215,6 +216,7 @@ cut_avg <- cutree(hclust_avg, k = 2)
 plot(hclust_avg)
 rect.hclust(hclust_avg , k = 2 , border = 2:6)
 abline(h = 20 , col = 'red')
+if (!require("dendextend")) install.packages("dendextend")
 suppressPackageStartupMessages(library(dendextend))
 avg_dend_obj <- as.dendrogram(hclust_avg)
 avg_col_dend <- color_branches(avg_dend_obj, h = 20)
