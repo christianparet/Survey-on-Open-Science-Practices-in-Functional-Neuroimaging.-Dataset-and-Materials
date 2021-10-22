@@ -64,7 +64,7 @@ fa.diagram(esem_efa_4, digits=2) # note: factor correlations not shown
 
 
 # transform EFA results to lavaan code
-esem_efa_4.loadmat <- zapsmall(matrix(round(esem_efa_4$loadings, 2), nrow = 27, ncol = 4))
+esem_efa_4.loadmat <- zapsmall(matrix(round(esem_efa_4$loadings, 2), nrow = 28, ncol = 4))
 rownames(esem_efa_4.loadmat) <- colnames(Factoranalysis)
 terms <- vector()
 for (i in 1:4) {
@@ -80,6 +80,7 @@ summary(osq.cfa4)
 
 
 
+
 ############
 #5 factors #
 ############
@@ -91,7 +92,7 @@ fa.diagram(esem_efa_5, digits=2) # note: factor correlations not shown
 
 
 # transform EFA results to lavaan code
-esem_efa_5.loadmat <- zapsmall(matrix(round(esem_efa_5$loadings, 2), nrow = 27, ncol = 5))
+esem_efa_5.loadmat <- zapsmall(matrix(round(esem_efa_5$loadings, 2), nrow = 28, ncol = 5))
 rownames(esem_efa_5.loadmat) <- colnames(Factoranalysis)
 terms <- vector()
 for (i in 1:5) {
@@ -114,7 +115,7 @@ fa.diagram(esem_efa_6, digits=2) # note: factor correlations not shown
 
 
 # transform EFA results to lavaan code
-esem_efa_6.loadmat <- zapsmall(matrix(round(esem_efa_6$loadings, 2), nrow = 27, ncol = 6))
+esem_efa_6.loadmat <- zapsmall(matrix(round(esem_efa_6$loadings, 2), nrow = 28, ncol = 6))
 rownames(esem_efa_6.loadmat) <- colnames(Factoranalysis)
 terms <- vector()
 for (i in 1:6) {
@@ -138,7 +139,7 @@ fa.diagram(esem_efa_7, digits=2) # note: factor correlations not shown
 
 
 # transform EFA results to lavaan code
-esem_efa_7.loadmat <- zapsmall(matrix(round(esem_efa_7$loadings, 2), nrow = 27, ncol = 7))
+esem_efa_7.loadmat <- zapsmall(matrix(round(esem_efa_7$loadings, 2), nrow = 28, ncol = 7))
 rownames(esem_efa_7.loadmat) <- colnames(Factoranalysis)
 terms <- vector()
 for (i in 1:7) {
@@ -160,7 +161,7 @@ esem_efa_8 <- fa(Factoranalysis, nfactors =8,rotate = "oblimin",
 fa.diagram(esem_efa_8) # note: factor correlations not shown
 
 # transform EFA results to lavaan code
-esem_efa_8.loadmat <- zapsmall(matrix(round(esem_efa_8$loadings, 2), nrow = 27, ncol = 8))
+esem_efa_8.loadmat <- zapsmall(matrix(round(esem_efa_8$loadings, 2), nrow = 28, ncol = 8))
 rownames(esem_efa_8.loadmat) <- colnames(Factoranalysis)
 terms <- vector()
 for (i in 1:8) {
