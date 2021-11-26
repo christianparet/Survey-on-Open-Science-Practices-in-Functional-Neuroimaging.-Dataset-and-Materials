@@ -32,7 +32,6 @@ Based on demographic variables, we compared participants on seven subscales, whi
 4. Open the R Script that you want to use to produce plots or analyze the data.
 ## Software information
 The analysis was programmed with R version 4.0.5. 
-Library dependencies...
 ## Further information
 - Code for producing plots is named the following way: "OSQ_XX", where "XX" is the abbreviation of the respective question category*
 - We feel commited to publish as much data as necessary to reproduce our findings, and for future research to re-use it. To minimize the risk for re-identification of study participants, we removed gender information from the data.
