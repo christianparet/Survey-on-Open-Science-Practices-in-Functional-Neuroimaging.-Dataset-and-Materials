@@ -19,7 +19,7 @@ To investigate the current level of ADOPTION OF OPEN SCIENCE PRACTICES IN HUMAN 
 [283 persons](./plots/Flowchart.png), aged 44 y. on average and with 17 y. average research experience, completed the questionnaire. 40% of the [international sample](./plots/CountryofResidence.png) was [trained in psychology](./plots/PD/PD04.png) and one half held a [full or associate professorship or comparable position](./plots/PD/PD07.png). The [primary affiliation of most participants was with a university (77%)](./plots/PD/PD08.png) and most participants indicated [cognitive neuroscience their field of study (60%)](./plots/PD/PD06.png). 
 ## Highlights
 Although half of the participants were experienced with PREREGISTRATION, [the willingness to preregister studies in the future was modest.](./plots/PR/PR03.png)<br />
-The majority of participants (66%) had experience with the SHARING OF PRIMARY RESEARCH DATA. [About half of the participants were positive about sharing data of the next paper online.](./plots/DS/DS09)<br />
+The majority of participants (66%) had experience with the SHARING OF PRIMARY RESEARCH DATA. [About half of the participants were positive about sharing data of the next paper online.](./plots/DS/DS09.png)<br />
 [Most of the participants were interested in implementing a standardized data structure such as BIDS (Brain Imaging Data Structure) in their labs.](./plots/BI/BI07.png)<br />
 Based on demographic variables, we compared participants on seven subscales, which had been generated through [factor analysis](./plots/Factoranalysis_Table.pdf):
 - Experienced researchers at lower career level had higher “fear of being transparent”.
