@@ -1,5 +1,4 @@
 [![DOI](https://zenodo.org/badge/364143830.svg)](https://zenodo.org/badge/latestdoi/364143830)
-
 # Welcome
 Thank you for visiting this project page. Great, that you are interested to learn more about this research.
 This github repository is authored by Christian Paret, Nike Unverhau, Madita Stirner and Maurizio Sicorello, Central Institute of Mental Health in Mannheim, Germany. It has received valuable support from Franklin Feingold and Russ Poldrack, Center for Open and Reproducible Science in Stanford USA.
