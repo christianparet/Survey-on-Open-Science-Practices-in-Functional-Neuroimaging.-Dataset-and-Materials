@@ -5,7 +5,9 @@
 
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse,
-               naniar) 
+               naniar,
+               RColorBrewer,
+               svglite) 
 
 #################################################################
 #Specifying demograhpic variables for comparison              
@@ -167,6 +169,8 @@ Follow_up$Professor<- as.factor(Follow_up$Professor)
 Follow_up$EU<- as.factor(Follow_up$EU)
 Follow_up$DS09<- OSQ_daten$DS09
 Follow_up$prev_prereg<- prev_prereg$prev_prereg
+Follow_up$researchexp_scale<-OSQ_daten$PD05_01
+Follow_up$DS04<- OSQ_daten$DS04
 
 
 #################################################################
@@ -182,21 +186,23 @@ t.test(Follow_up$Training_dsTotal ~ researchexp)
 t.test(Follow_up$BossTotal ~ researchexp)
 t.test(Follow_up$NoResources_DS ~ researchexp)
 
-# Comparing the effect of research experience (continuous) on each factor
-fit <- lm(Training_preregTotal ~ researchexp_scale, data=Follow_up)              # regression model with Factor Total as predicted variable and research experience in years as predictor
-summary(fit)
-fit <- lm(Training_dsTotal ~ researchexp_scale, data=Follow_up)              
-summary(fit)
-fit <- lm(FearTotal ~ researchexp_scale, data=Follow_up)
-summary(fit)
-fit <- lm(ComplexityTotal ~ researchexp_scale, data=Follow_up)
-summary(fit)
-fit <- lm(ControlTotal ~ researchexp_scale, data=Follow_up)
-summary(fit)
-fit <- lm(BossTotal ~ researchexp_scale, data=Follow_up)
-summary(fit)
-fit <- lm(NoResources_DS ~ researchexp_scale, data=Follow_up) 
-summary(fit)
+##Additionally to the dichotomous predictor we explored "research experience" as a continuously scaled predictor variable. 
+##For reasons of conciseness, this analysis is not included in the publication.
+# # Comparing the effect of research experience (continuous) on each factor
+# fit <- lm(Training_preregTotal ~ researchexp_scale, data=Follow_up)              # regression model with Factor Total as predicted variable and research experience in years as predictor
+# summary(fit)
+# fit <- lm(Training_dsTotal ~ researchexp_scale, data=Follow_up)              
+# summary(fit)
+# fit <- lm(FearTotal ~ researchexp_scale, data=Follow_up)
+# summary(fit)
+# fit <- lm(ComplexityTotal ~ researchexp_scale, data=Follow_up)
+# summary(fit)
+# fit <- lm(ControlTotal ~ researchexp_scale, data=Follow_up)
+# summary(fit)
+# fit <- lm(BossTotal ~ researchexp_scale, data=Follow_up)
+# summary(fit)
+# fit <- lm(NoResources_DS ~ researchexp_scale, data=Follow_up) 
+# summary(fit)
 
 
 # Comparing the effect of EU residency on each factor
@@ -230,6 +236,7 @@ t.test(Follow_up$NoResources_DS ~ Professor)
 #(1 = in the EU. 2 = outside of the EU.)
 t.test(Follow_up$DS09 ~ EU)
 t.test(Follow_up$DS10 ~ EU)
+chisq.test(Follow_up$DS04, Follow_up$EU)
 
 
 #Comparing current BIDS usage based on data analysis software preferences
@@ -270,7 +277,6 @@ dt$BI02<-recode(dt$BI02, "1" = "Yes", "2" = "No")
 dt$BI02 <- as.factor(dt$BI02)
 
 x<-table(dt)
-library(RColorBrewer)
 coul<- brewer.pal(5, "Set1") 
 
 svg("BIDSuse.svg")
@@ -305,3 +311,41 @@ BI02_NA07_chisq$observed
 BI02_NA07_chisq$expected
 BI02_NA07_chisq$p.value
 
+
+
+#################################################################
+#SessionInfo()        
+#################################################################
+
+
+# R version 4.0.5 (2021-03-31)
+# Platform: x86_64-w64-mingw32/x64 (64-bit)
+# Running under: Windows Server x64 (build 17763)
+# 
+# Matrix products: default
+# 
+# locale:
+#   [1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252    LC_MONETARY=German_Germany.1252
+# [4] LC_NUMERIC=C                    LC_TIME=German_Germany.1252    
+# 
+# attached base packages:
+#   [1] stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] svglite_2.0.0          RColorBrewer_1.1-2     naniar_0.6.0           forcats_0.5.1         
+# [5] stringr_1.4.0          dplyr_1.0.5            purrr_0.3.4            readr_1.4.0           
+# [9] tidyr_1.1.3            tibble_3.1.1           ggplot2_3.3.3          tidyverse_1.3.1       
+# [13] pacman_0.5.1           BayesFactor_0.9.12-4.2 Matrix_1.3-2           coda_0.19-4           
+# 
+# loaded via a namespace (and not attached):
+#   [1] Rcpp_1.0.6         lubridate_1.7.10   mvtnorm_1.1-1      lattice_0.20-41    gtools_3.9.2      
+# [6] assertthat_0.2.1   utf8_1.2.1         R6_2.5.0           cellranger_1.1.0   backports_1.2.1   
+# [11] MatrixModels_0.5-0 reprex_2.0.0       visdat_0.5.3       httr_1.4.2         pillar_1.6.0      
+# [16] rlang_0.4.11       readxl_1.3.1       rstudioapi_0.13    munsell_0.5.0      broom_0.7.6       
+# [21] compiler_4.0.5     modelr_0.1.8       systemfonts_1.0.1  pkgconfig_2.0.3    tidyselect_1.1.1  
+# [26] fansi_0.4.2        crayon_1.4.1       dbplyr_2.1.1       withr_2.4.2        grid_4.0.5        
+# [31] jsonlite_1.7.2     gtable_0.3.0       lifecycle_1.0.0    DBI_1.1.1          magrittr_2.0.1    
+# [36] scales_1.1.1       cli_2.5.0          stringi_1.5.3      pbapply_1.5-0      fs_1.5.0          
+# [41] xml2_1.3.2         ellipsis_0.3.2     generics_0.1.0     vctrs_0.3.8        tools_4.0.5       
+# [46] glue_1.4.2         hms_1.0.0          parallel_4.0.5     colorspace_2.0-1   rvest_1.0.0       
+# [51] haven_2.4.1    

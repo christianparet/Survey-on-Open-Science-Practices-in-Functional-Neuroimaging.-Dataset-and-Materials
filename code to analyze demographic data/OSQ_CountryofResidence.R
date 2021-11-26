@@ -1,4 +1,15 @@
-#Country of Origin
+#################################################################
+# Loading packages (installs if necessary)
+#################################################################
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(stringr) 
+
+
+
+#################################################################
+# Country of Origin 
+#################################################################
 
 PD12dataframe<- as.data.frame(OSQ_daten$PD12_01)
 
@@ -32,8 +43,7 @@ PD12dataframe$UnitedStates<- UnitedStates
 
 sum(PD12dataframe$UnitedStates == 1, na.rm = TRUE)#-->9
 
-##!!+2 Leute us und usa (kann man nicht eingeben weil Australia und so dann auch gezählt werden)
-
+##+2 people from us and usa 
 
 ############
 
@@ -158,14 +168,6 @@ Cyprus <- as.data.frame(str_count(PD12, "Cyprus"))
 PD12dataframe$Cyprus<- Cyprus
 
 sum(PD12dataframe$Cyprus == 1, na.rm = TRUE) #-->1
-
-############
-
-Portugal <- as.data.frame(str_count(PD12, "Portugal"))
-
-PD12dataframe$Portugal<- Portugal
-
-sum(PD12dataframe$Portugal == 1, na.rm = TRUE)-->2
 
 ############
 
@@ -356,3 +358,27 @@ sum(PD12dataframe$NewZealand == 1, na.rm = TRUE)#-->1
 # -->174
 
 sum(is.na(OSQ_daten$PD12_01)) # -->109 not answered
+
+
+#################################################################
+# SessionInfo()
+#################################################################
+
+# R version 4.0.5 (2021-03-31)
+# Platform: x86_64-w64-mingw32/x64 (64-bit)
+# Running under: Windows Server x64 (build 17763)
+# 
+# Matrix products: default
+# 
+# locale:
+#   [1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252    LC_MONETARY=German_Germany.1252 LC_NUMERIC=C                   
+# [5] LC_TIME=German_Germany.1252    
+# 
+# attached base packages:
+#   [1] stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] pacman_0.5.1  stringr_1.4.0
+# 
+# loaded via a namespace (and not attached):
+#   [1] compiler_4.0.5 magrittr_2.0.1 tools_4.0.5    stringi_1.5.3 

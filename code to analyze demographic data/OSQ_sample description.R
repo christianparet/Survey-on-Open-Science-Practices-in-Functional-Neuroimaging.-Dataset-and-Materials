@@ -1,22 +1,14 @@
 #################################################################
-# Open Science Projekt
+# Loading packages (installs if necessary)
 #################################################################
 
-#################################################################
-# Working directory
-#################################################################
-# Set working directory -----------------------------------------------------------------------------------------------------------------------------------------------------------
-getwd()                                                           # Getting working directory
-setwd(getwd())                                                    # Setting working directory
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(dplyr,
+               psych) 
 
 #################################################################
-# Installing R packages
+# Sample description 
 #################################################################
-
-# Install and load packages -----------------------------------------------------------------------------------------------------------------------------------------------------------
-# use install.packages(c("dplyr", "psych")) if not already installed
-library(dplyr)
-library(psych)
 
 # Sample description: General information -----------------------------------------------------------------------------------------------------------------------------------------------------------
 # How long did people take to fill in questionnaire?
@@ -118,3 +110,28 @@ describe(OSQ_daten$BI04_01) # n = 102; mean = 208.32; sd = 351.15; median = 97; 
 ##BI06: "How long have you been using BIDS?"
 describe(OSQ_daten$BI06_01) # n = 102; mean = 2.26; sd = 1.78; median = 2; min = 0; max = 15
 table(OSQ_daten$BI06_01)
+
+
+#################################################################
+# SessionInfo()
+#################################################################
+# R version 4.0.5 (2021-03-31)
+# Platform: x86_64-w64-mingw32/x64 (64-bit)
+# Running under: Windows Server x64 (build 17763)
+# 
+# Matrix products: default
+# 
+# locale:
+#   [1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252    LC_MONETARY=German_Germany.1252 LC_NUMERIC=C                   
+# [5] LC_TIME=German_Germany.1252    
+# 
+# attached base packages:
+#   [1] stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] psych_2.1.3  dplyr_1.0.5  pacman_0.5.1
+# 
+# loaded via a namespace (and not attached):
+#   [1] lattice_0.20-41  fansi_0.4.2      assertthat_0.2.1 utf8_1.2.1       crayon_1.4.1     grid_4.0.5       R6_2.5.0         nlme_3.1-152     DBI_1.1.1       
+# [10] lifecycle_1.0.0  magrittr_2.0.1   pillar_1.6.0     rlang_0.4.11     vctrs_0.3.8      generics_0.1.0   ellipsis_0.3.2   tools_4.0.5      glue_1.4.2      
+# [19] purrr_0.3.4      parallel_4.0.5   compiler_4.0.5   pkgconfig_2.0.3  mnormt_2.0.2     tmvnsim_1.0-2    tidyselect_1.1.1 tibble_3.1.1  

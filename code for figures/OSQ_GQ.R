@@ -32,15 +32,6 @@ pacman::p_load(ggplot2,
                tidyr, 
                psych)
 
-#################################################################
-# Importing the Data Frame:
-#
-# Load file "OSQ_import_open-science-practices_2021-01-25_18-49.r"
-# and choose CSV "rdata_open-science-practices_2021-01-27_15-49.csv"
-#################################################################
-
-
-
 #---------------------------------------------------------------
   ######## General Questions########
 
@@ -129,3 +120,32 @@ GQ01plot
 
 # Save plot 
 ggsave(file="GQ01.svg", plot=GQ01plot)
+
+#################################################################
+# SessionInfo()
+#################################################################
+# 
+# R version 4.0.5 (2021-03-31)
+# Platform: x86_64-w64-mingw32/x64 (64-bit)
+# Running under: Windows Server x64 (build 17763)
+# 
+# Matrix products: default
+# 
+# locale:
+#   [1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252    LC_MONETARY=German_Germany.1252 LC_NUMERIC=C                   
+# [5] LC_TIME=German_Germany.1252    
+# 
+# attached base packages:
+#   [1] stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] psych_2.1.3        tidyr_1.1.3        data.table_1.14.0  dplyr_1.0.5        ggthemes_4.2.4     likert_1.3.5       xtable_1.8-4       scales_1.1.1      
+# [9] colorspace_2.0-1   RColorBrewer_1.1-2 ggplot2_3.3.3      pacman_0.5.1      
+# 
+# loaded via a namespace (and not attached):
+#   [1] Rcpp_1.0.6        pillar_1.6.0      compiler_4.0.5    plyr_1.8.6        tools_4.0.5       digest_0.6.27     nlme_3.1-152      lattice_0.20-41  
+# [9] lifecycle_1.0.0   tibble_3.1.1      gtable_0.3.0      pkgconfig_2.0.3   rlang_0.4.11      DBI_1.1.1         parallel_4.0.5    gridExtra_2.3    
+# [17] withr_2.4.2       stringr_1.4.0     systemfonts_1.0.1 generics_0.1.0    vctrs_0.3.8       grid_4.0.5        tidyselect_1.1.1  svglite_2.0.0    
+# [25] glue_1.4.2        R6_2.5.0          fansi_0.4.2       farver_2.1.0      purrr_0.3.4       reshape2_1.4.4    magrittr_2.0.1    ellipsis_0.3.2   
+# [33] assertthat_0.2.1  mnormt_2.0.2      labeling_0.4.2    utf8_1.2.1        stringi_1.5.3     munsell_0.5.0     tmvnsim_1.0-2     crayon_1.4.1  
+# 

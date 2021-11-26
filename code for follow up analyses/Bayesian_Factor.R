@@ -6,6 +6,8 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse,
                naniar,
                BayesFactor) 
+install.packages('Rcpp')
+library(Rcpp)
 
 #################################################################
 #Specifying demograhpic variables for comparison              
@@ -306,7 +308,7 @@ BF_Boss_EU
 #################################################################
 
 BF_noresources_researchexp<- ttestBF(x=Follow_up$NoResources_DS_Total[Follow_up$researchexp==1],
-y=Follow_up$NoResources_DS_Total[Follow_up$researchexp==2])
+                                     y=Follow_up$NoResources_DS_Total[Follow_up$researchexp==2])
 BF_noresources_researchexp
 
 #Professor
@@ -339,3 +341,47 @@ BF_DS10_EU<- ttestBF(x=Follow_up$DS10[Follow_up$EU==1],
 BF_DS10_EU
 
 
+##################################################################
+#sessionInfo()
+##################################################################
+
+# R version 4.0.5 (2021-03-31)
+# Platform: x86_64-w64-mingw32/x64 (64-bit)
+# Running under: Windows 10 x64 (build 19042)
+# 
+# Matrix products: default
+# 
+# locale:
+#   [1] LC_COLLATE=German_Germany.1252  LC_CTYPE=German_Germany.1252   
+# [3] LC_MONETARY=German_Germany.1252 LC_NUMERIC=C                   
+# [5] LC_TIME=German_Germany.1252    
+# 
+# attached base packages:
+#   [1] stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] BayesFactor_0.9.12-4.2 Matrix_1.3-2           coda_0.19-4           
+# [4] naniar_0.6.0           forcats_0.5.1          stringr_1.4.0         
+# [7] dplyr_1.0.5            purrr_0.3.4            readr_1.4.0           
+# [10] tidyr_1.1.3            tibble_3.1.1           ggplot2_3.3.3         
+# [13] tidyverse_1.3.1        pacman_0.5.1          
+# 
+# loaded via a namespace (and not attached):
+#   [1] gtools_3.8.2       tinytex_0.28       tidyselect_1.1.0  
+# [4] xfun_0.19          pbapply_1.4-3      haven_2.3.1       
+# [7] lattice_0.20-41    colorspace_2.0-0   vctrs_0.3.7       
+# [10] generics_0.1.0     utf8_1.1.4         rlang_0.4.10      
+# [13] pillar_1.6.0       glue_1.4.2         withr_2.4.2       
+# [16] DBI_1.1.1          dbplyr_2.1.1       modelr_0.1.8      
+# [19] readxl_1.3.1       lifecycle_1.0.0    MatrixModels_0.4-1
+# [22] munsell_0.5.0      gtable_0.3.0       cellranger_1.1.0  
+# [25] rvest_1.0.0        mvtnorm_1.1-1      parallel_4.0.5    
+# [28] fansi_0.4.1        broom_0.7.9        Rcpp_1.0.5        
+# [31] scales_1.1.1       backports_1.2.1    jsonlite_1.7.2    
+# [34] fs_1.5.0           hms_1.0.0          stringi_1.5.3     
+# [37] visdat_0.5.3       grid_4.0.5         cli_2.4.0         
+# [40] tools_4.0.5        magrittr_2.0.1     crayon_1.4.1      
+# [43] pkgconfig_2.0.3    ellipsis_0.3.1     xml2_1.3.2        
+# [46] reprex_2.0.0       lubridate_1.7.10   assertthat_0.2.1  
+# [49] httr_1.4.2         rstudioapi_0.13    R6_2.5.0          
+# [52] compiler_4.0.5    
