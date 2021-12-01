@@ -40,6 +40,13 @@ The analysis was programmed with R version 4.0.5.
 GQ = General Questions; BI = BIDS; PR = Preregistration; DS = Data Sharing; NA = Neuroimaging Data Analysis Software; SP = Stimulus Presentation Software; PD = Participant Demographics/ Sociodemographic Information
 # Whom to contact for support
 Issues related to the code can be submitted via Github's Issues function. Please address your project-related questions to christian.paret[at]zi-mannheim.de. We are all busy people, but we will do our best to respond quickly. 
-# Further reading
-Paret C., Unverhau N., Feingold F., Poldrack R.A., Stirner M., Schmahl C., Sicorello M. (2021). Survey on Open Science Practices in Functional Neuroimaging. BioRxiv.<br />
-Watch out for original article coming out soon.
+# Cite this research
+To reference this dataset something like this should be ok:
+
+Paret, C. Survey on Open Science-Practices in Functional Neuroimaging. Dataset and Materials. https://github.com/christianparet/Survey-on-Open-Science-Practices-in-Functional-Neuroimaging.-Dataset-and-Materials (2021) doi:10.5281/zenodo.5729056.
+
+Consider referencing the original article presenting this research that is downloadable via the QR code below:
+
+Paret, Christian, Nike Unverhau, Franklin Feingold, Russell A. Poldrack, Madita Stirner, Christian Schmahl, und Maurizio Sicorello. „Survey on Open Science Practices in Functional Neuroimaging“, 30. November 2021. https://doi.org/10.1101/2021.11.26.470115.
+
+[![Download preprint](https://connect.biorxiv.org/qr/qr_img.php?id=2021.11.26.470115)](https://biorxiv.org/cgi/content/short/2021.11.26.470115v1)
