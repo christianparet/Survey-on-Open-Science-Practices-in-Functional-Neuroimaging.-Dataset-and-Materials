@@ -129,7 +129,8 @@ Control_recoded <- Control %>%
 Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))    # summing variables to get Total Score for this factor
 Control_recoded$ControlTotal <- (Control_recoded$ControlTotal/4)
 
-#Factor 5 Restrictive environment
+#Factor 5 Unsupportive supervisor
+
 Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
                           OSQ_daten$PR07_10))
 
@@ -219,10 +220,12 @@ rect.hclust(hclust_avg , k = 2 , border = 2:6)
 abline(h = 20 , col = 'red')
 avg_dend_obj <- as.dendrogram(hclust_avg)
 avg_col_dend <- color_branches(avg_dend_obj, h = 20)
-plot(avg_col_dend,  xlab= "Respondents", ylab= "Euclidean Distance", leaflab="none")
 
-svg("dendogram_final.svg")
+#save dendrogramm
+svg("dendrogram_final.svg")
+plot(avg_col_dend,  xlab= "Respondents", ylab= "Euclidean Distance", leaflab="none")
 dev.off()
+
 
 #shows how many people are in each cluster
 seeds_df_cl <- mutate(clusteranalysis, cluster = cut_avg)
@@ -307,6 +310,9 @@ model0<- glm(cluster~1, data=Follow_up, family=binomial())
 model1 <- glm(cluster ~ researchexp+ Professor+ EU+ University,family=binomial(),data=Follow_up)
 summary(model1)
 #-> no significance, Trend for Professor and University
+
+#95% Confidence intervals for betas
+confint(model1)
 
 ##Additionally to the dichotomous predictor we explored "research experience" as a continuously scaled predictor variable. 
 ##For reasons of conciseness, this analysis is not included in the publication.All analyses with Model 2 are therefore commented out in the following.

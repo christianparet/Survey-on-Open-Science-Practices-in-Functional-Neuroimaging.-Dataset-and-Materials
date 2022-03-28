@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svglite"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 595.27559 841.88976"
+   version="1.1"
+   id="svg160"
+   sodipodi:docname="DS_tiled_final.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:export-filename="C:\Users\nikeu\OneDrive\Dokumente\Neuropsychology Master\Praktikum\Arbeit\Projects\OSF\Follow up\Script\Plots\profileplot_ci_new_ink.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata164">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1776"
+     inkscape:window-height="1020"
+     id="namedview162"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.62230245"
+     inkscape:cx="373.61254"
+     inkscape:cy="543.14426"
+     inkscape:window-x="12"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="cm"
+     units="mm">
+    <sodipodi:guide
+       position="-146.93518,799.19673"
+       orientation="0,-1"
+       id="guide194" />
+    <sodipodi:guide
+       position="17.432987,42.818537"
+       orientation="0,-1"
+       id="guide198" />
+    <sodipodi:guide
+       position="538.36215,1205.1584"
+       orientation="1,0"
+       id="guide200" />
+    <sodipodi:guide
+       position="59.654443,429.4219"
+       orientation="1,0"
+       id="guide30604" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380" />
+    <rect
+       x="35.043861"
+       y="70.621391"
+       width="14.586785"
+       height="16.899324"
+       id="rect374" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368" />
+    <rect
+       x="40.202602"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362" />
+    <rect
+       x="40.380489"
+       y="199.23415"
+       width="14.586786"
+       height="13.875235"
+       id="rect356" />
+    <rect
+       x="30.063009"
+       y="240.32619"
+       width="12.274246"
+       height="14.586785"
+       id="rect350" />
+    <rect
+       x="35.755413"
+       y="282.48557"
+       width="9.2501564"
+       height="16.009886"
+       id="rect330" />
+    <rect
+       x="5.0314221"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442" />
+    <rect
+       x="8.8943815"
+       y="28.462021"
+       width="31.125097"
+       height="14.759436"
+       id="rect420" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="128.39249"
+       height="36.695011"
+       id="rect224" />
+    <rect
+       x="271.81229"
+       y="320.19772"
+       width="83.962959"
+       height="20.27919"
+       id="rect218" />
+    <rect
+       x="318.06308"
+       y="338.69803"
+       width="8.5386066"
+       height="8.5386066"
+       id="rect212" />
+    <rect
+       x="326.24591"
+       y="339.40961"
+       width="12.452134"
+       height="7.8270559"
+       id="rect206" />
+    <rect
+       x="336.20761"
+       y="347.23666"
+       width="11.384808"
+       height="9.6059322"
+       id="rect200" />
+    <rect
+       x="155.11801"
+       y="281.77399"
+       width="17.788763"
+       height="11.384808"
+       id="rect188" />
+    <rect
+       x="160.81042"
+       y="277.14893"
+       width="22.058065"
+       height="11.384808"
+       id="rect182" />
+    <rect
+       x="107.7999"
+       y="338.69803"
+       width="37.000626"
+       height="11.740583"
+       id="rect176" />
+    <rect
+       x="1.4231009"
+       y="138.39658"
+       width="135.54897"
+       height="31.6465"
+       id="rect435" />
+    <style
+       type="text/css"
+       id="style2"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="102.15984"
+       height="47.298218"
+       id="rect172" />
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="52.040455"
+       height="17.465631"
+       id="rect260" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660019"
+       height="57.307446"
+       id="rect184" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="59.169285"
+       height="23.525137"
+       id="rect291" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect294" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect196" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect297" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect202" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect300" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect208" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect335" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-6" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect353" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect237" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect282" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628757"
+       id="rect224-8-7-7" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect326" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-2" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-4" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-5" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-27" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-46" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-468" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-7" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1-8" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-7-3" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1-8-2" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38887">
+      <g
+         inkscape:label="Clip"
+         id="use38889">
+        <rect
+           style="fill:#cc4567;fill-opacity:0.611765;stroke-width:0.643775"
+           id="rect39705"
+           width="497.55585"
+           height="275.87784"
+           x="41.312634"
+           y="441.18152" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38897">
+      <g
+         inkscape:label="Clip"
+         id="use38899">
+        <g
+           inkscape:label="Clip"
+           id="g39701"
+           transform="translate(-3.1819809,1.0606598)">
+          <rect
+             style="fill:#cc4567;fill-opacity:0.611765;stroke-width:0.643775"
+             id="rect39699"
+             width="497.55585"
+             height="275.87784"
+             x="41.312634"
+             y="441.18152" />
+        </g>
+      </g>
+    </clipPath>
+    <rect
+       x="74.534916"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-8" />
+    <rect
+       x="35.043863"
+       y="70.621388"
+       width="14.586785"
+       height="16.899325"
+       id="rect374-1" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368-1" />
+    <rect
+       x="40.202604"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362-9" />
+    <rect
+       x="40.380491"
+       y="199.23414"
+       width="14.586786"
+       height="13.875235"
+       id="rect356-9" />
+    <rect
+       x="30.063009"
+       y="240.32618"
+       width="12.274246"
+       height="14.586785"
+       id="rect350-5" />
+    <rect
+       x="35.755413"
+       y="282.48555"
+       width="9.2501566"
+       height="16.009886"
+       id="rect330-8" />
+    <rect
+       x="5.0314219"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318-1" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51493"
+       height="26.666536"
+       id="rect442-4" />
+    <rect
+       x="8.8943814"
+       y="28.462021"
+       width="31.125098"
+       height="14.759436"
+       id="rect420-1" />
+    <rect
+       x="273.59117"
+       y="318.06308"
+       width="128.39249"
+       height="36.695013"
+       id="rect224-2" />
+    <rect
+       x="271.8123"
+       y="320.19773"
+       width="83.962961"
+       height="20.27919"
+       id="rect218-9" />
+    <rect
+       x="318.06308"
+       y="338.69804"
+       width="8.5386062"
+       height="8.5386062"
+       id="rect212-1" />
+    <rect
+       x="326.24591"
+       y="339.4096"
+       width="12.452134"
+       height="7.8270557"
+       id="rect206-6" />
+    <rect
+       x="336.20762"
+       y="347.23665"
+       width="11.384808"
+       height="9.6059319"
+       id="rect200-8" />
+    <rect
+       x="155.11801"
+       y="281.774"
+       width="17.788763"
+       height="11.384808"
+       id="rect188-8" />
+    <rect
+       x="160.81042"
+       y="277.14893"
+       width="22.058066"
+       height="11.384808"
+       id="rect182-8" />
+    <rect
+       x="107.7999"
+       y="338.69804"
+       width="37.000627"
+       height="11.740583"
+       id="rect176-9" />
+    <rect
+       x="1.423101"
+       y="138.39657"
+       width="135.54896"
+       height="31.6465"
+       id="rect435-1" />
+    <style
+       type="text/css"
+       id="style2-5"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="102.15984"
+       height="47.298216"
+       id="rect172-4" />
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="52.040455"
+       height="17.465631"
+       id="rect260-8" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660022"
+       height="57.307447"
+       id="rect184-0" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="59.169285"
+       height="23.525137"
+       id="rect291-6" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-8" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect294-2" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect196-7" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect297-6" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect202-4" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect300-3" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect208-9" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect335-4" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-6-4" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect353-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-0" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect237-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect282-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628756"
+       id="rect224-8-7-7-8" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect326-4" />
+    <clipPath
+       id="cpMC4wMHw2NDAuNTB8MC4wMHwzNTEuNzU=-1">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="640.50"
+         height="351.75"
+         id="rect8-2" />
+    </clipPath>
+    <clipPath
+       id="cpMjguMjR8NTgwLjcwfDUuNDh8MzIwLjI1-7">
+      <rect
+         x="28.24"
+         y="5.48"
+         width="552.45"
+         height="314.77"
+         id="rect17-5" />
+    </clipPath>
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660019"
+       height="57.307446"
+       id="rect184-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="128.39249"
+       height="36.695011"
+       id="rect224-9" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-6" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628757"
+       id="rect224-8-7-7-1" />
+    <rect
+       x="8.8943815"
+       y="28.462021"
+       width="31.125097"
+       height="14.759436"
+       id="rect420-0" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-3" />
+    <rect
+       x="5.0314221"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318-5" />
+    <rect
+       x="35.755413"
+       y="282.48557"
+       width="9.2501564"
+       height="16.009886"
+       id="rect330-0" />
+    <rect
+       x="30.063009"
+       y="240.32619"
+       width="12.274246"
+       height="14.586785"
+       id="rect350-9" />
+    <rect
+       x="40.380489"
+       y="199.23415"
+       width="14.586786"
+       height="13.875235"
+       id="rect356-6" />
+    <rect
+       x="40.202602"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362-1" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368-0" />
+    <rect
+       x="35.043861"
+       y="70.621391"
+       width="14.586785"
+       height="16.899324"
+       id="rect374-8" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-1" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-3" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-4" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-2" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-3-0" />
+    <rect
+       x="75.154213"
+       y="403.29849"
+       width="148.16667"
+       height="116.41667"
+       id="rect3799" />
+    <rect
+       x="69.862549"
+       y="405.94431"
+       width="142.875"
+       height="116.41667"
+       id="rect3805" />
+  </defs>
+  <defs
+     id="defs11">
+    <clipPath
+       id="cpMC4wMHw2NDAuNTB8MC4wMHwzNTEuNzU=">
+      <rect
+         x="0"
+         y="0"
+         width="640.5"
+         height="351.75"
+         id="rect8" />
+    </clipPath>
+  </defs>
+  <defs
+     id="defs20">
+    <clipPath
+       id="cpMjguMjR8NTgwLjcwfDUuNDh8MzIwLjI1">
+      <rect
+         x="28.24"
+         y="5.48"
+         width="552.45001"
+         height="314.76999"
+         id="rect17" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     id="layer1"
+     transform="matrix(2.8346457,0,0,2.8346457,26.072295,71.934354)">
+    <g
+       id="g3622"
+       transform="matrix(0.85830039,0,0,0.85830039,-128.13168,-459.83065)"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png">
+      <polyline
+         points="104.09,113.64 334.27,113.64 "
+         style="fill:#000000;stroke:#ffffff;stroke-width:1.07;stroke-linecap:butt"
+         id="polyline605-4-0-5-0"
+         transform="matrix(0.35277778,0,0,0.35277778,239.74611,521.66638)" />
+      <rect
+         x="284.74805"
+         y="588.15222"
+         width="5.5949998"
+         height="5.5950556"
+         style="fill:#d8b365;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect661-9-2-6-9" />
+      <g
+         id="g5312"
+         transform="translate(-12.170835,1.233057)">
+        <rect
+           x="318.64999"
+           y="586.91919"
+           width="5.5950556"
+           height="5.5950556"
+           style="fill:#ebd9b2;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect667-2-1-0-1" />
+      </g>
+      <g
+         id="g5317"
+         transform="translate(-6.879167,1.233057)">
+        <rect
+           x="338.94531"
+           y="586.91919"
+           width="5.5950556"
+           height="5.5950556"
+           style="fill:#e5e5e5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect673-3-5-5-2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="292.20926"
+         y="590.47699"
+         id="text2041-4-5-3"><tspan
+           sodipodi:role="line"
+           x="292.20926"
+           y="590.47699"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           id="tspan5303">Strongly </tspan><tspan
+           sodipodi:role="line"
+           x="292.20926"
+           y="594.00476"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           id="tspan5307">Disagree </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="315.03885"
+         y="590.62817"
+         id="text2045-5-0-0"><tspan
+           sodipodi:role="line"
+           id="tspan2043-7-0-5"
+           x="315.03885"
+           y="590.62817"
+           style="font-size:2.82222px;stroke-width:0.264583">Somewhat</tspan><tspan
+           sodipodi:role="line"
+           x="315.03885"
+           y="594.15594"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           id="tspan5299"> Disagree </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="340.55228"
+         y="591.53534"
+         id="text2049-6-5-7"><tspan
+           sodipodi:role="line"
+           id="tspan2047-4-9-4"
+           x="340.55228"
+           y="591.53534"
+           style="font-size:2.82222px;stroke-width:0.264583">Neutral</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.264999"
+         id="rect974-3-3-7-3"
+         width="82.020844"
+         height="31.750002"
+         x="276.56067"
+         y="545.80023" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 317.00416,577.73928 0.0638,-9.16609"
+         id="path2018-5-6-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 317.00416,545.98928 0.0638,9.35477"
+         id="path2020-1-6-2" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.28815px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="310.95657"
+         y="586.01691"
+         id="text2081-5-4-1"><tspan
+           sodipodi:role="line"
+           id="tspan2079-5-8-2"
+           x="310.95657"
+           y="586.01691"
+           style="font-size:3.28815px;stroke-width:0.264583">Percentage </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="279.35773"
+         y="582.27496"
+         id="text2087-1-2-7"><tspan
+           sodipodi:role="line"
+           id="tspan2085-7-9-2"
+           x="279.35773"
+           y="582.27496"
+           style="font-size:2.82222px;stroke-width:0.264583">100</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="298.6723"
+         y="582.27496"
+         id="text2099-1-8-1"><tspan
+           sodipodi:role="line"
+           id="tspan2097-78-6-8"
+           x="298.6723"
+           y="582.27496"
+           style="font-size:2.82222px;stroke-width:0.264583">50</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="333.35162"
+         y="582.36945"
+         id="text2099-9-3-5-9"
+         inkscape:transform-center-x="-0.66145833"
+         inkscape:transform-center-y="1.7008929"><tspan
+           sodipodi:role="line"
+           id="tspan2097-7-2-4-0"
+           x="333.35162"
+           y="582.36945"
+           style="font-size:2.82222px;stroke-width:0.264583">50</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="350.13376"
+         y="582.27496"
+         id="text2087-6-1-5-2"><tspan
+           sodipodi:role="line"
+           id="tspan2085-9-2-0-0"
+           x="350.13376"
+           y="582.27496"
+           style="font-size:2.82222px;stroke-width:0.264583">100</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="316.43716"
+         y="581.99146"
+         id="text2151-1-6-9"><tspan
+           sodipodi:role="line"
+           id="tspan2149-8-2-0"
+           x="316.43716"
+           y="581.99146"
+           style="font-size:2.82222px;stroke-width:0.264583">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.88361"
+         y="562.5257"
+         id="text2179-0-1-3"><tspan
+           sodipodi:role="line"
+           id="tspan2177-8-7-3"
+           x="277.88361"
+           y="562.5257"
+           style="font-size:2.82222px;stroke-width:0.264583">64%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="351.96695"
+         y="562.62018"
+         id="text2187-0-5-0"><tspan
+           sodipodi:role="line"
+           id="tspan2185-9-5-2"
+           x="351.96695"
+           y="562.62018"
+           style="font-size:2.82222px;stroke-width:0.264583">9%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.11019px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="317.77777"
+         y="533.45502"
+         id="text3100-5"><tspan
+           sodipodi:role="line"
+           x="317.77777"
+           y="533.45502"
+           style="font-size:4.11019px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan3102-4">This question pertains to legal constraints </tspan><tspan
+           sodipodi:role="line"
+           x="317.77777"
+           y="538.59277"
+           style="font-size:4.11019px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan5784">connected to data sharing: I am not allowed to </tspan><tspan
+           sodipodi:role="line"
+           x="318.34875"
+           y="543.73047"
+           style="font-size:4.11019px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan45630">share my primary neuroimaging research data </tspan></text>
+      <text
+         xml:space="preserve"
+         id="text3797"
+         style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3799)" />
+      <text
+         xml:space="preserve"
+         id="text3803"
+         style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3805)" />
+      <rect
+         x="319.07904"
+         y="598.34851"
+         width="5.5950556"
+         height="5.5950556"
+         style="fill:#5ab4ac;fill-opacity:1;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect679-8-1-6-1-1" />
+      <g
+         id="g5322"
+         transform="translate(-38.746481,11.429435)">
+        <rect
+           x="333.7623"
+           y="586.6687"
+           width="6.0960002"
+           height="6.0960002"
+           style="fill:#f2f2f2;stroke:none;stroke-width:0.377472"
+           id="rect675-7-7-2-9" />
+        <rect
+           x="334.01276"
+           y="586.91919"
+           width="5.5950556"
+           height="5.5950556"
+           style="fill:#acd9d5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect677-0-3-4-3" />
+        <rect
+           x="334.01276"
+           y="586.91919"
+           width="5.5950556"
+           height="5.5950556"
+           style="fill:#acd9d5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect679-8-9-1-6" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="303.43091"
+         y="600.86224"
+         id="text2053-1-2-1"><tspan
+           sodipodi:role="line"
+           id="tspan2051-0-8-1"
+           x="303.43091"
+           y="600.86224"
+           style="font-size:2.82222px;stroke-width:0.264583">Somewhat</tspan><tspan
+           sodipodi:role="line"
+           x="303.43091"
+           y="604.39001"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           id="tspan5301">Agree </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="326.9205"
+         y="600.72986"
+         id="text5326"><tspan
+           sodipodi:role="line"
+           id="tspan5324"
+           x="326.9205"
+           y="600.72986"
+           style="font-size:2.82222px;stroke-width:0.264583">Strongly </tspan><tspan
+           sodipodi:role="line"
+           x="326.9205"
+           y="604.25763"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           id="tspan5328">Agree</tspan></text>
+    </g>
+    <g
+       id="g5227-5"
+       transform="matrix(0.85830039,0,0,0.21561007,-15.94827,-107.78475)"
+       style="stroke-width:1.9952"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png">
+      <g
+         id="g5291"
+         transform="translate(0.0987743)">
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="318.42606"
+           y="561.5025"
+           id="text2183-8-6-4"
+           transform="matrix(1,0,0,3.9807992,-134.84225,-1627.8811)"><tspan
+             sodipodi:role="line"
+             id="tspan2181-1-2-5"
+             x="318.42606"
+             y="561.5025"
+             style="font-size:2.82222px;stroke-width:0.264583">20%</tspan></text>
+        <rect
+           x="181.40372"
+           y="577.92346"
+           width="4.8612776"
+           height="52.662666"
+           style="fill:#e5e5e5;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4864-8" />
+        <rect
+           x="173.9848"
+           y="577.92346"
+           width="7.4189172"
+           height="52.662666"
+           style="fill:#f2e5cb;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4866-5" />
+        <rect
+           x="167.46193"
+           y="577.92346"
+           width="6.522861"
+           height="52.662666"
+           style="fill:#e5cc98;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4868-0" />
+        <rect
+           x="158.1239"
+           y="577.92346"
+           width="9.338028"
+           height="52.662666"
+           style="fill:#d8b365;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4870-0" />
+        <rect
+           x="186.26498"
+           y="577.92346"
+           width="4.8612776"
+           height="52.662666"
+           style="fill:#e5e5e5;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4872-1" />
+        <rect
+           x="191.12627"
+           y="577.92346"
+           width="3.1961668"
+           height="52.662666"
+           style="fill:#c8e6e3;stroke:none;stroke-width:0.75313;stroke-linecap:square;stroke-linejoin:miter"
+           id="rect4874-9" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:5.63088px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:1.05326"
+         x="365.82797"
+         y="303.91095"
+         id="text5295"
+         transform="scale(0.50120439,1.995194)"><tspan
+           sodipodi:role="line"
+           id="tspan5293"
+           x="365.82797"
+           y="303.91095"
+           style="font-size:5.63088px;stroke-width:1.05326">27%</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="11.682838"
+       y="-6.1620827"
+       id="text27015"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan27013"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.264583"
+         x="11.682838"
+         y="-6.1620827">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.74622"
+       y="-5.9659462"
+       id="text32029"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan32027"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.264583"
+         x="107.74622"
+         y="-5.9659462">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="12.422576"
+       y="65.487045"
+       id="text34177"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan34175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.264583"
+         x="12.422576"
+         y="65.487045">C</tspan></text>
+    <rect
+       x="66.47554"
+       y="100.12619"
+       width="33.47554"
+       height="10.232118"
+       style="fill:#c7eae5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect162-5"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="66.47554"
+       y="88.757355"
+       width="46.434261"
+       height="10.232118"
+       style="fill:#5ab4ac;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect164-8"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="66.47554"
+       y="77.386932"
+       width="51.293591"
+       height="10.232118"
+       style="fill:#01665e;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect166-8"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="66.47554"
+       y="111.49662"
+       width="16.736998"
+       height="10.232118"
+       style="fill:#f6e8c3;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect168-8"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="66.47554"
+       y="122.86545"
+       width="7.5596418"
+       height="10.232118"
+       style="fill:#d8b365;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect170-7"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="66.47554"
+       y="134.23581"
+       width="29.155966"
+       height="10.232118"
+       style="fill:#8c510a;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect172-4-8"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="95.30,476.02 95.30,20.23 "
+       style="stroke:#bebebe;stroke-width:2.4407;stroke-linecap:butt"
+       id="polyline188-0"
+       transform="matrix(0.15465715,0,0,0.15465715,48.903394,72.553917)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="79.700928"
+       y="150.33035"
+       id="text9583-4-4-4"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan9581-7-0-5"
+         x="79.700928"
+         y="150.33035"
+         style="font-size:2.82222px;stroke-width:0.264583" /><tspan
+         sodipodi:role="line"
+         x="79.700928"
+         y="153.85812"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         id="tspan9585-9-3-0">Number of Responses</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+       x="65.641571"
+       y="148.97122"
+       id="text1621-7-4"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1619-9-6"
+         x="65.641571"
+         y="148.97122"
+         style="stroke-width:0.396705">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+       x="92.053398"
+       y="149.23849"
+       id="text1625-0-3"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1623-7-2"
+         x="92.053398"
+         y="149.23849"
+         style="stroke-width:0.396705">50</tspan></text>
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7903-0-2-0-7-4"
+       transform="matrix(0.38892382,0,0,0.38892382,24.171857,75.185737)"
+       inkscape:transform-center-x="-0.46772167"
+       inkscape:transform-center-y="0.16704345"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+       id="polyline7903-0-1-8-2-7"
+       transform="matrix(0.38892382,0,0,0.46074452,37.668869,62.179747)"
+       inkscape:transform-center-x="-0.86862597"
+       inkscape:transform-center-y="0.7349912"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="68.61,264.52 334.27,264.52 "
+       style="stroke:#bebebe;stroke-width:1.62345;stroke-linecap:butt"
+       id="polyline1823-5-9"
+       transform="matrix(0.23251262,0,0,0.23251262,47.556523,84.473407)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7903-0-8-1-5-6"
+       transform="matrix(0.38892385,0,0,0.38892385,64.729908,75.185707)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+       id="polyline7903-0-1-81-0-4"
+       transform="matrix(0.38892385,0,0,0.46074452,78.293838,62.112917)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+       id="polyline7903-0-1-8-2-7-9"
+       transform="matrix(-0.38892382,0,0,0.46074452,135.61628,62.112917)"
+       inkscape:transform-center-x="0.8686293"
+       inkscape:transform-center-y="0.7349912"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+       x="118.10172"
+       y="149.44473"
+       id="text1629-1-9"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1627-2-4"
+         x="118.10172"
+         y="149.44473"
+         style="stroke-width:0.396705">100</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="105.5374"
+       y="149.57462"
+       id="text5265"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5263"
+         x="105.5374"
+         y="149.57462"
+         style="stroke-width:0.264583">75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="78.342667"
+       y="149.50778"
+       id="text5197"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5195"
+         x="78.342667"
+         y="149.50778"
+         style="stroke-width:0.264583">25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="24.448326"
+       y="81.680084"
+       id="text4951"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4949"
+         x="24.448326"
+         y="81.680084"
+         style="font-size:2.46944px;stroke-width:0.264583">Anonymity cannot be guaranteed </tspan><tspan
+         sodipodi:role="line"
+         x="24.448326"
+         y="84.766884"
+         style="font-size:2.46944px;stroke-width:0.264583"
+         id="tspan5372">                     if the data is shared </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="15.470409"
+       y="93.383148"
+       id="text4955"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4953"
+         x="15.470409"
+         y="93.383148"
+         style="font-size:2.46944px;stroke-width:0.264583">The consent form states that data will not </tspan><tspan
+         sodipodi:role="line"
+         x="15.470409"
+         y="96.469948"
+         style="font-size:2.46944px;stroke-width:0.264583"
+         id="tspan5374">                                                 be shared </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="17.147715"
+       y="103.85306"
+       id="text4959"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4957"
+         x="17.147715"
+         y="103.85306"
+         style="font-size:2.46944px;stroke-width:0.264583">My Institutional Review Board does not  </tspan><tspan
+         sodipodi:role="line"
+         x="17.147715"
+         y="106.93986"
+         style="font-size:2.46944px;stroke-width:0.264583"
+         id="tspan5376">                    allow me to share my data </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="18.60783"
+       y="115.75931"
+       id="text4963"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4961"
+         x="18.60783"
+         y="115.75931"
+         style="font-size:2.46944px;stroke-width:0.264583">Stakeholder interest prohibit data from </tspan><tspan
+         sodipodi:role="line"
+         x="18.60783"
+         y="118.84611"
+         style="font-size:2.46944px;stroke-width:0.264583"
+         id="tspan5378">                                        being shared </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="14.364883"
+       y="127.35384"
+       id="text4967"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4965"
+         x="14.364883"
+         y="127.35384"
+         style="font-size:2.46944px;stroke-width:0.264583">My funder/advisor/boss does not allow me</tspan><tspan
+         sodipodi:role="line"
+         x="14.364883"
+         y="130.44064"
+         style="font-size:2.46944px;stroke-width:0.264583"
+         id="tspan5380">                                         to share my data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="53.892677"
+       y="140.15305"
+       id="text4971"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan4969"
+         x="53.892677"
+         y="140.15305"
+         style="font-size:2.46944px;stroke-width:0.264583">Other </tspan></text>
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-7"
+       transform="matrix(0.38892382,0,0,0.38892382,24.170286,17.810277)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-79"
+       transform="matrix(0.38892382,0,0,0.38892382,24.151384,29.172037)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-794"
+       transform="matrix(0.38892382,0,0,0.38892382,24.22402,40.451047)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-0"
+       transform="matrix(0.38892382,0,0,0.38892382,24.22402,51.922637)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-5"
+       transform="matrix(0.38892382,0,0,0.38892382,24.160861,63.448717)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-53"
+       transform="matrix(0.38892382,0,0,0.38892382,24.22402,74.573807)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.0227px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="79.584213"
+       y="68.897736"
+       id="text5067"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         x="80.00412"
+         y="68.897736"
+         style="font-size:3.0227px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan5370"><tspan
+   id="tspan23632"
+   style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.264583">Why are you not allowed to share your primary </tspan><tspan
+   style="font-size:3.52778px"
+   id="tspan19132">neuroimaging research data?</tspan> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="119.66465"
+       y="83.447052"
+       id="text5079"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5077"
+         x="119.66465"
+         y="83.447052"
+         style="stroke-width:0.264583">45,2 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="121.52752"
+       y="94.979279"
+       id="text5083"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5081"
+         x="121.52752"
+         y="94.979279"
+         style="stroke-width:0.264583">41 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="119.38931"
+       y="106.20395"
+       id="text5087"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5085"
+         x="119.38931"
+         y="106.20395"
+         style="stroke-width:0.264583">29,5 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="119.28254"
+       y="117.32181"
+       id="text5091"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5089"
+         x="119.28254"
+         y="117.32181"
+         style="stroke-width:0.264583">14,8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="120.60542"
+       y="128.84055"
+       id="text5095"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5093"
+         x="120.60542"
+         y="128.84055"
+         style="stroke-width:0.264583">6,7 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="119.5229"
+       y="140.21231"
+       id="text5099"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan5097"
+         x="119.5229"
+         y="140.21231"
+         style="stroke-width:0.264583">25,7 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-182.54785"
+       y="95.591957"
+       id="text5384-3"><tspan
+         sodipodi:role="line"
+         id="tspan5382-0"
+         x="-182.54785"
+         y="95.591957"
+         style="stroke-width:0.264583">  </tspan></text>
+    <g
+       id="g3297"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       transform="translate(-275.30731,-528.00005)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS_tiled_final.png">
+      <g
+         id="g2780-9"
+         transform="matrix(0.8568271,0,0,0.8568271,53.694149,246.39316)">
+        <polyline
+           points="104.09,113.64 334.27,113.64 "
+           style="fill:#000000;stroke:#ffffff;stroke-width:1.07;stroke-linecap:butt"
+           id="polyline605-4-0-5"
+           transform="matrix(0.35277778,0,0,0.35277778,243.64375,314.53275)" />
+        <g
+           id="g972-8-1-0"
+           transform="translate(-23.025538,109.55411)">
+          <g
+             id="g2175-9-3"
+             transform="translate(-6.3500003)" />
+          <rect
+             x="308.49619"
+             y="270.93533"
+             width="5.5950556"
+             height="5.5950556"
+             style="fill:#d8b365;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+             id="rect661-9-2-6" />
+          <g
+             id="g2162-6-2"
+             transform="translate(-1.5875,-0.52916667)">
+            <rect
+               x="343.98563"
+               y="271.46451"
+               width="5.5950556"
+               height="5.5950556"
+               style="fill:#ebd9b2;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+               id="rect667-2-1-0" />
+          </g>
+          <g
+             id="g2167-8-8"
+             transform="translate(-2.1166667)">
+            <rect
+               x="364.81012"
+               y="270.93533"
+               width="5.5950556"
+               height="5.5950556"
+               style="fill:#e5e5e5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+               id="rect673-3-5-5" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+             x="316.48657"
+             y="274.31845"
+             id="text2041-4-5"><tspan
+               sodipodi:role="line"
+               id="tspan2039-7-3"
+               x="316.48657"
+               y="274.31845"
+               style="font-size:2.82222px;stroke-width:0.264583">Extremely Unlikely </tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+             x="350.42883"
+             y="274.46967"
+             id="text2045-5-0"><tspan
+               sodipodi:role="line"
+               id="tspan2043-7-0"
+               x="350.42883"
+               y="274.46967"
+               style="font-size:2.82222px;stroke-width:0.264583">Unlikely </tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+             x="370.65051"
+             y="274.31848"
+             id="text2049-6-5"><tspan
+               sodipodi:role="line"
+               id="tspan2047-4-9"
+               x="370.65051"
+               y="274.31848"
+               style="font-size:2.82222px;stroke-width:0.264583">Neutral</tspan></text>
+          <rect
+             x="342.22797"
+             y="277.87061"
+             width="5.5950556"
+             height="5.5950556"
+             style="fill:#5ab4ac;fill-opacity:1;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+             id="rect679-8-1-6-1" />
+          <rect
+             x="324.2363"
+             y="277.87061"
+             width="5.5950556"
+             height="5.5950556"
+             style="fill:#acd9d5;stroke:none;stroke-width:0.377472;stroke-linecap:square;stroke-linejoin:miter"
+             id="rect679-8-9-1" />
+          <text
+             xml:space="preserve"
+             style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+             x="332.40079"
+             y="281.44272"
+             id="text2053-1-2"><tspan
+               sodipodi:role="line"
+               id="tspan2051-0-8"
+               x="332.40079"
+               y="281.44272"
+               style="font-size:2.82222px;stroke-width:0.264583">Likely </tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+             x="348.99393"
+             y="281.63174"
+             id="text2057-5-6"><tspan
+               sodipodi:role="line"
+               id="tspan2055-4-9"
+               x="348.99393"
+               y="281.63174"
+               style="font-size:2.82222px;stroke-width:0.264583">Extremely Likely </tspan></text>
+        </g>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.264999"
+           id="rect974-3-3-7"
+           width="82.020844"
+           height="31.750002"
+           x="280.45831"
+           y="338.66666" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 320.9018,370.60565 0.0638,-9.16609"
+           id="path2018-5-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 320.9018,338.85565 0.0638,9.35477"
+           id="path2020-1-6" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.29381px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="314.85422"
+           y="378.8833"
+           id="text2081-5-4"><tspan
+             sodipodi:role="line"
+             id="tspan2079-5-8"
+             x="314.85422"
+             y="378.8833"
+             style="font-size:3.29381px;stroke-width:0.264583">Percentage </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="283.25537"
+           y="375.14139"
+           id="text2087-1-2"><tspan
+             sodipodi:role="line"
+             id="tspan2085-7-9"
+             x="283.25537"
+             y="375.14139"
+             style="font-size:2.82222px;stroke-width:0.264583">100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="302.56995"
+           y="375.14136"
+           id="text2099-1-8"><tspan
+             sodipodi:role="line"
+             id="tspan2097-78-6"
+             x="302.56995"
+             y="375.14136"
+             style="font-size:2.82222px;stroke-width:0.264583">50</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="337.24927"
+           y="375.23584"
+           id="text2099-9-3-5"
+           inkscape:transform-center-x="-0.66145833"
+           inkscape:transform-center-y="1.7008929"><tspan
+             sodipodi:role="line"
+             id="tspan2097-7-2-4"
+             x="337.24927"
+             y="375.23584"
+             style="font-size:2.82222px;stroke-width:0.264583">50</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="354.0314"
+           y="375.14139"
+           id="text2087-6-1-5"><tspan
+             sodipodi:role="line"
+             id="tspan2085-9-2-0"
+             x="354.0314"
+             y="375.14139"
+             style="font-size:2.82222px;stroke-width:0.264583">100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="320.33481"
+           y="374.85788"
+           id="text2151-1-6"><tspan
+             sodipodi:role="line"
+             id="tspan2149-8-2"
+             x="320.33481"
+             y="374.85788"
+             style="font-size:2.82222px;stroke-width:0.264583">0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="281.78125"
+           y="355.39212"
+           id="text2179-0-1"><tspan
+             sodipodi:role="line"
+             id="tspan2177-8-7"
+             x="281.78125"
+             y="355.39212"
+             style="font-size:2.82222px;stroke-width:0.264583">25%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="355.86459"
+           y="355.4866"
+           id="text2187-0-5"><tspan
+             sodipodi:role="line"
+             id="tspan2185-9-5"
+             x="355.86459"
+             y="355.4866"
+             style="font-size:2.82222px;stroke-width:0.264583">54%</tspan></text>
+      </g>
+      <rect
+         x="324.97931"
+         y="544.74927"
+         width="3.1194217"
+         height="11.335104"
+         style="fill:#e5e5e5;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2573-3" />
+      <rect
+         x="319.60196"
+         y="544.74927"
+         width="5.3773756"
+         height="11.335104"
+         style="fill:#ebd9b2;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2575-1" />
+      <rect
+         x="317.2352"
+         y="544.74927"
+         width="2.3667705"
+         height="11.335104"
+         style="fill:#d8b365;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2577-7" />
+      <rect
+         x="328.09875"
+         y="544.74927"
+         width="3.1194217"
+         height="11.335104"
+         style="fill:#e5e5e5;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2579-9" />
+      <rect
+         x="331.21817"
+         y="544.74927"
+         width="9.7874889"
+         height="11.335104"
+         style="fill:#acd9d5;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2581-2" />
+      <rect
+         x="341.0087"
+         y="544.74927"
+         width="6.6680665"
+         height="11.335104"
+         style="fill:#5ab4ac;stroke:none;stroke-width:0.323428;stroke-linecap:square;stroke-linejoin:miter"
+         id="rect2583-1" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.41815px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.226702"
+         x="325.78925"
+         y="551.30927"
+         id="text2183-8-6"><tspan
+           sodipodi:role="line"
+           id="tspan2181-1-2"
+           x="325.78925"
+           y="551.30927"
+           style="font-size:2.41815px;stroke-width:0.226702">20%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.226702"
+         x="330.67206"
+         y="529.36591"
+         id="text3100"><tspan
+           sodipodi:role="line"
+           id="tspan3098"
+           x="330.67206"
+           y="529.36591"
+           style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.226702">How likely are you to share primary research data for </tspan><tspan
+           sodipodi:role="line"
+           x="331.16211"
+           y="533.77563"
+           style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.226702"
+           id="tspan3102">your next neuroimaging paper in an online repository? </tspan></text>
+    </g>
+  </g>
+</svg>

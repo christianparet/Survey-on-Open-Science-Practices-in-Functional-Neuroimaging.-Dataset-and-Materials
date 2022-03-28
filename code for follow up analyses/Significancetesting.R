@@ -311,8 +311,41 @@ BI02_NA07_chisq$observed
 BI02_NA07_chisq$expected
 BI02_NA07_chisq$p.value
 
+#Difference in intention to preregister in the future based on previous preregistration practices
+PR1<- OSQ_daten%>% select(starts_with ("PR01"))
 
+PR1 <- PR1 %>%                                                         #-> collapse 6 factors in to 2 (University hospital/medical faculty vs University psychology/other faculty)
+  mutate(type = as.factor(case_when(
+    PR01_01 %in% c("TRUE") ~ 0,    #1= prior preregistration                                                    # 1 = With university hospital/medical faculty
+    PR01_02 %in% c("TRUE") ~ 0,                                                     # 2 = With university/psychology faculty or similar 3 = With university/other faculty
+    PR01_03 %in% c("TRUE") ~ 0,
+    PR01_04 %in% c("TRUE") ~ 0,
+    PR01_05 %in% c("TRUE") ~ 0,
+    PR01_06 %in% c("TRUE") ~ 1)))  #2=no prior preregistration
 
+levels(PR1$type) <- list("prior prereg" = "0", "no prior prereg"= "1")
+PR1$PR03<- as.factor(OSQ_daten$PR03)
+
+levels(PR1$PR03)<-c("Extremely unlikely", "Unlikely", "Neither nor", "Likely", "Extremely Likely")
+
+table<-table(PR1$PR03, PR1$type)
+prop.table(table(PR1$PR03, PR1$type))
+chisq.test(PR1$PR03, PR1$type)
+plot(table, main = "Likelihood of future prereg")
+
+# Test differences in descriptive statistics based on EU residency 
+#age
+t.test(OSQ_daten$PD01_01 ~ Follow_up$EU)
+#training
+t.test(OSQ_daten$PD04 ~ Follow_up$EU)
+#research experience
+t.test(OSQ_daten$PD05 ~ Follow_up$EU)
+#field of study
+t.test(OSQ_daten$PD06 ~ Follow_up$EU)
+#current position
+t.test(OSQ_daten$PD07 ~ Follow_up$EU)
+#primary affiliation 
+t.test(OSQ_daten$PD08 ~ Follow_up$EU)
 #################################################################
 #SessionInfo()        
 #################################################################

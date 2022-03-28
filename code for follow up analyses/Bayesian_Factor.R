@@ -119,7 +119,7 @@ Control_recoded <- Control %>%
 Control_recoded$ControlTotal <- rowSums(subset(Control_recoded, select = c(1:4)))    # summing variables to get Total Score for this factor
 Control_recoded$ControlTotal <- (Control_recoded$ControlTotal/4)
 
-#Factor 5 Restrictive environment
+#Factor 5 Unsupportive supervisor
 Boss<-as.data.frame(cbind(OSQ_daten$DS13_08,
                           OSQ_daten$PR07_10))
 

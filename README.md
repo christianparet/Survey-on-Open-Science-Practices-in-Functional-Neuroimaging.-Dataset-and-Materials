@@ -25,7 +25,7 @@ The majority of participants (66%) had experience with the SHARING OF PRIMARY RE
 Based on demographic variables, we compared participants on seven subscales, which had been generated through [factor analysis](./plots/Factoranalysis_Table.pdf):
 - Experienced researchers at lower career level had higher “fear of being transparent”.
 - Researchers with residence in the EU had a higher “need for data governance”.
-- Researchers at medical faculties as compared to other university faculties reported a higher “need for data governance” and a more “unsupportive environment”.
+- Researchers at medical faculties as compared to other university faculties reported a higher “need for data governance” and a more “unsupportive supervisor” with regards to reproducibility practices.
 # How to reproduce the results
 1. Download repository by clicking "Download ZIP" under "Code". 
 2. Unzip folder on your computer. 

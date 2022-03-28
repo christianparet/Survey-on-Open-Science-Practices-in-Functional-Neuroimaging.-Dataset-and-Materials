@@ -166,8 +166,10 @@ ggsave("plot_BI02_pie.tiff",width = dev.size()[1],height = dev.size()[2]);dev.of
 
 hist(OSQ_daten$BI04_01)
 describe(OSQ_daten$BI04_01)#-> median= 97, n= 102, range= 2500
-
-
+table(OSQ_daten$BI04_01)
+sum(OSQ_daten$BI04_01>"0", na.rm = TRUE)#-> 99
+(99/102)*100
+(99/283)*100
 ##BI05 "What BIDS converter, if any, did you use to convert neuroimaging data to BIDS format?"
 #-> answered by subsample of n = 104, thereof 3 that did not choose any item
 
@@ -428,6 +430,14 @@ BI08plot
 
 # Save plot
 ggsave(file="BI08.svg", plot=BI08plot)
+
+# Calculate percentage of people that have some experience with BIDS compatible tools
+# BI08 <- subset(OSQ_daten, select = c(51:62, 64))
+# BI08$new<-ifelse(BI08$BI08==1 & BI08$BI08_12=="TRUE","no tools","some tools")
+# table(BI08$new)
+# (70/101)*100
+# (70/283)*100
+
 
 ###################################
 #BI09 "Why did you not use BIDS?" #

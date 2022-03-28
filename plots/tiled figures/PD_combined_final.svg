@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svglite"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 595.27559 841.88976"
+   version="1.1"
+   id="svg160"
+   sodipodi:docname="PD_combined_final.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:export-filename="C:\Users\nikeu\OneDrive\Dokumente\Neuropsychology Master\Praktikum\Arbeit\Projects\OSF\Follow up\Script\Plots\profileplot_ci_new_ink.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata164">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1776"
+     inkscape:window-height="1020"
+     id="namedview162"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.2446049"
+     inkscape:cx="108.06642"
+     inkscape:cy="376.02295"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="cm"
+     units="mm">
+    <sodipodi:guide
+       position="-146.93518,799.19673"
+       orientation="0,-1"
+       id="guide194" />
+    <sodipodi:guide
+       position="17.432987,42.818537"
+       orientation="0,-1"
+       id="guide198" />
+    <sodipodi:guide
+       position="550.52529,927.1104"
+       orientation="1,0"
+       id="guide200" />
+    <sodipodi:guide
+       position="40.905904,897.28318"
+       orientation="1,0"
+       id="guide30604" />
+    <sodipodi:guide
+       position="118.71237,351.37266"
+       orientation="1,0"
+       id="guide18262" />
+    <sodipodi:guide
+       position="285.63281,291.11257"
+       orientation="1,0"
+       id="guide18264" />
+    <sodipodi:guide
+       position="567.04743,562.88556"
+       orientation="0,-1"
+       id="guide44012" />
+    <sodipodi:guide
+       position="68.093898,535.76853"
+       orientation="0,-1"
+       id="guide44014" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <rect
+       x="541.53732"
+       y="204.8843"
+       width="60.260088"
+       height="92.398801"
+       id="rect24352" />
+    <rect
+       x="-80.346784"
+       y="114.09243"
+       width="1067.0053"
+       height="703.83782"
+       id="rect17606" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380" />
+    <rect
+       x="35.043861"
+       y="70.621391"
+       width="14.586785"
+       height="16.899324"
+       id="rect374" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368" />
+    <rect
+       x="40.202602"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362" />
+    <rect
+       x="40.380489"
+       y="199.23415"
+       width="14.586786"
+       height="13.875235"
+       id="rect356" />
+    <rect
+       x="30.063009"
+       y="240.32619"
+       width="12.274246"
+       height="14.586785"
+       id="rect350" />
+    <rect
+       x="35.755413"
+       y="282.48557"
+       width="9.2501564"
+       height="16.009886"
+       id="rect330" />
+    <rect
+       x="5.0314221"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442" />
+    <rect
+       x="8.8943815"
+       y="28.462021"
+       width="31.125097"
+       height="14.759436"
+       id="rect420" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="128.39249"
+       height="36.695011"
+       id="rect224" />
+    <rect
+       x="271.81229"
+       y="320.19772"
+       width="83.962959"
+       height="20.27919"
+       id="rect218" />
+    <rect
+       x="318.06308"
+       y="338.69803"
+       width="8.5386066"
+       height="8.5386066"
+       id="rect212" />
+    <rect
+       x="326.24591"
+       y="339.40961"
+       width="12.452134"
+       height="7.8270559"
+       id="rect206" />
+    <rect
+       x="336.20761"
+       y="347.23666"
+       width="11.384808"
+       height="9.6059322"
+       id="rect200" />
+    <rect
+       x="155.11801"
+       y="281.77399"
+       width="17.788763"
+       height="11.384808"
+       id="rect188" />
+    <rect
+       x="160.81042"
+       y="277.14893"
+       width="22.058065"
+       height="11.384808"
+       id="rect182" />
+    <rect
+       x="107.7999"
+       y="338.69803"
+       width="37.000626"
+       height="11.740583"
+       id="rect176" />
+    <rect
+       x="1.4231009"
+       y="138.39658"
+       width="135.54897"
+       height="31.6465"
+       id="rect435" />
+    <style
+       type="text/css"
+       id="style2"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="102.15984"
+       height="47.298218"
+       id="rect172" />
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="52.040455"
+       height="17.465631"
+       id="rect260" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660019"
+       height="57.307446"
+       id="rect184" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="59.169285"
+       height="23.525137"
+       id="rect291" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect294" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect196" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect297" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect202" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect300" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect208" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect335" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-6" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect353" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect237" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect282" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628757"
+       id="rect224-8-7-7" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect326" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-2" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-4" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-5" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-27" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-46" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-468" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-7" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1-8" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-7-3" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-1-8-2" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38887">
+      <g
+         inkscape:label="Clip"
+         id="use38889">
+        <rect
+           style="fill:#cc4567;fill-opacity:0.611765;stroke-width:0.643775"
+           id="rect39705"
+           width="497.55585"
+           height="275.87784"
+           x="41.312634"
+           y="441.18152" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38897">
+      <g
+         inkscape:label="Clip"
+         id="use38899">
+        <g
+           inkscape:label="Clip"
+           id="g39701"
+           transform="translate(-3.1819809,1.0606598)">
+          <rect
+             style="fill:#cc4567;fill-opacity:0.611765;stroke-width:0.643775"
+             id="rect39699"
+             width="497.55585"
+             height="275.87784"
+             x="41.312634"
+             y="441.18152" />
+        </g>
+      </g>
+    </clipPath>
+    <rect
+       x="74.534916"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-8" />
+    <rect
+       x="35.043863"
+       y="70.621388"
+       width="14.586785"
+       height="16.899325"
+       id="rect374-1" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368-1" />
+    <rect
+       x="40.202604"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362-9" />
+    <rect
+       x="40.380491"
+       y="199.23414"
+       width="14.586786"
+       height="13.875235"
+       id="rect356-9" />
+    <rect
+       x="30.063009"
+       y="240.32618"
+       width="12.274246"
+       height="14.586785"
+       id="rect350-5" />
+    <rect
+       x="35.755413"
+       y="282.48555"
+       width="9.2501566"
+       height="16.009886"
+       id="rect330-8" />
+    <rect
+       x="5.0314219"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318-1" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51493"
+       height="26.666536"
+       id="rect442-4" />
+    <rect
+       x="8.8943814"
+       y="28.462021"
+       width="31.125098"
+       height="14.759436"
+       id="rect420-1" />
+    <rect
+       x="273.59117"
+       y="318.06308"
+       width="128.39249"
+       height="36.695013"
+       id="rect224-2" />
+    <rect
+       x="271.8123"
+       y="320.19773"
+       width="83.962961"
+       height="20.27919"
+       id="rect218-9" />
+    <rect
+       x="318.06308"
+       y="338.69804"
+       width="8.5386062"
+       height="8.5386062"
+       id="rect212-1" />
+    <rect
+       x="326.24591"
+       y="339.4096"
+       width="12.452134"
+       height="7.8270557"
+       id="rect206-6" />
+    <rect
+       x="336.20762"
+       y="347.23665"
+       width="11.384808"
+       height="9.6059319"
+       id="rect200-8" />
+    <rect
+       x="155.11801"
+       y="281.774"
+       width="17.788763"
+       height="11.384808"
+       id="rect188-8" />
+    <rect
+       x="160.81042"
+       y="277.14893"
+       width="22.058066"
+       height="11.384808"
+       id="rect182-8" />
+    <rect
+       x="107.7999"
+       y="338.69804"
+       width="37.000627"
+       height="11.740583"
+       id="rect176-9" />
+    <rect
+       x="1.423101"
+       y="138.39657"
+       width="135.54896"
+       height="31.6465"
+       id="rect435-1" />
+    <style
+       type="text/css"
+       id="style2-5"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="102.15984"
+       height="47.298216"
+       id="rect172-4" />
+    <rect
+       x="50.614689"
+       y="204.95386"
+       width="52.040455"
+       height="17.465631"
+       id="rect260-8" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660022"
+       height="57.307447"
+       id="rect184-0" />
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="59.169285"
+       height="23.525137"
+       id="rect291-6" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-8" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect294-2" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect196-7" />
+    <rect
+       x="247.72684"
+       y="204.95386"
+       width="52.396896"
+       height="20.317163"
+       id="rect297-6" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect202-4" />
+    <rect
+       x="299.41083"
+       y="204.95386"
+       width="43.8423"
+       height="19.247839"
+       id="rect300-3" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect208-9" />
+    <rect
+       x="349.31265"
+       y="205.31029"
+       width="71.644737"
+       height="21.030046"
+       id="rect335-4" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect190-6-4" />
+    <rect
+       x="198.5379"
+       y="208.51826"
+       width="60.238609"
+       height="19.60428"
+       id="rect353-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-0" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect237-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect282-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628756"
+       id="rect224-8-7-7-8" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect326-4" />
+    <clipPath
+       id="cpMC4wMHw2NDAuNTB8MC4wMHwzNTEuNzU=-1">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="640.50"
+         height="351.75"
+         id="rect8-2" />
+    </clipPath>
+    <clipPath
+       id="cpMjguMjR8NTgwLjcwfDUuNDh8MzIwLjI1-7">
+      <rect
+         x="28.24"
+         y="5.48"
+         width="552.45"
+         height="314.77"
+         id="rect17-5" />
+    </clipPath>
+    <rect
+       x="155.40848"
+       y="205.31029"
+       width="99.660019"
+       height="57.307446"
+       id="rect184-5" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="128.39249"
+       height="36.695011"
+       id="rect224-9" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-6" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="119.54049"
+       height="29.173571"
+       id="rect224-8-7-4" />
+    <rect
+       x="273.59116"
+       y="318.06308"
+       width="149.53905"
+       height="48.628757"
+       id="rect224-8-7-7-1" />
+    <rect
+       x="8.8943815"
+       y="28.462021"
+       width="31.125097"
+       height="14.759436"
+       id="rect420-0" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-3" />
+    <rect
+       x="5.0314221"
+       y="275.21878"
+       width="29.685389"
+       height="23.144541"
+       id="rect318-5" />
+    <rect
+       x="35.755413"
+       y="282.48557"
+       width="9.2501564"
+       height="16.009886"
+       id="rect330-0" />
+    <rect
+       x="30.063009"
+       y="240.32619"
+       width="12.274246"
+       height="14.586785"
+       id="rect350-9" />
+    <rect
+       x="40.380489"
+       y="199.23415"
+       width="14.586786"
+       height="13.875235"
+       id="rect356-6" />
+    <rect
+       x="40.202602"
+       y="156.36322"
+       width="15.120448"
+       height="15.298336"
+       id="rect362-1" />
+    <rect
+       x="55.145164"
+       y="116.5164"
+       width="17.788763"
+       height="19.033976"
+       id="rect368-0" />
+    <rect
+       x="35.043861"
+       y="70.621391"
+       width="14.586785"
+       height="16.899324"
+       id="rect374-8" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-1" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-3" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-4" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-0" />
+    <rect
+       x="74.53492"
+       y="30.596672"
+       width="25.971594"
+       height="17.432987"
+       id="rect380-0-0-3-2" />
+    <rect
+       x="102.64101"
+       y="82.51532"
+       width="162.51492"
+       height="26.666536"
+       id="rect442-3-0" />
+    <rect
+       x="398.33659"
+       y="56.700163"
+       width="433.50504"
+       height="322.25789"
+       id="rect20710" />
+  </defs>
+  <defs
+     id="defs11">
+    <clipPath
+       id="cpMC4wMHw2NDAuNTB8MC4wMHwzNTEuNzU=">
+      <rect
+         x="0"
+         y="0"
+         width="640.5"
+         height="351.75"
+         id="rect8" />
+    </clipPath>
+  </defs>
+  <defs
+     id="defs20">
+    <clipPath
+       id="cpMjguMjR8NTgwLjcwfDUuNDh8MzIwLjI1">
+      <rect
+         x="28.24"
+         y="5.48"
+         width="552.45001"
+         height="314.76999"
+         id="rect17" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     id="layer1"
+     transform="matrix(2.8346457,0,0,2.8346457,-6.1635829,48.415885)">
+    <polyline
+       points="117.32,220.27 117.32,20.23 "
+       style="stroke:#bebebe;stroke-width:1.23523;stroke-linecap:butt"
+       id="polyline968"
+       transform="matrix(0.28496658,0,0,0.28496658,10.76485,11.356363)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="66.206741"
+       width="15.52213"
+       height="6.3348074"
+       style="fill:#8c510a;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect938"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="58.290321"
+       width="4.5851126"
+       height="6.3348074"
+       style="fill:#d8b365;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect940"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="50.373962"
+       width="7.4091315"
+       height="6.3348074"
+       style="fill:#f6e8c3;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect942"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="42.454758"
+       width="8.112998"
+       height="6.3348074"
+       style="fill:#f5f5f5;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect944"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="34.538399"
+       width="9.5235825"
+       height="6.3348074"
+       style="fill:#c7eae5;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect946"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="26.622038"
+       width="14.815413"
+       height="6.3348074"
+       style="fill:#5ab4ac;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect948"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="46.787483"
+       y="18.702772"
+       width="39.863976"
+       height="6.3348074"
+       style="fill:#01665e;stroke:none;stroke-width:0.351999;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect950"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="58.142925"
+       y="13.636071"
+       id="text1337"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1335"
+         x="58.142925"
+         y="13.636071"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.264583">I have been trained as...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="95.5149"
+       y="22.868641"
+       id="text1350"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1348"
+         x="95.5149"
+         y="22.868641"
+         style="stroke-width:0.246728">39.9 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="95.5149"
+       y="30.719494"
+       id="text1354"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1352"
+         x="95.5149"
+         y="30.719494"
+         style="stroke-width:0.246728">14.8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="96.885674"
+       y="38.445698"
+       id="text1358"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1356"
+         x="96.885674"
+         y="38.445698"
+         style="stroke-width:0.246728">9.5 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="96.885674"
+       y="46.421188"
+       id="text1362"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1360"
+         x="96.885674"
+         y="46.421188"
+         style="stroke-width:0.246728">8.1 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="97.134949"
+       y="54.396572"
+       id="text1366"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1364"
+         x="97.134949"
+         y="54.396572"
+         style="stroke-width:0.246728">7.4 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="96.885674"
+       y="59.381237"
+       id="text1370"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1368"
+         x="96.885674"
+         y="59.381237"
+         style="stroke-width:0.246728" /><tspan
+         sodipodi:role="line"
+         x="96.885674"
+         y="62.259724"
+         style="stroke-width:0.246728"
+         id="tspan1372">4.6 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.246728"
+       x="95.639503"
+       y="70.222862"
+       id="text1376"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1374"
+         x="95.639503"
+         y="70.222862"
+         style="stroke-width:0.246728">15.6 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.656361"
+       y="22.452015"
+       id="text1390"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1388"
+         x="41.656361"
+         y="22.452015"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Psychologist (other)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.843483"
+       y="30.412373"
+       id="text1394"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1392"
+         x="42.483273"
+         y="30.412373"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Medical doctor </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.620914"
+       y="38.211609"
+       id="text1398"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1396"
+         x="42.260704"
+         y="38.211609"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Biologist </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.742115"
+       y="46.290279"
+       id="text1402"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1400"
+         x="41.742115"
+         y="46.290279"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Physicist</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.918644"
+       y="54.311085"
+       id="text1406"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1404"
+         x="42.558434"
+         y="54.311085"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Engineer </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.930206"
+       y="60.995041"
+       id="text1410"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1408"
+         x="41.930206"
+         y="60.995041"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Clinical psychologist </tspan><tspan
+         sodipodi:role="line"
+         x="41.930206"
+         y="63.873528"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728"
+         id="tspan1412">(Psychotherapy training)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30279px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.246728"
+       x="41.882923"
+       y="69.864182"
+       id="text1416"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1414"
+         x="41.882923"
+         y="69.864182"
+         style="text-align:end;text-anchor:end;stroke-width:0.246728">Other</tspan></text>
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3537947,8.9861156)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-5"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3537854,1.055571)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-57"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3758207,-6.7427929)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-0"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3758207,-14.783484)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-3"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3758207,-22.62591)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-7"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3978467,-30.534414)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-2"
+       transform="matrix(0.3626774,0,0,0.3626774,7.3758207,-38.464971)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <g
+       id="g1825-4"
+       transform="matrix(0.93251526,0,0,0.93251526,-36.788735,-644.67489)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <text
+         xml:space="preserve"
+         style="font-size:2.64815px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="103.07301"
+         y="775.02625"
+         id="text9583-4-45-8"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan9581-7-05-3"
+           x="103.07301"
+           y="775.02625"
+           style="font-size:2.64815px;stroke-width:0.264583" /><tspan
+           sodipodi:role="line"
+           x="103.07301"
+           y="778.33643"
+           style="font-size:2.64815px;stroke-width:0.264583"
+           id="tspan9585-9-8-7">Number of Responses</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="89.013641"
+         y="774.38525"
+         id="text1621-2-0"><tspan
+           sodipodi:role="line"
+           id="tspan1619-0-7"
+           x="89.013641"
+           y="774.38525"
+           style="stroke-width:0.396705">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="107.63552"
+         y="774.49121"
+         id="text1625-2-5"><tspan
+           sodipodi:role="line"
+           id="tspan1623-6-1"
+           x="107.63552"
+           y="774.49121"
+           style="stroke-width:0.396705">50</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="126.09607"
+         y="774.57428"
+         id="text1629-8-8"><tspan
+           sodipodi:role="line"
+           id="tspan1627-7-1"
+           x="126.09607"
+           y="774.57428"
+           style="stroke-width:0.396705">100</tspan></text>
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+         id="polyline7903-0-2-0-73-2"
+         transform="matrix(0.38892382,0,0,0.38892382,47.543931,699.8816)"
+         inkscape:transform-center-x="-0.46772167"
+         inkscape:transform-center-y="0.16704345" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2"
+         transform="matrix(0.38892382,0,0,0.46074452,66.84589,686.8088)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+      <polyline
+         points="68.61,264.52 334.27,264.52 "
+         style="stroke:#bebebe;stroke-width:1.59658;stroke-linecap:butt"
+         id="polyline1823-2-9"
+         transform="matrix(0.23642527,0,0,0.23642527,70.66015,708.1343)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+         id="polyline7903-0-8-1-2-0"
+         transform="matrix(0.38892384,0,0,0.38892384,86.289748,699.88159)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-81-3-8"
+         transform="matrix(0.38892384,0,0,0.46074452,105.63779,686.80879)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.601898"
+         x="145.26804"
+         y="774.48737"
+         id="text2679-5-6"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan2677-6-3"
+           x="145.26804"
+           y="774.48737"
+           style="stroke-width:0.601898">150</tspan></text>
+    </g>
+    <polyline
+       points="129.02,185.77 129.02,20.23 "
+       style="stroke:#bebebe;stroke-width:0.990349;stroke-linecap:butt"
+       id="polyline3342"
+       transform="matrix(0.34771402,0,0,0.34771402,89.770383,9.0245276)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="64.335396"
+       width="3.2719889"
+       height="7.4271722"
+       style="fill:#8c510a;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3316"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="55.05143"
+       width="1.637733"
+       height="7.4271722"
+       style="fill:#d8b365;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3318"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="45.767456"
+       width="6.8708291"
+       height="7.4271722"
+       style="fill:#f6e8c3;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3320"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="36.483486"
+       width="9.4891157"
+       height="7.4271722"
+       style="fill:#c7eae5;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3322"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="27.19952"
+       width="31.089111"
+       height="7.4271722"
+       style="fill:#5ab4ac;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3324"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="137.24734"
+       y="17.915546"
+       width="40.251377"
+       height="7.4271722"
+       style="fill:#01665e;stroke:none;stroke-width:0.344358;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect3326"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.21829px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="119.8716"
+       y="12.908533"
+       id="text3562"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3560"
+         x="119.8716"
+         y="12.908533"
+         style="font-size:3.21829px;stroke-width:0.241372">What is your primary affilitation? With... </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="149.27054"
+       y="77.688065"
+       id="text9583-4-45-8-1-2"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"><tspan
+         sodipodi:role="line"
+         id="tspan9581-7-05-3-7-1"
+         x="149.27054"
+         y="77.688065"
+         style="font-size:2.46944px;stroke-width:0.241372" /><tspan
+         sodipodi:role="line"
+         x="149.27054"
+         y="80.774864"
+         style="font-size:2.46944px;stroke-width:0.241372"
+         id="tspan9585-9-8-7-1-51">Number of Responses</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.25281px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.361903"
+       x="136.44456"
+       y="77.103302"
+       id="text1621-2-0-2-7"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1619-0-7-5-1"
+         x="136.44456"
+         y="77.103302"
+         style="stroke-width:0.361903">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.25281px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.361903"
+       x="153.43279"
+       y="77.199966"
+       id="text1625-2-5-1-4"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1623-6-1-0-2"
+         x="153.43279"
+         y="77.199966"
+         style="stroke-width:0.361903">50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.25281px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.361903"
+       x="170.27382"
+       y="77.275688"
+       id="text1629-8-8-3-2"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan1627-7-1-4-3"
+         x="170.27382"
+         y="77.275688"
+         style="stroke-width:0.361903">100</tspan></text>
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7903-0-2-0-73-2-1-9"
+       transform="matrix(0.35480421,0,0,0.35480421,98.612819,9.1356426)"
+       inkscape:transform-center-x="-0.42669551"
+       inkscape:transform-center-y="0.15239133"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+       id="polyline7903-0-1-8-4-2-4-1"
+       transform="matrix(0.35480421,0,0,0.4203242,116.22143,-2.7902984)"
+       inkscape:transform-center-x="-0.79241975"
+       inkscape:transform-center-y="0.67051149"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="68.61,264.52 334.27,264.52 "
+       style="stroke:#bebebe;stroke-width:1.58144;stroke-linecap:butt"
+       id="polyline1823-2-9-0-4"
+       transform="matrix(0.21774914,0,0,0.21774914,119.5594,16.118078)"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7903-0-8-1-2-0-4-7"
+       transform="matrix(0.35480422,0,0,0.35480422,133.95952,9.1356426)"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png" />
+    <polyline
+       points="108.36,184.76 108.36,182.02 "
+       style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+       id="polyline7903-0-1-81-3-8-5-9"
+       transform="matrix(0.35480422,0,0,0.4203242,151.61019,-2.7902984)"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.25281px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.549095"
+       x="187.76387"
+       y="77.196404"
+       id="text2679-5-6-0-1"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"><tspan
+         sodipodi:role="line"
+         id="tspan2677-6-3-1-7"
+         x="187.76387"
+         y="77.196404"
+         style="stroke-width:0.549095">150</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="185.22932"
+       y="22.68103"
+       id="text3700"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3698"
+         x="185.22932"
+         y="22.68103"
+         style="stroke-width:0.241372">43.5 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="185.22932"
+       y="31.580475"
+       id="text3704"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3702"
+         x="185.22932"
+         y="31.580475"
+         style="stroke-width:0.241372">33.6 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="185.35121"
+       y="40.845844"
+       id="text3708"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3706"
+         x="185.35121"
+         y="40.845844"
+         style="stroke-width:0.241372">10.3 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="186.69226"
+       y="49.867111"
+       id="text3712"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3710"
+         x="186.69226"
+         y="49.867111"
+         style="stroke-width:0.241372">7.4 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="186.69226"
+       y="59.498306"
+       id="text3716"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3714"
+         x="186.69226"
+         y="59.498306"
+         style="stroke-width:0.241372">1.8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.241372"
+       x="186.44844"
+       y="68.885399"
+       id="text3720"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3718"
+         x="186.44844"
+         y="68.885399"
+         style="stroke-width:0.241372">3.5 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="130.59657"
+       y="20.603247"
+       id="text3724"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3722"
+         x="130.59657"
+         y="20.603247"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">University hospital/ </tspan><tspan
+         sodipodi:role="line"
+         x="131.22247"
+         y="23.419247"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372"
+         id="tspan1622">medical faculty </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="130.02161"
+       y="29.665142"
+       id="text3728"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3726"
+         x="130.02161"
+         y="29.665142"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">University psychology</tspan><tspan
+         sodipodi:role="line"
+         x="130.64751"
+         y="32.48114"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372"
+         id="tspan3896"> faculty or similar </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="131.14555"
+       y="40.691719"
+       id="text3732"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3730"
+         x="131.77145"
+         y="40.691719"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">University/ other faculty </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="131.28088"
+       y="50.129368"
+       id="text3736"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3734"
+         x="131.90678"
+         y="50.129368"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">Governmental institution </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="131.64551"
+       y="59.328255"
+       id="text3740"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3738"
+         x="132.27141"
+         y="59.328255"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">With industry </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.2528px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.241372"
+       x="131.95668"
+       y="68.722809"
+       id="text3744"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan3742"
+         x="132.58258"
+         y="68.722809"
+         style="text-align:end;text-anchor:end;stroke-width:0.241372">Other </tspan></text>
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1"
+       transform="matrix(0.35480421,0,0,0.35480421,98.587269,-37.42132)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1-6"
+       transform="matrix(0.35480421,0,0,0.35480421,98.612849,-28.084766)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1-9"
+       transform="matrix(0.35480421,0,0,0.35480421,98.612849,-18.819552)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1-1"
+       transform="matrix(0.35480421,0,0,0.35480421,98.612849,-9.5542425)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1-67"
+       transform="matrix(0.35480421,0,0,0.35480421,98.612849,-0.31950178)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-12-7-1-8"
+       transform="matrix(0.35480421,0,0,0.35480421,98.594059,9.1028006)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="103.75,252.01 103.75,27.49 "
+       style="stroke:#bebebe;stroke-width:1.34205;stroke-linecap:butt"
+       id="polyline1974"
+       transform="matrix(0.26150975,0,0,0.26150975,17.340538,93.224539)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="109.004"
+       width="9.4195814"
+       height="5.7270637"
+       style="fill:#35978f;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1940"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="137.64732"
+       width="3.1407323"
+       height="5.7270637"
+       style="fill:#dfc27d;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1942"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="123.32436"
+       width="4.5894961"
+       height="5.7270637"
+       style="fill:#c7eae5;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1944"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="151.96764"
+       width="0.24058896"
+       height="5.7270637"
+       style="fill:#8c510a;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1946"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="144.80748"
+       width="1.9325571"
+       height="5.7270637"
+       style="fill:#bf812d;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1948"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="116.16421"
+       width="4.5894961"
+       height="5.7270637"
+       style="fill:#80cdc1;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1950"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="130.48459"
+       width="3.381321"
+       height="5.7270637"
+       style="fill:#f6e8c3;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1952"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="47.139576"
+       y="101.84386"
+       width="41.059647"
+       height="5.7270637"
+       style="fill:#01665e;stroke:none;stroke-width:0.35096;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect1954"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.27998px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="72.086792"
+       y="95.860199"
+       id="text2216"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2214"
+         x="72.086792"
+         y="95.860199"
+         style="font-size:3.27998px;text-align:center;text-anchor:middle;stroke-width:0.245998">What is your field of study?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="95.77346"
+       y="105.58713"
+       id="text2230"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2228"
+         x="95.77346"
+         y="105.58713"
+         style="stroke-width:0.245998">60.1 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="95.903961"
+       y="112.5667"
+       id="text2234"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2232"
+         x="95.903961"
+         y="112.5667"
+         style="stroke-width:0.245998">13.8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="97.186852"
+       y="119.84508"
+       id="text2238"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2236"
+         x="97.186852"
+         y="119.84508"
+         style="stroke-width:0.245998">6.7 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="97.164093"
+       y="127.16981"
+       id="text2242"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2240"
+         x="97.164093"
+         y="127.16981"
+         style="stroke-width:0.245998">6.7 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="96.995895"
+       y="134.08907"
+       id="text2246"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2244"
+         x="96.995895"
+         y="134.08907"
+         style="stroke-width:0.245998">5.0 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="97.233215"
+       y="141.19669"
+       id="text2250"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2248"
+         x="97.233215"
+         y="141.19669"
+         style="stroke-width:0.245998">4.6 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="97.32988"
+       y="148.29166"
+       id="text2254"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2252"
+         x="97.32988"
+         y="148.29166"
+         style="stroke-width:0.245998">2.8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="97.244621"
+       y="155.9628"
+       id="text2258"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2256"
+         x="97.244621"
+         y="155.9628"
+         style="stroke-width:0.245998">0.4 %</tspan></text>
+    <g
+       id="g1825-4-9"
+       transform="matrix(0.92975569,0,0,0.92975569,-36.430056,-557.64168)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <text
+         xml:space="preserve"
+         style="font-size:2.65601px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="103.07301"
+         y="775.02625"
+         id="text9583-4-45-8-1"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan9581-7-05-3-7"
+           x="103.07301"
+           y="775.02625"
+           style="font-size:2.65601px;stroke-width:0.264583" /><tspan
+           sodipodi:role="line"
+           x="103.07301"
+           y="778.34625"
+           style="font-size:2.65601px;stroke-width:0.264583"
+           id="tspan9585-9-8-7-1">Number of Responses</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="89.013641"
+         y="774.38525"
+         id="text1621-2-0-2"><tspan
+           sodipodi:role="line"
+           id="tspan1619-0-7-5"
+           x="89.013641"
+           y="774.38525"
+           style="stroke-width:0.396705">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="107.63552"
+         y="774.49121"
+         id="text1625-2-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan1623-6-1-0"
+           x="107.63552"
+           y="774.49121"
+           style="stroke-width:0.396705">50</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="126.09607"
+         y="774.57428"
+         id="text1629-8-8-3"><tspan
+           sodipodi:role="line"
+           id="tspan1627-7-1-4"
+           x="126.09607"
+           y="774.57428"
+           style="stroke-width:0.396705">100</tspan></text>
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+         id="polyline7903-0-2-0-73-2-1"
+         transform="matrix(0.38892382,0,0,0.38892382,47.543931,699.8816)"
+         inkscape:transform-center-x="-0.46772167"
+         inkscape:transform-center-y="0.16704345" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2-4"
+         transform="matrix(0.38892382,0,0,0.46074452,66.84589,686.8088)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+      <polyline
+         points="68.61,264.52 334.27,264.52 "
+         style="stroke:#bebebe;stroke-width:1.59658;stroke-linecap:butt"
+         id="polyline1823-2-9-0"
+         transform="matrix(0.23642527,0,0,0.23642527,70.66015,708.1343)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+         id="polyline7903-0-8-1-2-0-4"
+         transform="matrix(0.38892384,0,0,0.38892384,86.289748,699.88159)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-81-3-8-5"
+         transform="matrix(0.38892384,0,0,0.46074452,105.63779,686.80879)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.601898"
+         x="145.26804"
+         y="774.48737"
+         id="text2679-5-6-0"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan2677-6-3-1"
+           x="145.26804"
+           y="774.48737"
+           style="stroke-width:0.601898">150</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="18.470018"
+       y="105.33034"
+       id="text2379"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2377"
+         x="18.470018"
+         y="105.33034"
+         style="stroke-width:0.245998">Cognitive neuroscience</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="31.831659"
+       y="112.47468"
+       id="text2383"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2381"
+         x="31.831659"
+         y="112.47468"
+         style="stroke-width:0.245998">Psychiatry</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="15.80368"
+       y="119.61899"
+       id="text2387"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2385"
+         x="15.80368"
+         y="119.61899"
+         style="stroke-width:0.245998">Medicine (other discipline)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="31.893782"
+       y="126.76334"
+       id="text2391"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2389"
+         x="31.893782"
+         y="126.76334"
+         style="stroke-width:0.245998">Neurology</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="30.651304"
+       y="133.84546"
+       id="text2395"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2393"
+         x="30.651304"
+         y="133.84546"
+         style="stroke-width:0.245998">Psychology </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="23.010061"
+       y="140.92752"
+       id="text2399"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2397"
+         x="23.010061"
+         y="140.92752"
+         style="stroke-width:0.245998">Clinical psychology</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="34.565117"
+       y="148.19606"
+       id="text2403"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2401"
+         x="34.565117"
+         y="148.19606"
+         style="stroke-width:0.245998">Physics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.29598px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.245998"
+       x="34.81361"
+       y="155.46448"
+       id="text2407"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2405"
+         x="34.81361"
+         y="155.46448"
+         style="stroke-width:0.245998">Biology </tspan></text>
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33"
+       transform="matrix(0.36160413,0,0,0.36160413,7.7591412,94.686573)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-1"
+       transform="matrix(0.36160413,0,0,0.36160413,7.8212674,87.355998)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-10"
+       transform="matrix(0.36160413,0,0,0.36160413,7.7591412,80.273894)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-13"
+       transform="matrix(0.36160413,0,0,0.36160413,7.7591412,73.129652)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-8"
+       transform="matrix(0.36160413,0,0,0.36160413,7.7591412,65.985399)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-53"
+       transform="matrix(0.36160413,0,0,0.36160413,7.7591412,58.841166)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-36"
+       transform="matrix(0.36160413,0,0,0.36160413,7.8212674,51.696924)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-6"
+       transform="matrix(0.36160413,0,0,0.36160413,7.8212674,44.490563)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="152.2885"
+       width="9.5742311"
+       height="5.1193442"
+       style="fill:#8c510a;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2521"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="145.89061"
+       width="0.95641631"
+       height="5.1193442"
+       style="fill:#bf812d;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2523"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="139.49272"
+       width="2.8717659"
+       height="5.1193442"
+       style="fill:#dfc27d;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2525"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="133.09221"
+       width="0.47820815"
+       height="5.1193442"
+       style="fill:#f6e8c3;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2527"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="126.6943"
+       width="11.487063"
+       height="5.1193442"
+       style="fill:#f5f5f5;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2529"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="120.29636"
+       width="2.3935578"
+       height="5.1193442"
+       style="fill:#c7eae5;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2531"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="113.89828"
+       width="41.166172"
+       height="5.1193442"
+       style="fill:#80cdc1;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2533"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="107.49782"
+       width="32.550877"
+       height="5.1193442"
+       style="fill:#35978f;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2535"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       x="136.59564"
+       y="101.09994"
+       width="33.9855"
+       height="5.1193442"
+       style="fill:#01665e;stroke:none;stroke-width:0.352862;stroke-linecap:square;stroke-linejoin:miter"
+       id="rect2537"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="94.38,275.07 94.38,41.18 "
+       style="stroke:#bebebe;stroke-width:1.40198;stroke-linecap:butt"
+       id="polyline2559"
+       transform="matrix(0.25168852,0,0,0.25168852,110.16579,89.456692)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.29778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="140.00836"
+       y="96.952789"
+       id="text2793"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2791"
+         x="140.00836"
+         y="96.952789"
+         style="font-size:3.29778px;stroke-width:0.247333">What is your current position?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="185.93443"
+       y="104.07333"
+       id="text2866"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2864"
+         x="185.93443"
+         y="104.07333"
+         style="stroke-width:0.247333">25.1 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="185.69104"
+       y="111.10263"
+       id="text2870"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2868"
+         x="185.69104"
+         y="111.10263"
+         style="font-size:2.30844px;stroke-width:0.247333">24.0 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="185.93445"
+       y="117.31512"
+       id="text2874"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2872"
+         x="185.93445"
+         y="117.31512"
+         style="stroke-width:0.247333">30.4 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="187.18365"
+       y="123.31155"
+       id="text2878"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2876"
+         x="187.18365"
+         y="123.31155"
+         style="stroke-width:0.247333">1.8 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="187.18365"
+       y="129.68251"
+       id="text2882"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2880"
+         x="187.18365"
+         y="129.68251"
+         style="stroke-width:0.247333">8.5 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="186.93381"
+       y="135.80373"
+       id="text2886"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2884"
+         x="186.93381"
+         y="135.80373"
+         style="stroke-width:0.247333">0,4 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="187.18364"
+       y="142.4247"
+       id="text2890"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2888"
+         x="187.18364"
+         y="142.4247"
+         style="stroke-width:0.247333">2.1 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="187.05872"
+       y="148.92062"
+       id="text2894"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2892"
+         x="187.05872"
+         y="148.92062"
+         style="stroke-width:0.247333">0.7 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.247333"
+       x="187.18364"
+       y="155.41652"
+       id="text2898"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2896"
+         x="187.18364"
+         y="155.41652"
+         style="stroke-width:0.247333">7.1 %</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.08403"
+       y="104.02911"
+       id="text2916"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2914"
+         x="131.08403"
+         y="104.02911"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Full professor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="130.97316"
+       y="109.49268"
+       id="text2920"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2918"
+         x="130.97316"
+         y="109.49268"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Associate Professor/ </tspan><tspan
+         sodipodi:role="line"
+         x="131.61452"
+         y="112.37823"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333"
+         id="tspan2922">Reader/ Lecturer </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.29662"
+       y="116.11634"
+       id="text2926"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         x="131.29662"
+         y="116.11634"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333"
+         id="tspan2930">Assistant professor/Post-Doc</tspan><tspan
+         sodipodi:role="line"
+         x="131.29662"
+         y="119.00189"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333"
+         id="tspan3285"> (4 years or longer)  </tspan><tspan
+         sodipodi:role="line"
+         x="131.29662"
+         y="121.88744"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333"
+         id="tspan2928" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.18001"
+       y="123.47306"
+       id="text2934"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2932"
+         x="131.82137"
+         y="123.47306"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Lab manager </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.10057"
+       y="129.94"
+       id="text2938"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2936"
+         x="131.10057"
+         y="129.94"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Post-Doc (1-3 years)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.18146"
+       y="136.35843"
+       id="text2942"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2940"
+         x="131.82281"
+         y="136.35843"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Technical assistant </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.10683"
+       y="142.88777"
+       id="text2946"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2944"
+         x="131.74818"
+         y="142.88777"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">PhD student </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.10431"
+       y="149.10034"
+       id="text2950"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2948"
+         x="131.74567"
+         y="149.10034"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Research assistant </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.30844px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;stroke-width:0.247333"
+       x="131.17052"
+       y="155.44243"
+       id="text2954"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan2952"
+         x="131.81187"
+         y="155.44243"
+         style="text-align:end;text-anchor:end;stroke-width:0.247333">Other </tspan></text>
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-0"
+       transform="matrix(0.36356646,0,0,0.36356646,96.988112,94.27026)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-8"
+       transform="matrix(0.36356646,0,0,0.36356646,97.041106,87.989801)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-9"
+       transform="matrix(0.36356646,0,0,0.36356646,97.049939,81.550356)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-3"
+       transform="matrix(0.36356646,0,0,0.36356646,97.005779,75.212441)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-6"
+       transform="matrix(0.36356646,0,0,0.36356646,97.027859,68.786206)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-2"
+       transform="matrix(0.36356646,0,0,0.36356646,97.005779,62.33789)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-7"
+       transform="matrix(0.36356646,0,0,0.36356646,97.005779,55.977905)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-67"
+       transform="matrix(0.36356646,0,0,0.36356646,97.022811,49.492936)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <polyline
+       points="98.27,166.36 101.01,166.36 "
+       style="stroke:#333333;stroke-width:0.970556;stroke-linecap:butt"
+       id="polyline7889-3-4-3-0-6-33-89"
+       transform="matrix(0.36356646,0,0,0.36356646,96.991579,43.215615)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <g
+       id="g3281"
+       transform="matrix(0.93480122,0,0,0.93480122,52.804204,-834.73275)"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <text
+         xml:space="preserve"
+         style="font-size:2.56999px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="102.77611"
+         y="1067.228"
+         id="text9583-4-45-8-1-3"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan9581-7-05-3-7-5"
+           x="102.77611"
+           y="1067.228"
+           style="font-size:2.56999px;stroke-width:0.264583" /><tspan
+           sodipodi:role="line"
+           x="102.77611"
+           y="1070.4406"
+           style="font-size:2.56999px;stroke-width:0.264583"
+           id="tspan9585-9-8-7-1-5">Number of Responses</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="88.811234"
+         y="1066.6343"
+         id="text1621-2-0-2-3"><tspan
+           sodipodi:role="line"
+           id="tspan1619-0-7-5-6"
+           x="88.811234"
+           y="1066.6343"
+           style="stroke-width:0.396705">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="103.41712"
+         y="1066.6458"
+         id="text1625-2-5-1-8"><tspan
+           sodipodi:role="line"
+           id="tspan1623-6-1-0-3"
+           x="103.41712"
+           y="1066.6458"
+           style="stroke-width:0.396705">30</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.396705"
+         x="118.94834"
+         y="1066.776"
+         id="text1629-8-8-3-0"><tspan
+           sodipodi:role="line"
+           id="tspan1627-7-1-4-0"
+           x="118.94834"
+           y="1066.776"
+           style="stroke-width:0.396705">60</tspan></text>
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2-4-0"
+         transform="matrix(0.38892382,0,0,0.46074452,62.807212,979.2778)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+      <polyline
+         points="68.61,264.52 334.27,264.52 "
+         style="stroke:#bebebe;stroke-width:1.59658;stroke-linecap:butt"
+         id="polyline1823-2-9-0-1"
+         transform="matrix(0.23642527,0,0,0.23642527,70.363245,1000.336)"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.46945px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.601898"
+         x="134.161"
+         y="1066.8308"
+         id="text2679-5-6-0-3"
+         inkscape:export-xdpi="400"
+         inkscape:export-ydpi="400"><tspan
+           sodipodi:role="line"
+           id="tspan2677-6-3-1-6"
+           x="134.161"
+           y="1066.8308"
+           style="stroke-width:0.601898">90</tspan></text>
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2-4-0-7"
+         transform="matrix(0.38892382,0,0,0.46074452,47.389326,979.27081)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2-4-0-4"
+         transform="matrix(0.38892382,0,0,0.46074452,78.147139,979.27081)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+      <polyline
+         points="108.36,184.76 108.36,182.02 "
+         style="stroke:#333333;stroke-width:0.891708;stroke-linecap:butt"
+         id="polyline7903-0-1-8-4-2-4-0-6"
+         transform="matrix(0.38892382,0,0,0.46074452,93.407927,979.27081)"
+         inkscape:transform-center-x="-0.86862597"
+         inkscape:transform-center-y="0.7349912" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text20708"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20710);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="16.918194"
+       y="2.9643698"
+       id="text27015"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan27013"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="16.918194"
+         y="2.9643698">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="108.21862"
+       y="2.9925859"
+       id="text32029"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan32027"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="108.21862"
+         y="2.9925859">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="16.195248"
+       y="87.55542"
+       id="text34177"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan34175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="16.195248"
+         y="87.55542">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.77155"
+       y="88.169067"
+       id="text34177-7"
+       inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\PD_combined_final.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan34175-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="107.77155"
+         y="88.169067">D</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,2.1743751,-17.080048)"
+       id="text17604"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect17606)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,2.1743751,-17.080048)"
+       id="text24350"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect24352)" />
+  </g>
+</svg>
