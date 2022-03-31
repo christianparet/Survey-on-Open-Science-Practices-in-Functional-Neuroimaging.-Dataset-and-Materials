@@ -1,34 +1,25 @@
 {
+    "description": "<p>A few additional analyses were made in response to peer review, and two of the factors received through factor analysis were renamed.</p>", 
+    "license": "other-open", 
+    "title": "Survey on Open Science Practices in Functional Neuroimaging. Dataset and Materials", 
+    "upload_type": "software", 
+    "publication_date": "2022-03-31", 
     "creators": [
         {
             "orcid": "0000-0002-9225-7182",
             "affiliation": "Central Institute of Mental Health",
             "name": "Paret, Christian"
-        },
+        }, 
         {
             "affiliation": "Central Institute of Mental Health",
             "name": "Unverhau, Nike"
-        },
+        }, 
         {
-			"orcid": "0000-0002-5022-3590",
+            "orcid": "0000-0002-5022-3590",
             "affiliation": "Central Institute of Mental Health",
             "name": "Sicorello, Maurizio"
         }
-    ],
-
-    "license": "GNU General Public License",
-
-    "title": "Survey on Open Science Practices in Functional Neuroimaging. Data and Materials",
-
-    "related_identifiers": [
-        {
-            "scheme": "doi",
-            "identifier": "10.1101/2021.11.26.470115",
-            "relation": "isDocumentedBy",
-            "resource_type": "publication-article"
-        }
-    ],
-
-    "keywords": ["replication", "survey-data", "neuroimaging", "fmri", "reproducibility", "validity", "datasharing", "robustness", "preregistration"],
-
+    ], 
+    "access_right": "open", 
+    
 }
