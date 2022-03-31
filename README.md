@@ -36,7 +36,7 @@ Based on demographic variables, we compared participants on seven subscales, whi
 3. Open R / RStudio. Load the file "OSQ_data.RData" and add it to the global environment.
 4. Open the R Script that you want to use to produce plots or analyze the data.
 ## Software information
-The analysis was programmed with R version 4.0.5. 
+The analysis was programmed with R version 4.0.5. The code has been produced and tested in Windows 10 OS.
 ## Further information
 - Code for producing plots is named the following way: "OSQ_XX", where "XX" is the abbreviation of the respective question category*
 - We feel commited to publish as much data as necessary to reproduce our findings, and for future research to re-use it. To minimize the risk for re-identification of study participants, we removed gender information from the data.
@@ -48,6 +48,8 @@ Issues related to the code can be submitted via Github's Issues function. Please
 To reference this dataset something like this should be ok:
 
 Paret, C. Survey on Open Science-Practices in Functional Neuroimaging. Dataset and Materials. https://github.com/christianparet/Survey-on-Open-Science-Practices-in-Functional-Neuroimaging.-Dataset-and-Materials (2021) doi:10.5281/zenodo.5729056.
+
+Make sure that you are working with the latest release of this repository.
 
 Consider referencing the original article presenting this research that is downloadable via the QR code below:
 
