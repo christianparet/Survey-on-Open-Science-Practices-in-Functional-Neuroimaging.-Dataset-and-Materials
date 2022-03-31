@@ -322,8 +322,9 @@ confint(model1)
 # -->University is significant
 
 #plot of effects
+svg("log_reg.svg")
 plot(allEffects(model1))
-ggsave("log_reg.svg")
+dev.off()
 
 #Omnibus test
 modelchi<-model1$null.deviance - model1$deviance

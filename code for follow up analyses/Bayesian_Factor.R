@@ -5,9 +5,9 @@
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse,
                naniar,
-               BayesFactor) 
-install.packages('Rcpp')
-library(Rcpp)
+               BayesFactor,
+               Rcpp) 
+
 
 #################################################################
 #Specifying demograhpic variables for comparison              
@@ -347,7 +347,7 @@ BF_DS10_EU
 
 # R version 4.0.5 (2021-03-31)
 # Platform: x86_64-w64-mingw32/x64 (64-bit)
-# Running under: Windows 10 x64 (build 19042)
+# Running under: Windows Server x64 (build 17763)
 # 
 # Matrix products: default
 # 
@@ -360,28 +360,23 @@ BF_DS10_EU
 #   [1] stats     graphics  grDevices utils     datasets  methods   base     
 # 
 # other attached packages:
-#   [1] BayesFactor_0.9.12-4.2 Matrix_1.3-2           coda_0.19-4           
-# [4] naniar_0.6.0           forcats_0.5.1          stringr_1.4.0         
-# [7] dplyr_1.0.5            purrr_0.3.4            readr_1.4.0           
-# [10] tidyr_1.1.3            tibble_3.1.1           ggplot2_3.3.3         
-# [13] tidyverse_1.3.1        pacman_0.5.1          
+#   [1] Rcpp_1.0.7             BayesFactor_0.9.12-4.3 Matrix_1.3-2          
+# [4] coda_0.19-4            naniar_0.6.0           forcats_0.5.1         
+# [7] stringr_1.4.0          dplyr_1.0.5            purrr_0.3.4           
+# [10] readr_1.4.0            tidyr_1.1.3            tibble_3.1.1          
+# [13] ggplot2_3.3.3          tidyverse_1.3.1        pacman_0.5.1          
 # 
 # loaded via a namespace (and not attached):
-#   [1] gtools_3.8.2       tinytex_0.28       tidyselect_1.1.0  
-# [4] xfun_0.19          pbapply_1.4-3      haven_2.3.1       
-# [7] lattice_0.20-41    colorspace_2.0-0   vctrs_0.3.7       
-# [10] generics_0.1.0     utf8_1.1.4         rlang_0.4.10      
-# [13] pillar_1.6.0       glue_1.4.2         withr_2.4.2       
-# [16] DBI_1.1.1          dbplyr_2.1.1       modelr_0.1.8      
-# [19] readxl_1.3.1       lifecycle_1.0.0    MatrixModels_0.4-1
-# [22] munsell_0.5.0      gtable_0.3.0       cellranger_1.1.0  
-# [25] rvest_1.0.0        mvtnorm_1.1-1      parallel_4.0.5    
-# [28] fansi_0.4.1        broom_0.7.9        Rcpp_1.0.5        
-# [31] scales_1.1.1       backports_1.2.1    jsonlite_1.7.2    
-# [34] fs_1.5.0           hms_1.0.0          stringi_1.5.3     
-# [37] visdat_0.5.3       grid_4.0.5         cli_2.4.0         
-# [40] tools_4.0.5        magrittr_2.0.1     crayon_1.4.1      
-# [43] pkgconfig_2.0.3    ellipsis_0.3.1     xml2_1.3.2        
-# [46] reprex_2.0.0       lubridate_1.7.10   assertthat_0.2.1  
-# [49] httr_1.4.2         rstudioapi_0.13    R6_2.5.0          
-# [52] compiler_4.0.5    
+#   [1] gtools_3.9.2       tidyselect_1.1.1   pbapply_1.5-0      haven_2.4.3       
+# [5] lattice_0.20-41    colorspace_2.0-1   vctrs_0.3.8        generics_0.1.0    
+# [9] utf8_1.2.1         rlang_0.4.11       pillar_1.6.0       glue_1.6.1        
+# [13] withr_2.4.2        DBI_1.1.1          dbplyr_2.1.1       modelr_0.1.8      
+# [17] readxl_1.3.1       lifecycle_1.0.1    MatrixModels_0.5-0 munsell_0.5.0     
+# [21] gtable_0.3.0       cellranger_1.1.0   rvest_1.0.0        mvtnorm_1.1-1     
+# [25] parallel_4.0.5     fansi_0.4.2        broom_0.7.6        scales_1.1.1      
+# [29] backports_1.4.1    jsonlite_1.7.2     fs_1.5.0           hms_1.0.0         
+# [33] stringi_1.5.3      visdat_0.5.3       grid_4.0.5         cli_3.1.1         
+# [37] tools_4.0.5        magrittr_2.0.1     crayon_1.4.1       pkgconfig_2.0.3   
+# [41] ellipsis_0.3.2     xml2_1.3.2         reprex_2.0.0       lubridate_1.7.10  
+# [45] assertthat_0.2.1   httr_1.4.2         rstudioapi_0.13    R6_2.5.0          
+# [49] compiler_4.0.
