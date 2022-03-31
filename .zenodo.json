@@ -26,10 +26,6 @@
             "identifier": "https://github.com/christianparet/Survey-on-Open-Science-Practices-in-Functional-Neuroimaging.-Dataset-and-Materials", 
             "relation": "isSupplementTo"
         }, 
-        {
-            "scheme": "doi", 
-            "identifier": "10.5281/zenodo.6400601", 
-            "relation": "isVersionOf"
-        }
+        
     ]
 }
