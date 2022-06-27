@@ -8,7 +8,7 @@
    id="svg160"
    sodipodi:docname="DS2_combined2_final.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   inkscape:export-filename="C:\Users\nikeu\OneDrive\Dokumente\Neuropsychology Master\Praktikum\Arbeit\Projects\OSF\Follow up\Script\Plots\profileplot_ci_new_ink.png"
+   inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\Open data\clone to github\OSQ\plots\tiled figures\profileplot_ci_new_ink.png"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -44,13 +44,13 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.62230245"
-     inkscape:cx="306.12124"
-     inkscape:cy="999.51398"
+     inkscape:zoom="1.2446049"
+     inkscape:cx="432.66743"
+     inkscape:cy="354.32931"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g11906"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      inkscape:snap-global="false"
      inkscape:pagecheckerboard="0"
@@ -76,10 +76,6 @@
        position="-167.03244,800.13165"
        orientation="1,0"
        id="guide30604" />
-    <sodipodi:guide
-       position="224.13027,447.31823"
-       orientation="1,0"
-       id="guide9891" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -861,16 +857,8 @@
      transform="matrix(2.4316887,0,0,2.4316887,38.829476,59.371099)">
     <g
        id="g11906"
-       transform="matrix(1.023981,0,0,1.023981,-13.867058,-127.84597)"
+       transform="matrix(1.023981,0,0,1.023981,-15.619351,-127.84597)"
        style="display:inline">
-      <polyline
-         points="171.22,416.03 171.22,37.43 "
-         style="stroke:#ffffff;stroke-width:0.915788;stroke-linecap:butt"
-         id="polyline9815"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
       <polyline
          points="257.13,416.03 257.13,37.43 "
          style="stroke:#ffffff;stroke-width:0.915788;stroke-linecap:butt"
@@ -880,57 +868,9 @@
          inkscape:export-xdpi="400"
          inkscape:export-ydpi="400" />
       <polyline
-         points="343.03,416.03 343.03,37.43 "
-         style="stroke:#ffffff;stroke-width:0.915788;stroke-linecap:butt"
-         id="polyline9819"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
-         points="428.94,416.03 428.94,37.43 "
-         style="stroke:#ffffff;stroke-width:0.915788;stroke-linecap:butt"
-         id="polyline9821"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
-         points="128.27,416.03 128.27,37.43 "
-         style="stroke:#ffffff;stroke-width:1.84886;stroke-linecap:butt"
-         id="polyline9835"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
-         points="214.17,416.03 214.17,37.43 "
-         style="stroke:#ffffff;stroke-width:1.84886;stroke-linecap:butt"
-         id="polyline9837"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
          points="300.08,416.03 300.08,37.43 "
          style="stroke:#ffffff;stroke-width:1.84886;stroke-linecap:butt"
          id="polyline9839"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
-         points="385.98,416.03 385.98,37.43 "
-         style="stroke:#ffffff;stroke-width:1.84886;stroke-linecap:butt"
-         id="polyline9841"
-         transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
-      <polyline
-         points="471.89,416.03 471.89,37.43 "
-         style="stroke:#ffffff;stroke-width:1.84886;stroke-linecap:butt"
-         id="polyline9843"
          transform="matrix(0.20416521,0,0,0.20416521,80.596665,131.60316)"
          inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
          inkscape:export-xdpi="400"
@@ -1040,36 +980,6 @@
          inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
          inkscape:export-xdpi="400"
          inkscape:export-ydpi="400">
-        <polyline
-           points="101.64,379.39 498.52,379.39 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9823"
-           transform="matrix(0.20416521,0,0,0.20416521,80.067498,132.13233)" />
-        <polyline
-           points="101.64,318.32 498.52,318.32 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9825"
-           transform="matrix(0.20416521,0,0,0.20416521,80.067498,132.13233)" />
-        <polyline
-           points="101.64,257.26 498.52,257.26 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9827"
-           transform="matrix(0.20416521,0,0,0.20416521,80.067498,132.13233)" />
-        <polyline
-           points="101.64,196.20 498.52,196.20 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9829"
-           transform="matrix(0.20416521,0,0,0.20416521,80.46533,126.74957)" />
-        <polyline
-           points="101.64,135.13 498.52,135.13 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9831"
-           transform="matrix(0.20416521,0,0,0.20416521,80.067498,132.13233)" />
-        <polyline
-           points="101.64,74.07 498.52,74.07 "
-           style="stroke:#ffffff;stroke-width:1.83547;stroke-linecap:butt"
-           id="polyline9833"
-           transform="matrix(0.20416521,0,0,0.20416521,80.067498,132.13233)" />
         <rect
            x="139.10187"
            y="203.9801"
@@ -1754,19 +1664,12 @@
            x="119.79395"
            y="131.38318"
            style="font-size:4.01606px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           id="tspan11276">How much do you agree on  statements regarding possible options of </tspan><tspan
+           id="tspan11276">How much do you agree on statements regarding possible options of </tspan><tspan
            sodipodi:role="line"
            x="120.35184"
            y="136.40326"
            style="font-size:4.01606px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            id="tspan213236">sharing primary research data? </tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 141.2875,141.55208 c 0,-1.32292 0,-1.32292 0,-1.32292"
-         id="path11569"
-         inkscape:export-filename="W:\group_psm\AG-Paret\Projects\OSQ\Data analysis\tiled figures\DS2_combined2_final.png"
-         inkscape:export-xdpi="400"
-         inkscape:export-ydpi="400" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 141.2875,215.63541 v 1.32292"

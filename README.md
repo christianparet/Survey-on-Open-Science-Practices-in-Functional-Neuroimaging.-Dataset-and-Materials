@@ -45,14 +45,12 @@ GQ = General Questions; BI = BIDS; PR = Preregistration; DS = Data Sharing; NA =
 # Whom to contact for support
 Issues related to the code can be submitted via Github's Issues function. Please address your project-related questions to christian.paret[at]zi-mannheim.de. We are all busy people, but we will do our best to respond quickly. 
 # Cite this research
-To reference this dataset something like this should be ok:
+Please include this reference if you want to cite this dataset:
 
-Paret, C. Survey on Open Science-Practices in Functional Neuroimaging. Dataset and Materials. https://github.com/christianparet/Survey-on-Open-Science-Practices-in-Functional-Neuroimaging.-Dataset-and-Materials (2021) doi:10.5281/zenodo.5729056.
+Paret, C., Unverhau, N., Sicorello, M., 2022. Survey on Open Science-Practices in Functional Neuroimaging. Dataset and Materials (Version v7). https://github.com/christianparet/Survey-on-Open-Science-Practices-in-Functional-Neuroimaging.-Dataset-and-Materials. doi:10.5281/zenodo.6400829.
 
 Make sure that you are working with the latest release of this repository.
 
-Consider referencing the original article presenting this research that is downloadable via the QR code below:
+Please also cite the original article when you reference this repository in your work:
 
-Paret, Christian, Nike Unverhau, Franklin Feingold, Russell A. Poldrack, Madita Stirner, Christian Schmahl, und Maurizio Sicorello. „Survey on Open Science Practices in Functional Neuroimaging“, 30. November 2021. https://doi.org/10.1101/2021.11.26.470115.
-
-[![Download preprint](https://connect.biorxiv.org/qr/qr_img.php?id=2021.11.26.470115)](https://biorxiv.org/cgi/content/short/2021.11.26.470115v1)
+Paret, C., Unverhau, N., Feingold, F., Poldrack, R.A., Stirner, M., Schmahl, C., Sicorello, M., 2022. Survey on Open Science Practices in Functional Neuroimaging. NeuroImage 257, 119306. https://doi.org/10.1016/j.neuroimage.2022.119306
